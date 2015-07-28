@@ -1,0 +1,26 @@
+/* Custom Stylings
+------------------------------------------------------------------- */
+p {
+  -ms-word-break:  break-all;
+
+  /* Non standard for webkit */
+  word-break:      break-word;
+
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+
+// Container of scroll to top arrow
+#up-to-top {
+  padding: 60px 0 10px 0 !important;
+}
+
+// Logo in banner
+#masthead-no-image-header {
+  background-color: #7B992A !important;
+  #logo img {
+    margin-top: 0 !important;
+    height: 175px;
+  }
+}
