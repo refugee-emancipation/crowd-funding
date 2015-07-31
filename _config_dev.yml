@@ -8,3 +8,8 @@
 url: "http://localhost:4000"
 urlimg: "http://localhost:4000/images/"
 logo: "logo.png"
+
+sass:
+    sass_dir: _sass
+    #style: :compressed
+    style: :expanded

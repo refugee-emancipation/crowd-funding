@@ -192,8 +192,8 @@ og_description:                     ""
 
 sass:
     sass_dir: _sass
-    #style: :compressed
-    style: :expanded
+    style: :compressed
+    #style: :expanded
 
 
 #       ___                __      __  _
