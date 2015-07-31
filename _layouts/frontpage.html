@@ -3,11 +3,50 @@ layout: default
 format: blog-index
 ---
 <div id="header-home">
-    <div class="row">
+    <div class="row t30">
         <div class="small-12 columns">
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
-</div><!-- /#header-home -->
+          <article>
+            <header>
+              {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+              <h1>{{ page.title }}</h1>
+            </header>
+
+            {% if page.teaser %}
+            <p class="teaser">
+              {{ page.teaser }}
+            </p>
+            {% endif %}
+          </article>
+
+          <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+          {% if page.image.caption_url && page.image.caption %}
+          <p class="text-right caption">
+            <a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+          </p>
+          {% endif %}
+        </div>
+    </div>
+</div>
+
+
+
+{% comment %}
+*
+* Embed the video, if it's there
+*
+{% endcomment %}
+
+{% if page.iframe %}
+<div class="row t60">
+  <div class="medium-12 columns">
+    <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+      <div class="flex-video">
+        {{ page.iframe}}
+      </div>
+    </article>
+  </div>
+</div>
+{% endif %}
 
 
 {% comment %}
@@ -15,6 +54,7 @@ format: blog-index
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+
 <div class="row t60">
     {% if page.widget-1.title %}
     <div class="medium-4 columns">
@@ -22,7 +62,7 @@ format: blog-index
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <p>{{ page.widget-1.text }}</p>
         <p><a class="button tiny radius" href="{% if page.widget-1.url contains 'http' %}{{ page.widget-1.url }}{% else %}{{ site.url }}{{ site.baseurl }}/{{ page.widget-1.url }}{% endif %}">{{ site.data.language.more }}</a></p>
-    </div><!-- /.medium-4.columns -->
+    </div>
     {% endif %}
 
 
@@ -32,7 +72,7 @@ format: blog-index
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <p>{{ page.widget-2.text }}</p>
         <p><a class="button tiny radius" href="{% if page.widget-2.url contains 'http' %}{{ page.widget-2.url }}{% else %}{{ site.url }}{{ site.baseurl }}/{{ page.widget-2.url }}{% endif %}">{{ site.data.language.more }}</a></p>
-    </div><!-- /.medium-4.columns -->
+    </div>
     {% endif %}
 
 
@@ -43,9 +83,9 @@ format: blog-index
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
         <p>{{ page.widget-3.text }}</p>
         <p><a class="button tiny radius" href="{% if page.widget-3.url contains 'http' %}{{ page.widget-3.url }}{% else %}{{ site.url }}{{ site.baseurl }}/{{ page.widget-3.url }}{% endif %}">{{ site.data.language.more }}</a></p>
-    </div><!-- /.medium-4.columns -->
+    </div>
     {% endif %}
-</div><!-- /.row -->
+</div>
 
 
 {% comment %}
@@ -55,7 +95,7 @@ format: blog-index
 {% endcomment %}
 
 {% unless site.posts == empty %}
-    <div class="row t30 b20 homepage">
+    <!-- <div class="row t30 b20 homepage">
         <div class="small-12 columns">
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
@@ -72,8 +112,8 @@ format: blog-index
             <h2>{{ site.data.language.new_blog_entries }}</h2>
             {% endif %}
             {% endfor %}
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
+        </div>
+    </div>
 
 
     <div class="row">
@@ -86,23 +126,22 @@ format: blog-index
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
-        </div><!-- /.medium-5.columns -->
+        </div>
 
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts.html entries='3' offset='1' %}
-        </div><!-- /.medium-7.columns -->
-    </div><!-- /.row -->
+        </div>
+    </div>-->
 {% endunless %}
 
-
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
-
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->
+<!-- <div class="row t30">
+	<div class="medium-12 columns">
+    <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+			<div class="flex-video">
+				{{ page.iframe}}
+			</div>
+    </article>
+	</div>
+</div> -->
