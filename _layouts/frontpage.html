@@ -3,29 +3,40 @@ layout: default
 format: blog-index
 ---
 <div id="header-home">
-    <div class="row t30">
-        <div class="small-12 columns">
-          <article>
-            <header>
-              {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-              <h1>{{ page.title }}</h1>
-            </header>
+  <div class="row t30">
+    <div class="small-12 columns">
+      <article>
+        <header>
+          {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+          <h1>{{ page.title }}</h1>
+        </header>
 
-            {% if page.teaser %}
-            <p class="teaser">
-              {{ page.teaser }}
-            </p>
-            {% endif %}
-          </article>
+        {% if page.teaser %}
+        <p class="teaser">
+          {{ page.teaser }}
+        </p>
+        {% endif %}
+      </article>
 
-          <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
-          {% if page.image.caption_url && page.image.caption %}
-          <p class="text-right caption">
-            <a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-          </p>
-          {% endif %}
-        </div>
+      <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+      {% if page.image.caption_url && page.image.caption %}
+      <p class="text-right caption">
+        <a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+      </p>
+      {% endif %}
     </div>
+  </div>
+
+  {% comment %}
+  *
+  * If there is content, spit it out.
+  *
+  {% endcomment %}
+
+  <div class="row t30">
+    <div class="small-12 columns"
+      {{ content }}
+  </div><!-- /.row -->
 </div>
 
 
