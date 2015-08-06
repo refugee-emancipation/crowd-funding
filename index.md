@@ -6,11 +6,12 @@
 #
 layout: frontpage
 
-title: "Titel: Support Seite für die Spendenkampagne"
+title: "Titel: Support Refugees Emancipation"
 
-teaser: "Teasertext: Put a bird on it +1 Bushwick, ugh biodiesel quinoa leggings health goth Tumblr gentrify disrupt try-hard single-origin coffee Kickstarter post-ironic. Cornhole synth art party selfies, plaid umami locavore. Brooklyn tilde shabby chic chillwave, vegan gentrify mixtape Kickstarter skateboard tousled leggings asymmetrical."
+teaser: "Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Dabei sind einige Cafés bereits entstanden, welche den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren. 
+Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird.
 
-subheadline: "Unterüberschrift: Hier wird geholfen"
+subheadline: "Internet for Refugees by Refugees."
 
 image:
     thumb: ""
@@ -43,6 +44,5 @@ widget-3:
 ---
 
 
-Cardigan Neutra pour-over farm-to-table, slow-carb freegan trust fund gentrify next level jean shorts paleo pickled blog stumptown bespoke. Chillwave mumblecore sriracha post-ironic listicle letterpress. Craft beer street art Portland, readymade Odd Future stumptown ennui meditation polaroid semiotics put a bird on it shabby chic sartorial crucifix. Crucifix tote bag next level, Carles migas salvia literally Bushwick. Fanny pack ennui lumbersexual American Apparel meggings. Tofu 3 wolf moon Truffaut salvia, cardigan cold-pressed PBR&B try-hard XOXO kitsch trust fund typewriter. +1 locavore hoodie American Apparel readymade, gluten-free chia gastropub deep v yr Thundercats cred dreamcatcher McSweeney's.
-
-Kale chips Pinterest skateboard, hoodie mlkshk biodiesel salvia health goth. Odd Future swag direct trade, pug biodiesel flannel forage umami. Fingerstache lumbersexual skateboard Kickstarter, polaroid stumptown four loko Portland. Food truck Tumblr wayfarers, listicle quinoa retro Bushwick fingerstache craft beer leggings tousled. Forage leggings lumbersexual disrupt. Pickled banh mi direct trade ugh, organic scenester mustache Portland fanny pack PBR&B Austin. Blog Godard pug organic Helvetica.
+Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Dabei sind einige Cafés bereits entstanden, welche den Bewohnenden dabei helfen, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren. Geflüchtete befinden sich in prekären Lagen, werden oft isoliert untergebracht und haben keine Möglichkeiten zur gesellschaftlichen Teilhabe. Wir glauben daran, dass der Zugang zu Informationen und die Möglichkeit, grenzüberschreiten zu kommunizieren ein Anfang sein kann, um das zu ändern. Internetzugang darf deswegen nicht als bürgerliches Privielg verstanden werden, es sollte viel eher ein Menschenrecht sein.
+Wir sind deswegen vom Ansatz von RE überzeugt und wollen ihnen dabei helfen, Ressourcen zu sammeln, um ihr Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne. 
