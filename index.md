@@ -6,7 +6,7 @@
 #
 layout: frontpage
 
-title: "Titel: Support Refugees Emancipation"
+title: "Support Refugees Emancipation"
 
 teaser: "Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a> unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Dabei sind einige Cafés bereits entstanden, welche den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren. 
 Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird."
@@ -20,7 +20,7 @@ image:
     caption_url: "https://pbs.twimg.com/media/CKEItotWwAAirI2.jpg"
 
 
-iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/SCE-QeDfXtA" frameborder="0" allowfullscreen></iframe>
+iframe: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PAKnpS-1sGw" frameborder="0" allowfullscreen></iframe>
 
 widget-1:
     title: "Support Seite für die Spendenkampagne"
@@ -51,7 +51,7 @@ Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">R
 
 Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus einer anderen geflohen sind. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommt das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind. <br>
 
-Refugees Emancipation versucht an dieser Stelle neue Möglichkeiten der Emanzipation zu schaffen. Mit einem Internetzugang können die Menschen nicht nur Kontakt zu ihren Verwandten und Bekannten aufnehmen und halten, sondern auch mit der Öffentlichkeit kommunizieren, wo meistens nur über sie gesprochen wird. Darüber hinaus können sie so auf Informationen über ihre Heimatländer, Gesetze und auf so gründsätzliche Dinge wie Übersetzungshilfen zugreifen. <br>
+Refugees Emancipation versucht an dieser Stelle neue Möglichkeiten der Emanzipation zu schaffen. Mit einem Internetzugang können die Menschen nicht nur Kontakt zu ihren Verwandten und Bekannten aufnehmen und halten, sondern auch mit der Öffentlichkeit kommunizieren, wo meistens nur über sie gesprochen wird. Darüber hinaus können sie so auf Informationen über ihre Heimatländer, Gesetze, ihre Rechte und auf so gründsätzliche Dinge wie Übersetzungshilfen zugreifen. <br>
 
 Ein Internetzugang, der für viele von uns selsbtverständlich ist, ist ein Privileg. Das ist bedauerlich und wir sind davon überzeugt, dass es sich dabei um ein Menschenrecht handeln sollte und der Staat dafür verantwortlich ist, das zu gewährleisten. Auch für Geflüchtete. <br>
 
