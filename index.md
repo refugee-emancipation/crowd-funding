@@ -44,5 +44,30 @@ widget-3:
 ---
 
 
-Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Dabei sind einige Cafés bereits entstanden, welche den Bewohnenden dabei helfen, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren. Geflüchtete befinden sich in prekären Lagen, werden oft isoliert untergebracht und haben keine Möglichkeiten zur gesellschaftlichen Teilhabe. Wir glauben daran, dass der Zugang zu Informationen und die Möglichkeit, grenzüberschreiten zu kommunizieren ein Anfang sein kann, um das zu ändern. Internetzugang darf deswegen nicht als bürgerliches Privielg verstanden werden, es sollte viel eher ein Menschenrecht sein.
-Wir sind deswegen vom Ansatz von RE überzeugt und wollen ihnen dabei helfen, Ressourcen zu sammeln, um ihr Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne. 
+<h3>Was haben wir vor und wie könnt ihr helfen?</h3>
+
+Bis Ende September entwerfen wir eine Spendenkampagne.<br>
+Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.<br>
+Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tips.<br>
+Bist du eine Person, die gerne für einen guten Zweck spenden will? Super, dann unterstütz Refugees Emancipation, sobald die Kampagne gelauncht ist.<br>
+Bist du eine Person, die für einen bestimmten Zeitraum Design-, Text-, Programmierfähigkeiten und vor allem Zeit beitragen kann? Sehr gut, dann melde dich bei Fiona (fiona at arduina . net)<br>
+
+
+<h3>Worum geht es?</h3>
+
+Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. Refugees Emancipation ist ein Verein, der von Leuten gegründet wurde, die selber geflüchtet sind. Sie setzen sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés mit vernetzten Rechnern bekommen und waren in einigen Häusern in und um Berlin bereits erfolgreich. <br>
+
+Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus einer anderen geflohen sind. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommt das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind. <br>
+
+Refugees Emancipation versucht an dieser Stelle neue Möglichkeiten der Emanzipation zu schaffen. Mit einem Internetzugang können die Menschen nicht nur Kontakt zu ihren Verwandten und Bekannten aufnehmen und halten, sondern auch mit der Öffentlichkeit kommunizieren, wo meistens nur über sie gesprochen wird. Darüber hinaus können sie so auf Informationen über ihre Heimatländer, Gesetze und auf so gründsätzliche Dinge wie Übersetzungshilfen zugreifen. <br>
+
+Ein Internetzugang, der für viele von uns selsbtverständlich ist, ist ein Privileg. Das ist bedauerlich und wir sind davon überzeugt, dass es sich dabei um ein Menschenrecht handeln sollte und der Staat dafür verantwortlich ist, das zu gewährleisten. Auch für Geflüchtete. <br>
+
+Solange das aber noch nicht der Fall ist, wollen wir Refugees Emancipation mit unseren Fähigkeiten unterstützen. Der erste Schritt ist eine Spendenkampagne, die Ende September anlaufen wird.
+
+
+
+
+
+
+
