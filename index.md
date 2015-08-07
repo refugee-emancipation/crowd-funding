@@ -23,10 +23,6 @@ image:
 iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/PAKnpS-1sGw" frameborder="0" allowfullscreen></iframe>
 ---
 
-
-
-
-<div class="small-12 columns" markdown="1">
 ### Worum geht es?
 Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. Refugees Emancipation ist ein Verein, der von Leuten gegründet wurde, die selber geflüchtet sind. Sie setzen sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés mit vernetzten Rechnern bekommen und waren in einigen Häusern in und um Berlin bereits erfolgreich.
 
@@ -42,10 +38,8 @@ Solange das aber noch nicht der Fall ist, wollen wir Refugees Emancipation mit u
 ### Was haben wir vor und wie könnt ihr helfen?
 Bis Ende September entwerfen wir eine Spendenkampagne, damit Refugees Emancipation Geld für ihr Büro, Fahrtkosten, Hardware und für die Admins in den Cafés hat. Danach geht es weiter mit koordinierten Workshops für die Admins, Öffentlichkeitsarbeit und dem Ausbau der Cafés. Zunächst wollen wir aber die Spendenkamapgne an den Start bringen.
 
-<ul>
-  <li>Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.</li>
-  <li>Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tips.</li>
-  <li>Bist du eine Person, die gerne für einen guten Zweck spenden will? Super, dann unterstütz Refugees Emancipation, sobald die Kampagne gelauncht ist.</li>
-  <li>Bist du eine Person, die für einen bestimmten Zeitraum Design-, Text-, Programmierfähigkeiten und vor allem Zeit beitragen kann? Sehr gut, dann melde dich bei Fiona (fiona at arduina . net)</li>
-</ul>
-</div>
+
+* Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.
+* Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tips.
+* Bist du eine Person, die gerne für einen guten Zweck spenden will? Super, dann unterstütz Refugees Emancipation, sobald die Kampagne gelauncht ist.
+* Bist du eine Person, die für einen bestimmten Zeitraum Design-, Text-, Programmierfähigkeiten und vor allem Zeit beitragen kann? Sehr gut, dann melde dich bei Fiona (fiona at arduina . net)
