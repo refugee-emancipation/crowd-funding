@@ -11,13 +11,13 @@ title: "Support Refugees Emancipation"
 teaser: "Wir sind ein Kreis von Menschen, die <a href='http://refugeesemancipation.com'>Refugees Emancipation</a> unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Dabei sind einige Cafés bereits entstanden, welche den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren.
 Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird."
 
-subheadline: "Internet for Refugees by Refugees."
+subheadline: "Internet for Refugees by Refugees"
 
 image:
     thumb: ""
-    title: "re-image.jpg"
-    caption: "Image Caption"
-    caption_url: "https://pbs.twimg.com/media/CKEItotWwAAirI2.jpg"
+    title: "REClipStill_03.png"
+    caption: ""
+    caption_url: ""
 
 
 iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/PAKnpS-1sGw" frameborder="0" allowfullscreen></iframe>
