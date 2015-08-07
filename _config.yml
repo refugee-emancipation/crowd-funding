@@ -42,12 +42,13 @@ logo: "logo.png"
 
 
 # Paginates all X entries
-paginate: 5
+# paginate: 5
 
 
 # Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
 
+destination: build
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -67,6 +68,14 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - design
+    - _posts
+    - blog
+    - Drucksachen
+    - pages/info.md
+    - pages/design.md
+
+
 
 
 #
@@ -88,15 +97,15 @@ defaults:
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "your_author_name"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      show_meta: true   # Show metadata beneath all posts
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: "your_author_name"
+#      comments: false
+#      author: "your_author_name"
 
 
 
@@ -187,7 +196,7 @@ og_description:                     ""
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
 #    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
-#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#   /____/\__,_/____/____/    support.refugeesemancipation.com  More › http://jekyllrb.com/docs/assets/#sassscss
 #
 
 sass:
