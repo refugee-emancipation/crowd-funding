@@ -3,31 +3,38 @@
 This site is aimed to rise awareness for our upcoming crowdfunding campaign.
 
 ## Build the Site
-1. Ruby
-Your Ruby version should be at least 2.0.0
+  1. Ruby
+  Your Ruby version should be at least 2.0.0
 
-    ```ruby --version```
+      ```ruby --version```
 
-2. Bundler
+  2. Bundler
 
-    ```gem install bundler```
+      ```gem install bundler```
 
-3. Jekyll
+  3. Jekyll
 
-    ```gem install jekyll```
+      ```gem install jekyll```
 
-    ```bundle install```
+      ```bundle install```
 
-## Local Development
+### Build for Local Development
 
 ```jekyll serve --config _config_dev.yml```
 
 
-## Production
+### Build for Production
 For Production, use following command and file
 
 ```jekyll serve --config _config.yml```
 
+
+## How to Contribute
+1. Fork the repository. If you don't know how to do that, [follow these instructions](https://help.github.com/articles/fork-a-repo/)
+
+2. Then do the fix
+
+3. Create a [pull request](https://help.github.com/articles/using-pull-requests/)
 
 ## TODO
 * hosting the campaing (Kickstarter, StartNext, betterplace, self-hosted)
