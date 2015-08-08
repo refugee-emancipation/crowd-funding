@@ -24,7 +24,7 @@ iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/PAKn
 ---
 
 ### Worum geht es?
-Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a>" unterstützen. Refugees Emancipation ist ein Verein, der von Leuten gegründet wurde, die selber geflüchtet sind. Sie setzen sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés mit vernetzten Rechnern bekommen und waren in einigen Häusern in und um Berlin bereits erfolgreich.
+Wir sind ein Kreis von Menschen, die <a href="http://refugeesemancipation.com">Refugees Emancipation</a> unterstützen. Refugees Emancipation ist ein Verein, der von Leuten gegründet wurde, die selber geflüchtet sind. Sie setzen sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés mit vernetzten Rechnern bekommen und waren in einigen Häusern in und um Berlin bereits erfolgreich.
 
 Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus einer anderen geflohen sind. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommt das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind.
 
