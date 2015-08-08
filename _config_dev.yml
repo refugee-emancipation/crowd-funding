@@ -9,7 +9,22 @@ url: "http://localhost:4000"
 urlimg: "http://localhost:4000/images/"
 logo: "logo.png"
 
+destination: _site
+
 sass:
     sass_dir: _sass
     #style: :compressed
     style: :expanded
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - design
+    - _posts
+    - blog
+    - Drucksachen
+    - pages/info.md
+    - pages/design.md
+    - build

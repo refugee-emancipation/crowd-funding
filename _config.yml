@@ -60,7 +60,7 @@ include: ['.htaccess']
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: "en"
+language: "de"
 
 # Exclude these files from your production _site
 exclude:
@@ -74,6 +74,7 @@ exclude:
     - Drucksachen
     - pages/info.md
     - pages/design.md
+    - _site
 
 
 
