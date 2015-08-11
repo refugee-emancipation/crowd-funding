@@ -1,0 +1,19 @@
+
+/* Custom Stylings
+------------------------------------------------------------------- */
+/* Alerts */
+.alert-box {
+  text-shadow: none !important;
+}
+.alert-box a {
+  text-shadow: none !important;
+}
+
+.alert-box a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+// Container of scroll to top arrow
+#up-to-top {
+  padding: 60px 0 10px 0 !important;
+}
