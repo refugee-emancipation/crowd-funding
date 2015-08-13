@@ -23,7 +23,7 @@ image:
 iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/PAKnpS-1sGw" frameborder="0" allowfullscreen></iframe>
 ---
 
-### Worum geht es?
+## Worum geht es?
 Wir sind ein Kreis von Menschen, die [Refugees Emancipation](http://refugeesemancipation.com/) unterstützen. Refugees Emancipation ist ein Verein, der von Leuten gegründet wurde, die selber geflüchtet sind. Sie setzen sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés mit vernetzten Rechnern bekommen und waren in einigen Häusern in und um Berlin bereits erfolgreich.
 
 Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus einer anderen geflohen sind. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommt das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind.
@@ -35,7 +35,7 @@ Ein Internetzugang, der für viele von uns selsbtverständlich ist, ist ein Priv
 Solange das aber noch nicht der Fall ist, wollen wir Refugees Emancipation mit unseren Fähigkeiten unterstützen. Der erste Schritt ist eine Spendenkampagne, die Ende September anlaufen wird.
 
 
-### Was haben wir vor und wie könnt ihr helfen?
+## Was haben wir vor und wie könnt ihr helfen?
 Bis Ende September entwerfen wir eine Spendenkampagne, damit Refugees Emancipation Geld für ihr Büro, Fahrtkosten, Hardware und für die Admins in den Cafés hat. Danach geht es weiter mit koordinierten Workshops für die Admins, Öffentlichkeitsarbeit und dem Ausbau der Cafés. Zunächst wollen wir aber die Spendenkamapgne an den Start bringen.
 
 
