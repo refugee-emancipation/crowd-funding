@@ -38,8 +38,29 @@ format: blog-index
       {{ content }}
   </div><!-- /.row -->
 </section>
-
-
+<section>
+  <h4 id="countdown"></h4>
+</section>
+<script>
+var timerId =
+  countdown(
+    new Date(2015, 8, 30),
+    function(ts) {
+      if (ts >= 0) {
+        console.log("ende")
+        window.clearInterval(timerId)
+      }
+      document.getElementById('countdown').innerHTML = ts.toString();
+    },
+    countdown.MONTHS |
+    countdown.WEEKS |
+    countdown.DAYS |
+    countdown.HOURS |
+    countdown.MINUTES |
+    countdown.SECONDS,
+    3
+  );
+</script>
 
 {% comment %}
 *
