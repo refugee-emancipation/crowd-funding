@@ -1,5 +1,5 @@
 
-/* Custom Stylings
+/* Custom Stylings and Overrides
 ------------------------------------------------------------------- */
 /* Alerts */
 .alert-box {
@@ -16,4 +16,25 @@
 // Container of scroll to top arrow
 #up-to-top {
   padding: 60px 0 10px 0 !important;
+}
+
+// MailChimp Form
+#mc_embed_signup {
+  background-color: #fdfdfd !important;
+  form {
+    padding: 0 !important;
+  }
+  h2 {
+    font-size: 1.953em !important;
+  }
+  .mc-field-group {
+    padding-bottom: 0 !important;
+    label {
+      display: none !important;
+    }
+    input {
+      text-indent: 1% !important;
+      font-family: Lato;
+    }
+  }
 }
