@@ -13,12 +13,10 @@ Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Pro
 
 subheadline: "Internet for Refugees by Refugees"
 
-image:
-    thumb: ""
-    title: "REClipStill_03.png"
-    caption: ""
-    caption_url: ""
-
+video:
+  src: "assets/video/REClip_de_v2_720p.mp4"
+  type: "video/mp4"
+  poster: "images/REClipStill_03.png"
 
 iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/PAKnpS-1sGw" frameborder="0" allowfullscreen></iframe>
 ---
