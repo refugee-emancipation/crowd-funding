@@ -27,6 +27,17 @@ format: blog-index
     </div>
   </div>
 
+
+  <section>
+    <div class="row t30">
+      <div class="small-12 columns counter">
+        <h2>Start der Spendenkampagne in</h2>
+        <p id="countdown"></p>
+      </div>
+    </div>
+  </section>
+
+
   {% comment %}
   *
   * If there is content, spit it out.
@@ -38,17 +49,23 @@ format: blog-index
       {{ content }}
   </div><!-- /.row -->
 </section>
-<section>
-  <h4 id="countdown"></h4>
-</section>
+
 <script>
+countdown.resetLabels();
+countdown.setLabels(
+	' Millisekunde| Sekunde| Minute| Stunde| Tag| Woche| Monat| Jahr| Jahrzehnt| Jahrhundert| Jahrtausend',
+	' Millisekunden| Sekunden| Minuten| Stunden| Tage| Wochen| Monate| Jahre| Jahrzehnte| Jahrhunderte| Jahrtausende',
+	' und ',
+	' + ',
+	'jetzt');
+
 var timerId =
   countdown(
     new Date(2015, 8, 30),
     function(ts) {
       if (ts >= 0) {
-        console.log("ende")
-        window.clearInterval(timerId)
+        console.log("ende");
+        window.clearInterval(timerId);
       }
       document.getElementById('countdown').innerHTML = ts.toString();
     },

@@ -17,3 +17,26 @@
 #up-to-top {
   padding: 60px 0 10px 0 !important;
 }
+
+// countdown
+.counter {
+  padding: 4%;
+  background-color: black;
+  color: orange;
+  text-align: center;
+
+  h2 {
+    color: white;
+    font-size: 2em;
+    font-family: Lato;
+  }
+
+  p {
+    margin-bottom: 0 !important;
+  }
+
+  #countdown {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
