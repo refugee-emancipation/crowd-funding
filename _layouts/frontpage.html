@@ -18,7 +18,21 @@ format: blog-index
         {% endif %}
       </article>
 
+      {% if page.video %}
+      <div class="row t30">
+        <div class="medium-12 columns">
+          <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+            <div class="flex-video">
+              <video width="560" height="315" controls poster="{{ page.video.poster }}"><source src="{{ page.video.src }}" type="{{ page.video.type }}"></video>
+            </div>
+          </article>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.image %}
       <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+      {% endif %}
       {% if page.image.caption_url && page.image.caption %}
       <p class="text-right caption">
         <a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>

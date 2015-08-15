@@ -41,8 +41,8 @@
 
 // countdown
 .counter {
-  padding: 4%;
-  background-color: black;
+  padding: 4% 0;
+  background-color: #313131;
   color: orange;
   text-align: center;
 
@@ -60,4 +60,9 @@
     font-size: 30px;
     font-weight: bold;
   }
+}
+
+// Video
+.video-wrapper video {
+  width: 970px;
 }
