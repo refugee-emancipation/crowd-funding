@@ -30,6 +30,19 @@ format: blog-index
       </div>
       {% endif %}
 
+      {% if page.iframe1 %}
+      <div class="row t30">
+        <div class="medium-12 columns">
+          <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+            <div class="flex-video">
+              {{ page.iframe1}}
+            </div>
+          </article>
+        </div>
+      </div>
+      {% endif %}
+
+
       {% if page.image %}
       <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
       {% endif %}
@@ -100,12 +113,12 @@ var timerId =
 *
 {% endcomment %}
 
-{% if page.iframe %}
+{% if page.iframe2 %}
 <div class="row t30">
   <div class="medium-12 columns">
     <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
       <div class="flex-video">
-        {{ page.iframe}}
+        {{ page.iframe2 }}
       </div>
     </article>
   </div>
