@@ -16,7 +16,7 @@ slogan: ""
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: ""
+description: "Refugees Emancipation Supporters Campaign #resp15"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
@@ -163,7 +163,7 @@ msapplication_tilecolor:                "#fabb00"
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           ""
-og_locale:                          "en_EN"
+og_locale:                          "de_DE"
 og_type:                            "website"
 og_title:                           ""
 og_description:                     ""
