@@ -13,11 +13,6 @@ Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Pro
 
 subheadline: "Internet for Refugees by Refugees"
 
-video:
-  src: "assets/video/REClip_de_v2_720p.mp4"
-  type: "video/mp4"
-  poster: "images/REClipStill_03.png"
-
 iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
