@@ -37,6 +37,13 @@
       font-family: Lato;
     }
   }
+
+  .button {
+    background-color: #3FA9F5 !important;
+    &:hover {
+      background-color: #0c8dea !important;
+    }
+  }
 }
 
 // countdown
