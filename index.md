@@ -8,7 +8,7 @@ layout: frontpage
 
 title: "Support Refugees Emancipation"
 
-teaser: "Wir sind ein Kreis von Menschen, die <a href='http://refugeesemancipation.com'>Refugees Emancipation</a> unterstützen. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Einige Cafés konnten RE schon aufbauen und dort den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren.
+teaser: "Wir sind ein Kreis von Menschen, der <a href='http://refugeesemancipation.com'>Refugees Emancipation</a> unterstützt. RE setzt sich seit Jahren dafür ein, dass Geflüchtetenunterkünfte Internetcafés bekommen. Einige Cafés konnten RE schon aufbauen und dort den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren.
 Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird."
 
 subheadline: "Internet for Refugees by Refugees"
