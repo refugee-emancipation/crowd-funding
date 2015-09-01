@@ -15,7 +15,7 @@
 
 // Container of scroll to top arrow
 #up-to-top {
-  padding: 60px 0 10px 0 !important;
+  padding: 10px 0 10px 0 !important;
 }
 
 // MailChimp Form
@@ -72,4 +72,29 @@
 // Video
 .video-wrapper video {
   width: 970px;
+}
+
+// Footer
+#footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// Subfooter
+#subfooter {
+  padding: 20px 0 !important;
+
+  .inline-list {
+    margin: 0 auto 0 -1.375rem !important;
+  }
+
+  #subfooter-right {
+    margin-top: 1.0625rem !important;
+  }
+
+  @media only screen and (min-width: 40.063em) {
+    #subfooter-right {
+      margin-top: 0 !important;
+    }
+  }
 }
