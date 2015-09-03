@@ -97,21 +97,39 @@ var timerId =
 
 {% comment %}
 *
-* Embed the video, if it's there
+* Embed the video, hardcoded for now
 *
 {% endcomment %}
 
-{% if page.iframe2 %}
 <div class="row t30">
   <div class="medium-12 columns">
+    <h2 id="refugees-emancipation-auf-dem-chaos-communication-camp-2015">Refugees Emancipation auf dem Chaos Communication Camp 2015</h2>
     <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
-      <div class="flex-video widescreen vimeo">
-        {{ page.iframe2 }}
-      </div>
+      <video class='ppvideo' controls='controls' height='360' poster='//static.media.ccc.de/media/conferences/camp2015/7041-hd_preview.jpg' width='640'>
+        <source src='https://cdn.media.ccc.de/events/camp2015/webm-hd/cccamp15-7041-en-Refugees_Emancipation_webm-hd.webm' type='video/webm'>
+	<source src='https://cdn.media.ccc.de/events/camp2015/h264-hd/cccamp15-7041-en-Refugees_Emancipation_hd.mp4' type='video/mp4'>
+	<object data='/assets/swf/StrobeMediaPlayback.swf' height='360' type='application/x-shockwave-flash' width='640'>
+          <param name='allowFullScreen' value='true'>
+	  <param name='flashvars' value='controls=true&amp;file=https://cdn.media.ccc.de/events/camp2015/h264-sd/cccamp15-7041-en-Refugees_Emancipation_sd.mp4'>
+        </object>
+      </video>
+      <!--</div>-->
     </article>
   </div>
 </div>
-{% endif %}
+<script type="text/javascript">
+$(document).ready(function() {
+    projekktor('.ppvideo', {
+        volume: 0.8,
+        thereCanBeOnlyOne: true,
+        width: 905,
+        height: 510,
+        ratio: 1.777777777777777777,
+        controls: true,
+        enableTestcard: true
+    });
+});
+</script>
 
 
 {% comment %}
