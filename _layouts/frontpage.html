@@ -97,22 +97,33 @@ var timerId =
 
 {% comment %}
 *
-* Embed the video, if it's there
+* Embed the video, hardcoded for now
 *
 {% endcomment %}
 
-{% if page.iframe2 %}
 <div class="row t30">
   <div class="medium-12 columns">
+    <h2 id="refugees-emancipation-auf-dem-chaos-communication-camp-2015">Refugees Emancipation auf dem Chaos Communication Camp 2015</h2>
     <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
-      <div class="flex-video widescreen vimeo">
-        {{ page.iframe2 }}
+      <div id="camp2015" class="flex-video widescreen vimeo">
+        test
       </div>
+      <script type="text/javascript">
+        var playerInstance = jwplayer("camp2015");
+        playerInstance.setup({
+          file: "http://ftp.fau.de/cdn.media.ccc.de/events/camp2015/h264-hd/cccamp15-7041-en-Refugees_Emancipation_hd.mp4",
+          image: "//static.media.ccc.de/media/conferences/camp2015/7041-hd_preview.jpg",
+          width: "100%",
+          autostart: false,
+          sharing: {},
+          aspectratio: "16:9",
+          title: 'Refugees Emancipation auf dem Chaos Communication Camp 2015',
+          description: ''
+        });
+      </script>
     </article>
   </div>
 </div>
-{% endif %}
-
 
 {% comment %}
 *
