@@ -25,7 +25,7 @@ Ein Internetzugang, der für viele von uns selbstverständlich ist, ist ein Priv
 
 
 ## Was haben wir vor und wie könnt ihr helfen?
-Bis Ende September entwerfen wir eine Spendenkampagne. Unser Ziel ist es, RE mit den Ressourcen auszustatten die sie brauchen, um ihre Arbeit weiterzuführen. Wenn
+Bis Ende September entwerfen wir eine Spendenkampagne. Unser Ziel ist es, RE mit den Ressourcen auszustatten die sie brauchen, um ihre Arbeit weiterzuführen.
 
 * Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.
 * Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tipps.
