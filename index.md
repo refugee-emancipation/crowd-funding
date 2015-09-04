@@ -8,10 +8,9 @@ layout: frontpage
 
 title: "Internet for Refugees by Refugees"
 
-teaser: "Wir unterstützen <a href='http://refugeesemancipation.com'>Refugees Emancipation</a>, die sich seit Jahren dafür einsetzen, dass Geflüchtetenunterkünfte Internetcafés bekommen. Einige Cafés konnten RE schon aufbauen und dort den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren.
+teaser: "<a href="http://ccc.de">Der Chaos Computer Club e.V.</a>, <a href="http://berlin.freifunk.net">Freifunk Berlin</a> und der <a href="http://foerderverein.freie-netzwerke.de">Förderverein freie Netzwerke e.V.</a> unterstützen <a href='http://refugeesemancipation.com'>Refugees Emancipation</a>, die sich seit Jahren dafür einsetzen, dass Geflüchtetenunterkünfte Internetcafés bekommen. Einige Cafés konnten RE schon aufbauen und dort den Bewohnenden die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren.
 Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird."
 
-subheadline: "Internet for Refugees by Refugees"
 
 iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 ---
@@ -26,7 +25,7 @@ Ein Internetzugang, der für viele von uns selbstverständlich ist, ist ein Priv
 
 
 ## Was haben wir vor und wie könnt ihr helfen?
-Bis Ende September entwerfen wir eine Spendenkampagne, damit Refugees Emancipation Geld für ihr Büro, Fahrtkosten, Hardware und für die Admins in den Cafés hat. Danach geht es weiter mit koordinierten Workshops für die Admins, Öffentlichkeitsarbeit und dem Ausbau der Cafés. Zunächst wollen wir aber die Spendenkampagne an den Start bringen.
+Bis Ende September entwerfen wir eine Spendenkampagne. Unser Ziel ist es, RE mit den Ressourcen auszustatten die sie brauchen, um ihre Arbeit weiterzuführen. Wenn
 
 * Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.
 * Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tipps.
