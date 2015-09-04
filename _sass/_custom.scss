@@ -26,6 +26,7 @@
   }
   h2 {
     font-size: 1.953em !important;
+    margin-bottom: 0 !important;
   }
   .mc-field-group {
     padding-bottom: 0 !important;
@@ -101,4 +102,8 @@
 
 .jw-tab-focus:focus {
   outline: none !important;
+}
+
+h2.video-title {
+    margin-bottom: 0.3em;
 }
