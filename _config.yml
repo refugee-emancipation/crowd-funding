@@ -233,3 +233,7 @@ sass:
 # used in _includes/footer_scripts.html
 
 # tawkto_embed_uri:
+gems: ['jekyll-multiple-languages']
+languages: ['de', 'en']
+language_default: 'de'
+fill_default_content: true
