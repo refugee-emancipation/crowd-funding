@@ -5,6 +5,13 @@ format: blog-index
 <section id="header-home">
   <div class="row t30">
     <div class="small-12 columns">
+      <nav class="right">
+        {% if page.is_default_language %}
+        <a rel="alternate" href="/en" hreflang="en" lang="en">English</a>
+        {% else %}
+        <a rel="alternate" href="/" hreflang="de" lang="de">Deutsch</a>
+        {% endif %}
+      </nav>
       <article>
         <header>
           {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
