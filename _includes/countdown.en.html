@@ -1,0 +1,37 @@
+<div class="row t30">
+  <div class="small-12 columns">
+    <div class="counter">
+      <h2>The fundraising campaign starts in</h2>
+      <p id="countdown"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+countdown.resetLabels();
+countdown.setLabels(
+	' millisecond| second| minute| hour| day| week| month| year| decade| century| millenium',
+	' milliseconds| seconds| minutes| hours| days| weeks| months| years| decades| centuries| millenia',
+	' and ',
+	', ',
+	'now');
+
+var timerId =
+  countdown(
+    new Date(2015, 9, 01),
+    function(ts) {
+      if (ts >= 0) {
+        console.log("ende");
+        window.clearInterval(timerId);
+      }
+      document.getElementById('countdown').innerHTML = ts.toString();
+    },
+    countdown.MONTHS |
+    countdown.WEEKS |
+    countdown.DAYS |
+    countdown.HOURS |
+    countdown.MINUTES |
+    countdown.SECONDS,
+    3
+  );
+</script>

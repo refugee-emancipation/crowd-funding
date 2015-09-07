@@ -4,7 +4,7 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage.en
+layout: frontpage
 
 title: "Internet for Refugees by Refugees"
 
