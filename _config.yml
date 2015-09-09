@@ -75,6 +75,7 @@ exclude:
     - pages/info.md
     - pages/design.md
     - _site
+    - vendor
 
 
 
