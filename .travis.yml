@@ -11,4 +11,4 @@ before_install:
 
 script:
   - bundle exec jekyll build
-  - htmlproof build --disable-external
+  - htmlproof build --disable-external --check-html --alt-ignore ".*piwik.*"
