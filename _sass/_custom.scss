@@ -74,6 +74,10 @@
   width: 970px;
 }
 
+.jw-tab-focus:focus {
+  outline: none !important;
+}
+
 // Footer
 #footer {
   padding-top: 0 !important;
@@ -97,8 +101,4 @@
       margin-top: 0 !important;
     }
   }
-}
-
-.jw-tab-focus:focus {
-  outline: none !important;
 }
