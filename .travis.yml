@@ -7,9 +7,13 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 before_install:
-  - pip install html5validator
+  - curl -Lo vnu.zip https://github.com/validator/validator/releases/download/15.6.29/vnu.jar_15.6.29.zip
+  - unzip vnu.zip
+  - ls
+  - java -jar vnu/dist/vnu.jar
+
 script:
   - bundle exec jekyll build
     # htmlproof is not build-breaking (yet)
   - bundle exec htmlproof build --disable-external --check-html --alt-ignore '/piwik\.php/' --check-favicon || exit 0
-  - html5validator --root build
+  - java -jar vnu/dist/vnu.jar --skip-non-html build
