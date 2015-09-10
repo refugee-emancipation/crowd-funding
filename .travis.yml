@@ -8,9 +8,9 @@ env:
 
 before_install:
   - curl -Lo vnu.zip https://github.com/validator/validator/releases/download/15.6.29/vnu.jar_15.6.29.zip
-  - unzip vnu.zip
+  - unzip vnu.zip dist/vnu.jar
   - ls
-  - java -jar vnu/dist/vnu.jar
+  - java -jar dist/vnu.jar
 
 script:
   - bundle exec jekyll build
