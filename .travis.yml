@@ -13,5 +13,5 @@ before_install:
 script:
   - bundle exec jekyll build
     # htmlproof is not build-breaking (yet)
-  - bundle exec htmlproof build --disable-external --check-html --alt-ignore '/piwik\.php/' --check-favicon || exit 0
+  - bundle exec htmlproof build --disable-external --check-html --alt-ignore '/piwik\.php/' --check-favicon
   - java -jar dist/vnu.jar --skip-non-html build
