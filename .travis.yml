@@ -9,11 +9,9 @@ env:
 before_install:
   - curl -Lo vnu.zip https://github.com/validator/validator/releases/download/15.6.29/vnu.jar_15.6.29.zip
   - unzip vnu.zip dist/vnu.jar
-  - ls
-  - java -jar dist/vnu.jar
 
 script:
   - bundle exec jekyll build
     # htmlproof is not build-breaking (yet)
   - bundle exec htmlproof build --disable-external --check-html --alt-ignore '/piwik\.php/' --check-favicon || exit 0
-  - java -jar vnu/dist/vnu.jar --skip-non-html build
+  - java -jar dist/vnu.jar --skip-non-html build
