@@ -12,7 +12,7 @@ teaser: "<a href='http://ccc.de'>Der Chaos Computer Club e.V.</a>, <a href='http
 Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Projekt weiter auszubauen. Der erste Schritt ist eine Spendenkampagne, die Ende September starten wird."
 
 
-iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 ---
 
 ## Worum geht es?
