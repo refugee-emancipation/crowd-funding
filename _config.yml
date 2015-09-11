@@ -75,6 +75,7 @@ exclude:
     - pages/info.md
     - pages/design.md
     - _site
+    - vendor
 
 
 
@@ -128,7 +129,7 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author:             ""
+#google_author:             ""
 google_site_verification:  ""
 bing_webmastertools_id:    ""
 # alexa_verify_id:         ""
