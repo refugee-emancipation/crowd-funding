@@ -1,8 +1,10 @@
-# Refugee Emancipation Crowdfunding Campaing
+# Refugee Emancipation Crowdfunding Campaign
 
 This site is aimed to rise awareness for our upcoming crowdfunding campaign.
 
-## Build the Site
+## Usage
+### Installation
+For further information see [jekyllrb.com/docs/installation](http://jekyllrb.com/docs/installation/).
 1. Ruby <br>Your Ruby version should be at least 2.0.0
 
     ```ruby --version```
@@ -17,12 +19,21 @@ This site is aimed to rise awareness for our upcoming crowdfunding campaign.
 
     ```bundle install```
 
-### Build for Local Development
+### Build static files
+
+Jekyll comes with a built-in development server that will allow you to preview what the generated site will look like in your browser locally.
+
+`jekyll serve` will run a development server at `http://localhost:4000/`
+
+To get further information on Jekyll build options, see
+[jekyllrb.com/docs/usage/](http://jekyllrb.com/docs/usage/)
+
+#### Build for Local Development
 
 ```jekyll serve --config _config_dev.yml```
 
 
-### Build for Production
+#### Build for Production
 For Production, use following command and file
 
 ```jekyll serve --config _config.yml```
@@ -31,19 +42,17 @@ To build the static files for production, use `jekyll build`.
 
 #### Build for staging environment
 
-For building static files for `staging.support.refugeesemancipation.com`, use
+For building static files for [staging.support.refugeesemancipation.com](staging.support.refugeesemancipation.com), use
 
-```
-jekyll build --config _config.yml,_config_staging-env.yml
-```
+
+```jekyll build --config _config.yml,_config_staging-env.yml```
 
 #### Build for development environment
 
-For building static files for `dev.support.refugeesemancipation.com`, use
+For building static files for [dev.support.refugeesemancipation.com](dev.support.refugeesemancipation.com), use
 
-```
-jekyll build --config _config.yml,_config_dev_-env.yml
-```
+
+```jekyll build --config _config.yml,_config_dev-env.yml```
 
 
 
