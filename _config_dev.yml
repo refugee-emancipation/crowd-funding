@@ -28,3 +28,8 @@ exclude:
     - pages/info.md
     - pages/design.md
     - build
+
+gems: ['jekyll-multiple-languages']
+languages: ['de', 'en']
+language_default: 'de'
+fill_default_content: true

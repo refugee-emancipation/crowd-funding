@@ -13,6 +13,9 @@ Wir wollen Refugees Emancipation dabei helfen, Ressourcen zu sammeln, um das Pro
 
 
 iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+video2:
+  title: Refugees Emancipation auf dem Chaos Communication Camp 2015
 ---
 
 ## Worum geht es?

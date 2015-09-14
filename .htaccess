@@ -1,0 +1,15 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # no RewriteCond => unconditionally rewritten
+  # If /de or /de/anything is requested, serve /, /anything.
+  # No further rule processing! (no / -> /en redirect)
+  RewriteRule ^de(.*)$ /$1 [END]
+
+  # NC => case insensitive regexp match ("nocase")
+  RewriteCond %{HTTP:Accept-Language} !^de [NC]
+  # L => last rule, no further processing
+  # R=302 => redirect, HTTP 302
+  RewriteRule ^$ /en [L,R=302]
+</IfModule>

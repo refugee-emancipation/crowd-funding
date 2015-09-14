@@ -1,0 +1,37 @@
+<div class="row t30">
+  <div class="small-12 columns">
+    <div class="counter">
+      <h2>Start der Spendenkampagne in</h2>
+      <p id="countdown"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+countdown.resetLabels();
+countdown.setLabels(
+	' Millisekunde| Sekunde| Minute| Stunde| Tag| Woche| Monat| Jahr| Jahrzehnt| Jahrhundert| Jahrtausend',
+	' Millisekunden| Sekunden| Minuten| Stunden| Tage| Wochen| Monate| Jahre| Jahrzehnte| Jahrhunderte| Jahrtausende',
+	' und ',
+	' , ',
+	'jetzt');
+
+var timerId =
+  countdown(
+    new Date(2015, 9, 01),
+    function(ts) {
+      if (ts >= 0) {
+        console.log("ende");
+        window.clearInterval(timerId);
+      }
+      document.getElementById('countdown').innerHTML = ts.toString();
+    },
+    countdown.MONTHS |
+    countdown.WEEKS |
+    countdown.DAYS |
+    countdown.HOURS |
+    countdown.MINUTES |
+    countdown.SECONDS,
+    3
+  );
+</script>

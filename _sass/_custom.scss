@@ -18,6 +18,11 @@
   padding: 10px 0 10px 0 !important;
 }
 
+// Language toggle button
+.button.tiny {
+  font-weight: 700;
+}
+
 // MailChimp Form
 #mc_embed_signup {
   background-color: #fdfdfd !important;
@@ -75,6 +80,14 @@
   width: 970px;
 }
 
+.jw-tab-focus:focus {
+  outline: none !important;
+}
+
+.video-title {
+    margin-bottom: 0.3em;
+}
+
 // Footer
 #footer {
   padding-top: 0 !important;
@@ -98,12 +111,4 @@
       margin-top: 0 !important;
     }
   }
-}
-
-.jw-tab-focus:focus {
-  outline: none !important;
-}
-
-h2.video-title {
-    margin-bottom: 0.3em;
 }
