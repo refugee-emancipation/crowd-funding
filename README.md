@@ -27,6 +27,25 @@ For Production, use following command and file
 
 ```jekyll serve --config _config.yml```
 
+To build the static files for production, use `jekyll build`.
+
+#### Build for staging environment
+
+For building static files for `staging.support.refugeesemancipation.com`, use
+
+```
+jekyll build --config _config.yml,_config_staging-env.yml
+```
+
+#### Build for development environment
+
+For building static files for `dev.support.refugeesemancipation.com`, use
+
+```
+jekyll build --config _config.yml,_config_dev_-env.yml
+```
+
+
 
 ## How to Contribute
 1. Fork the repository. If you don't know how to do that, [follow these instructions](https://help.github.com/articles/fork-a-repo/)
