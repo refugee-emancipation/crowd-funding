@@ -1,17 +1,23 @@
 - name: Website
   url: http://www.refugeesemancipation.com
   class: icon-globe
-  title: Die Website von Refugees Emancipation
+  title:
+    de: Die Website von Refugees Emancipation
+    en: The website of Refugees Emancipation
 
 - name: Twitter
   url: https://twitter.com/Refugees_Eman
   class: icon-twitter
-  title: Refugees Emancipation auf Twitter
+  title:
+    de: Refugees Emancipation auf Twitter
+    en: Refugees Emancipation on Twitter
 
 - name: GitHub
   url: https://github.com/refugee-emancipation/crowd-funding
   class: icon-github
-  title: Diese Seite auf github 
+  title:
+    de: Diese Seite auf github 
+    en: This site on github 
 
 
 # - name: Xing

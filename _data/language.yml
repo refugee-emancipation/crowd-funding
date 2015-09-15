@@ -1,24 +1,72 @@
-info_website: "Impressum"
-archive: "Archive"
-blog_archive: "Blog Archive"
-blog: "Blog"
-comments_headline: "Dialogue &amp; Discussion"
-more: "More ›"
-more_articles: "More Articles"
-navigation_title: "Navigation"
-new_blog_entries: "New Blog Articles"
-next: "Next"
-next_posts: "Next Posts"
-previous: "Previous"
-previous_posts: "Previous Posts"
-read: "Read"
-read_more: "Read More&nbsp;›"
-if_you_are_not_redirected_automatically: "If you are not redirected automatically,"
-click_here: "click here"
-next_post_in: "Next Post in"
-previous_post_in: "Previous Post in"
-breadcrumb_start: "Start"
-edit: "Edit"
-this_content_is_open_source: "This content is open source."
-help_improve_it: "Help improve it"
-enter_search_term: "Enter search term and hit enter"
+info_website:
+  de: "Über diese Website"
+  en: "Impressum"
+archive:
+  de: "Archiv"
+  en: "Archive"
+blog_archive:
+  de: "Blog Archiv"
+  en: "Blog Archive"
+blog:
+  de: "Blog"
+  en: "Blog"
+comments_headline:
+  de: "Dialog &amp; Diskussion"
+  en: "Dialogue &amp; Discussion"
+more:
+  de: "Mehr ›"
+  en: "More ›"
+more_articles:
+  de: "Mehr Artikel"
+  en: "More Articles"
+navigation_title:
+  de: "Navigation"
+  en: "Navigation"
+new_blog_entries:
+  de: "Neue Blog Artikel"
+  en: "New Blog Articles"
+next:
+  de: "Nächste"
+  en: "Next"
+next_posts:
+  de: "Nächster Beitrag"
+  en: "Next Posts"
+previous:
+  de: "Vorherige"
+  en: "Previous"
+previous_posts:
+  de: "Vorheriger Beitrag"
+  en: "Previous Posts"
+read:
+  de: "Lesen"
+  en: "Read"
+read_more:
+  de: "Mehr lesen&nbsp;›"
+  en: "Read More&nbsp;›"
+if_you_are_not_redirected_automatically:
+  de: "Wenn Du nicht automatisch weitergeleitet wirst,"
+  en: "If you are not redirected automatically,"
+click_here:
+  de: "klick hier"
+  en: "click here"
+next_post_in:
+  de: "Nächster Beitrag in"
+  en: "Next Post in"
+previous_post_in:
+  de: "Vorheriger Beitrag in"
+  en: "Previous Post in"
+breadcrumb_start:
+  de: "Start"
+  en: "Start"
+edit:
+  de: "Editieren"
+  en: "Edit"
+this_content_is_open_source:
+  de: "Der Inhalt ist Open Source."
+  en: "This content is open source."
+help_improve_it:
+  de: "Hilf ihn zu verbessern"
+  en: "Help improve it"
+enter_search_term:
+  de: "Suchbegriff eingeben und Eingabetaste drücken"
+  en: "Enter search term and hit enter"
