@@ -70,3 +70,15 @@ help_improve_it:
 enter_search_term:
   de: "Suchbegriff eingeben und Eingabetaste drücken"
   en: "Enter search term and hit enter"
+newsletter_header:
+  de: "Melde dich für den Newsletter an"
+  en: "Sign up for our newsletter"
+newsletter_subheader:
+  de: "Bleib informiert über das Refugees Emancipation Support Project."
+  en: "Stay informed about the Refugees Emancipation Support Project."
+mail:
+  de: "E-Mail Adresse"
+  en: "Email Address"
+subscribe:
+  de: "Anmelden"
+  en: "Subscribe"
