@@ -33,4 +33,4 @@ Bis Ende September entwerfen wir eine Spendenkampagne. Unser Ziel ist es, RE mit
 * Bist du eine Person mit viel Reichweite? Dann bleib auf dem Laufenden und hilf uns, die Kampagne zu verbreiten, wenn es soweit ist.
 * Bist du eine Person, die sich gut mit Spendenkampagnen auskennt? Dann sind wir dankbar für Tipps.
 * Bist du eine Person, die gerne für einen guten Zweck spenden will? Super, dann unterstütze Refugees Emancipation, sobald die Kampagne gelauncht ist.
-* Bist du eine Person, die für einen bestimmten Zeitraum Design-, Text-, Programmierfähigkeiten und vor allem Zeit beitragen kann? Sehr gut, dann melde dich bei <a href="mailto:fiona@arduina.net">Fiona</a> und <a href="mailto:ilmditsch@furorum.de">Daniel</a>.
+* Bist du eine Person, die für einen bestimmten Zeitraum Design-, Text-, Programmierfähigkeiten und vor allem Zeit beitragen kann? Sehr gut, dann melde dich bei uns unter <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a>.
