@@ -1,3 +1,10 @@
+- name: Mail
+  url: mailto:support@refugeesemancipation.com
+  class: icon-message
+  title:
+    de: Unsere E-Mail Adresse
+    en: Our email address
+
 - name: Website
   url: http://www.refugeesemancipation.com
   class: icon-globe

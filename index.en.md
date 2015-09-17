@@ -31,4 +31,4 @@ By the end of September, we'll have designed a fundraising campaign. Our goal is
 * Can you reach a large audience? Then stay up-to-date, and help us spread the word, when the time comes.
 * Do you have experience with fundraising campaigns? Then we'd love to get your advice.
 * Do you like to donate to worthy causes? Super, then donate to Refugees Emancipation once the campaign is launched.
-* Can you help with design, text, programming, and—above all—your time? Great! Let <a href="mailto:support@refugeesemancipation.com">us</a> know what you can help with.
+* Can you help with design, text, programming, and—above all—your time? Great! Let us know at <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a> what you can help with.
