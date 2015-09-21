@@ -15,7 +15,7 @@
 
 // Container of scroll to top arrow
 #up-to-top {
-  padding: 10px 0 !important;
+  padding: 10px 0 10px 0 !important;
 }
 
 // Language toggle button
@@ -145,13 +145,9 @@ $progress-bar-margin-top:     2rem;
 }
 
 // Footer
-#footer {
+.footer {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-
-  p > a {
-    color: inherit;
-  }
 }
 
 // Subfooter
@@ -164,10 +160,6 @@ $progress-bar-margin-top:     2rem;
 
   #subfooter-right {
     margin-top: 1.0625rem !important;
-    
-    p > a {
-      color: inherit;
-    }
   }
 
   @media only screen and (min-width: 40.063em) {
@@ -175,4 +167,9 @@ $progress-bar-margin-top:     2rem;
       margin-top: 0 !important;
     }
   }
+}
+
+//Mail footer
+.footer p a {
+  color: #fff;
 }
