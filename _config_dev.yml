@@ -13,8 +13,8 @@ destination: _site
 
 sass:
     sass_dir: _sass
-    #style: :compressed
     style: :expanded
+    line_numbers: true
 
 exclude:
     - Gemfile
