@@ -1,0 +1,14 @@
+- name: "berlin.freifunk.net"
+  url: "http://berlin.freifunk.net/"
+  img: "images/sponsors/berlin-freifunk-net.svg"
+  title: "berlin.freifunk.net"
+
+- name: "Chaos Computer Club"
+  url: "https://www.ccc.de/"
+  img: "images/sponsors/berlin-freifunk-net.svg"
+  title: "CCC"
+
+- name: "Förderverein Freie Netzwerke e.V."
+  url: "http://freifunk.net/"
+  img: "images/sponsors/foerderverein-freie-netzwerke.svg"
+  title: "Förderverein Freie Netzwerke e.V."

@@ -1,0 +1,16 @@
+<div class="sponsors footer">
+  <div class="row">
+    <div class="medium-6 large-5 columns">
+      <h5 class=""></h5>
+
+      {% for sponsor in site.data.sponsors %}
+      <div class="sponsors-logo">
+        <a class="sponsors-link" href= "{{ sponsor.url }}" target="_blank">{{ sponsor.name }}
+          <img class="sponsors-img" src="{{ sponsor.img }}" title="{{ sponsor.title }}"
+        </a>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
