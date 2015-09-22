@@ -1,13 +1,21 @@
 <div class="row t30">
   <div class="medium-12 columns" id="betterplace">
-    <div class="counter progress large-12 alert radius">
-      <h2>Status der Spendenkampagne</h2>
+    <div class="counter">
+    <h2>Status der Spendenkampagne</h2>
+    <h3>Spender: <span class="label" id="donor-count"></span></h3>
+    <h3>Spendenstand: <span class="label" id="percentage"></span></h3>
+    <div class="progress large-12 success round">
       <span class="meter" id="betterplace-meter" style="width: 5%"></span>
+    </div>
     </div>
   </div>
 </div>
 <script type='text/javascript'>
 $(document).ready(function(){
-  $('#betterplace-meter').attr('style', 'width: '+'50'+'%');
+  $.getJSON('https://api.betterplace.org/de/api_v4/projects/20601.json', function(data) {
+    $('#donor-count').text(data.donor_count);
+    $('#percentage').text(data.progress_percentage + "%");
+    $('#betterplace-meter').attr('style', 'width: '+ data.progress_percentage + '%');
+  });
 });
 </script>
