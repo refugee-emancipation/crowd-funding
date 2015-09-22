@@ -94,3 +94,6 @@ donation_percentage:
 donation_page:
   de: "Zur Spendenseite (betterplace.org)"
   en: "Visit donation site (betterplace.org)"
+sponsors_headline:
+    de: "Unsere Unterstützer"
+    en: "Our Supporters"
