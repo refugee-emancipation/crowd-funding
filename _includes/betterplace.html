@@ -17,6 +17,7 @@ $(document).ready(function(){
     $('#donor-count').text(data.donor_count);
     $('#percentage').text(data.progress_percentage + "%");
     $('#betterplace-meter').attr('style', 'width: '+ data.progress_percentage + '%');
+    $('#betterplace-meter').text(data.progress_percentage + "%");
   });
 });
 </script>
