@@ -75,6 +75,25 @@
   }
 }
 
+
+// Customized Progress Bar
+$progress-bar-color:          $grey-3;
+$progress-bar-margin-bottom:  2rem;
+$progress-bar-margin-top:     2rem;
+
+.progress {
+  border: none !important;
+  padding: 0 !important;
+  background-color: $progress-bar-color;
+  margin-top:       $progress-bar-margin-top;
+  margin-bottom:    $progress-bar-margin-bottom ;
+}
+
+.progress.success .meter {
+  color: #313131;
+  font-weight: bold;
+}
+
 // Video
 .video-wrapper video {
   width: 970px;
