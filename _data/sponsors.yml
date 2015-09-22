@@ -2,13 +2,16 @@
   url: "http://berlin.freifunk.net/"
   img: "images/sponsors/berlin-freifunk-net.svg"
   title: "berlin.freifunk.net"
+  alt: "Logo für berlin.freifunk.net"
 
 - name: "Chaos Computer Club"
   url: "https://www.ccc.de/"
-  img: "images/sponsors/berlin-freifunk-net.svg"
+  img: "images/sponsors/chaosknoten-4.0.svg"
   title: "CCC"
+  alt: "Logo für Chaos Computer Club"
 
 - name: "Förderverein Freie Netzwerke e.V."
   url: "http://freifunk.net/"
   img: "images/sponsors/foerderverein-freie-netzwerke.svg"
   title: "Förderverein Freie Netzwerke e.V."
+  alt: "Logo für Förderverein Freie Netzwerke e.V."
