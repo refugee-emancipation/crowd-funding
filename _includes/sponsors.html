@@ -7,7 +7,7 @@
       <div class="sponsors_logo">
         <h6>{{ sponsor.name }}</h6>
         <a class="sponsors_link" href="{{ sponsor.url }}" target="_blank">
-          <img class="sponsors_img" src="{{ sponsor.img }}" title="{{ sponsor.title }}" alt="{% if page.is_default_language %}Logo für {% else %}Logo of {% endif %}{{ sponsor.alt }}">
+          <img class="sponsors_img" src="{{ sponsor.img }}" title="{{ sponsor.title }}" alt="{{ site.data.language.logo[page.language] }} {{ sponsor.alt }}">
         </a>
       </div>
       {% endfor %}

@@ -83,5 +83,8 @@ subscribe:
   de: "Anmelden"
   en: "Subscribe"
 sponsors_headline:
-    de: "Unsere Unterstützer"
-    en: "Our Supporters"
+  de: "Unsere Unterstützer"
+  en: "Our Supporters"
+logo:
+  de: "Logo für"
+  en: "Logo of"
