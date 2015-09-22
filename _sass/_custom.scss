@@ -93,6 +93,18 @@
   }
 }
 
+@media #{$small-only} {
+  .campaign_box {
+    h2, #countdown {
+      font-size: 25px;
+    }
+    p, a {
+      font-size: 18px;
+    }
+    #countdown {
+      font-weight: normal;
+      line-height: 30px;
+    }
   }
 }
 
