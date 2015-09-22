@@ -4,9 +4,10 @@
       <h5 class="">{{ site.data.language.sponsors_headline[page.language] }}</h5>
 
       {% for sponsor in site.data.sponsors %}
-      <div class="sponsors-logo">
-        <a class="sponsors-link" href= "{{ sponsor.url }}" target="_blank">{{ sponsor.name }}
-          <img class="sponsors-img" src="{{ sponsor.img }}" title="{{ sponsor.title }}"
+      <div class="sponsors_logo">
+        <h6>{{ sponsor.name }}</h6>
+        <a class="sponsors_link" href="{{ sponsor.url }}" target="_blank">
+          <img class="sponsors_img" src="{{ sponsor.img }}" title="{{ sponsor.title }}" alt="{{ sponsor.alt }}">
         </a>
       </div>
       {% endfor %}
