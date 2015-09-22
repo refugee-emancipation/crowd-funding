@@ -82,3 +82,15 @@ mail:
 subscribe:
   de: "Anmelden"
   en: "Subscribe"
+donation_status:
+  de: "Status der Spendenkampagne"
+  en: "Donation campagne status"
+donors:
+  de: "Spender"
+  en: "Donors"
+donation_percentage:
+  de: "Spendenziel erreicht"
+  en: "Donation target reached"
+donation_page:
+  de: "Zur Spendenseite (betterplace.org)"
+  en: "Visit donation site (betterplace.org)"
