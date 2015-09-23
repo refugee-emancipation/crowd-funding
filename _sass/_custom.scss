@@ -92,7 +92,47 @@
 .footer {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+
+  &.sponsors {
+    background-color: #D7D7D7;
+    h4 , h5 {
+      color: #000 !important;
+    }
+  }
 }
+
+.sponsors {
+  h2 {
+    margin: 1em 0 !important;
+  }
+  h6 {
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+  }
+}
+
+.sponsors_img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.sponsors_logo {
+  padding: 0 !important;
+
+  @media only screen and (max-width: 40.063em) {
+    border-bottom: 3px solid #dc0067;
+    margin-bottom: 3em;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+
 
 // Subfooter
 #subfooter {
