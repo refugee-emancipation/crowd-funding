@@ -1,15 +1,16 @@
 <div class="row t30">
-  <div class="campaign_box donations medium-12" id="betterplace">
-    <div class="right">
-      <a alt="{{ site.data.language.donation_page[page.language] }}" href="https://www.betterplace.org/{{page.language}}/projects/20601-empowerment-fur-fluchtlinge-durch-computerkurse/">
-        <img src="/assets/img/betterplace_logo--300x63.jpg"/>
-      </a>
-    </div>
+  <div class="small-12 columns">
+    <div class="campaign_box donations medium-12" id="betterplace">
       <h2>{{ site.data.language.donation_status[page.language] }}</h2>
       <p>{{ site.data.language.donors[page.language] }}: <span class="label" id="donor-count"></span></p>
       <p>{{ site.data.language.donation_percentage[page.language] }}: <span class="label" id="percentage"></span></p>
-    <div class="progress large-12 small-centered success">
-      <span class="meter" id="betterplace-meter" style="width: 0%"></span>
+      <div class="progress large-12 small-centered success">
+        <span class="meter" id="betterplace-meter" style="width: 0%"></span>
+      </div>
+      <h3>{{ site.data.language.donation_page[page.language] }}:</h3>
+      <a alt="{{ site.data.language.donation_page[page.language] }}" href="https://www.betterplace.org/{{page.language}}/projects/20601-empowerment-fur-fluchtlinge-durch-computerkurse/">
+        <img src="/assets/img/betterplace_logo--300x63.jpg"/>
+      </a>
     </div>
   </div>
 </div>
