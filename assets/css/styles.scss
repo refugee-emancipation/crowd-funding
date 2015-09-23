@@ -3,7 +3,6 @@
 ---
 @charset "utf-8";
 
-@import "custom.scss";
 @import "webfont.scss";
 @import "functions.scss";
 @import "01_settings_colors.scss";
@@ -11,6 +10,7 @@
 @import "03_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
 @import "05_normalize.scss";    // normalize.css v3.0.2
+@import "custom.scss";
 
 @import "foundation-components/top-bar.scss";
 @import "foundation-components/accordion";
