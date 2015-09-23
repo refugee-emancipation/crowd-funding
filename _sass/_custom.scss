@@ -169,11 +169,14 @@ $progress-bar-margin-top:     2rem;
 }
 
 .sponsors_img {
-  max-width: 320px;
+  max-width: 250px;
   width: 100%;
   height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
+  @media only screen and (max-width: 40.063em) {
+    max-width: 270px;
+  }
 }
 
 .sponsors_logo {
