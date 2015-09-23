@@ -15,7 +15,7 @@
 
 // Container of scroll to top arrow
 #up-to-top {
-  padding: 10px 0 !important;
+  padding: 10px 0 10px 0 !important;
 }
 
 // Language toggle button
@@ -89,14 +89,53 @@
 }
 
 // Footer
-#footer {
+.footer {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 
-  p > a {
-    color: inherit;
+  &.sponsors {
+    background-color: #D7D7D7;
+    h4 , h5 {
+      color: #000 !important;
+    }
   }
 }
+
+.sponsors {
+  h2 {
+    margin: 0.6em 0 !important;
+  }
+  h6 {
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+  }
+}
+
+.sponsors_img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  @media only screen and (max-width: 40.063em) {
+    max-width: 270px;
+  }
+}
+
+.sponsors_logo {
+  padding-left: 0 !important;
+
+  @media only screen and (max-width: 40.063em) {
+    border-bottom: 3px solid #dc0067;
+    margin-bottom: 3em;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+
 
 // Subfooter
 #subfooter {
@@ -108,10 +147,6 @@
 
   #subfooter-right {
     margin-top: 1.0625rem !important;
-    
-    p > a {
-      color: inherit;
-    }
   }
 
   @media only screen and (min-width: 40.063em) {
@@ -119,4 +154,9 @@
       margin-top: 0 !important;
     }
   }
+}
+
+//Mail footer
+.footer p a {
+  color: #fff;
 }
