@@ -1,13 +1,21 @@
 <div class="row t30">
-  <div class="medium-12 columns" id="betterplace">
-    <div class="campaign_box donations">
-    <h2>{{ site.data.language.donation_status[page.language] }}</h2>
-    <p>{{ site.data.language.donors[page.language] }}: <span class="label" id="donor-count"></span></p>
-    <p>{{ site.data.language.donation_percentage[page.language] }}: <span class="label" id="percentage"></span></p>
-    <div class="progress large-12 small-centered success" style="width: 100%">
-      <span class="meter" id="betterplace-meter" style="width: 5%"></span>
+  <div class="campaign_box donations medium-12 columns" id="betterplace">
+    <div class="row">
+      <div class="medium-9 columns">
+        <h2>{{ site.data.language.donation_status[page.language] }}</h2>
+        <p>{{ site.data.language.donors[page.language] }}: <span class="label" id="donor-count"></span></p>
+        <p>{{ site.data.language.donation_percentage[page.language] }}: <span class="label" id="percentage"></span></p>
+      </div>
+      <div class="medium-3 columns">
+        <a alt="{{ site.data.language.donation_page[page.language] }}" href="https://www.betterplace.org/{{page.language}}/projects/20601-empowerment-fur-fluchtlinge-durch-computerkurse/">
+          <img src="/assets/img/betterplace_logo--300x63.jpg"/>
+        </a>
+      </div>
     </div>
-    <p><a href="https://www.betterplace.org/{{page.language}}/projects/20601-empowerment-fur-fluchtlinge-durch-computerkurse/">{{ site.data.language.donation_page[page.language]}}</a></p>
+    <div class="row">
+      <div class="progress large-12 small-centered success" style="width: 90%">
+        <span class="meter" id="betterplace-meter" style="width: 5%"></span>
+      </div>
     </div>
   </div>
 </div>
