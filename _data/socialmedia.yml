@@ -1,3 +1,10 @@
+- name: Twitter
+  url: https://twitter.com/REmancipation
+  class: icon-twitter
+  title:
+    de: Refugees Emancipation auf Twitter
+    en: Refugees Emancipation on Twitter
+
 - name: Mail
   url: mailto:support@refugeesemancipation.com
   class: icon-message
@@ -12,19 +19,12 @@
     de: Die Website von Refugees Emancipation
     en: The website of Refugees Emancipation
 
-- name: Twitter
-  url: https://twitter.com/Refugees_Eman
-  class: icon-twitter
-  title:
-    de: Refugees Emancipation auf Twitter
-    en: Refugees Emancipation on Twitter
-
 - name: GitHub
   url: https://github.com/refugee-emancipation/crowd-funding
   class: icon-github
   title:
-    de: Diese Seite auf github 
-    en: This site on github 
+    de: Diese Seite auf GitHub
+    en: This site on GitHub
 
 
 # - name: Xing
