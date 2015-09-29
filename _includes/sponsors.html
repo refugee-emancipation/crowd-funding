@@ -5,7 +5,6 @@
 
       {% for sponsor in site.data.sponsors %}
       <div class="sponsors_logo medium-4 columns">
-        <h6>{{ sponsor.name }}</h6>
         <a class="sponsors_link" href="{{ sponsor.url }}" target="_blank">
           <img class="sponsors_img" src="{{ sponsor.img }}" title="{{ sponsor.title }}" alt="{{ site.data.language.logo[page.language] }} {{ sponsor.alt }}">
         </a>
