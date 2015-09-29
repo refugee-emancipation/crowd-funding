@@ -25,6 +25,8 @@ format: blog-index
         {% endif %}
       </article>
 
+      {% include countdown.{{page.language}}.html %}
+
       {% if page.iframe1 %}
       <div class="row t30">
         <div class="medium-12 columns">
@@ -49,8 +51,6 @@ format: blog-index
     </div>
   </div>
 
-
-  {% include countdown.{{page.language}}.html %}
   {% include betterplace.html %}
 
   {% comment %}
