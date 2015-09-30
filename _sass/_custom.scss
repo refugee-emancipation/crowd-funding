@@ -25,7 +25,9 @@
 
 // MailChimp Form
 #mc_embed_signup {
-  background-color: #fdfdfd !important;
+  .mc-embed-inner {
+    padding-top: 1.5em;
+  }
   form {
     padding: 0 !important;
   }
@@ -205,8 +207,6 @@ $sponsors-image-size: 200px;
   }
 }
 
-
-
 // Subfooter
 #subfooter {
   padding: 20px 0 !important;
@@ -229,4 +229,15 @@ $sponsors-image-size: 200px;
 //Mail footer
 .footer p a {
   color: #fff;
+}
+
+// Sections in different background colors
+section {
+  &.newsletter,
+  &#mc_embed_signup,
+  .mc-embed-inner,
+  &.up-to-top-arrow,
+  &.up-to-top-inner {
+    background-color: $grey-2;
+  }
 }
