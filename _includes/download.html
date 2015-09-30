@@ -1,0 +1,22 @@
+<div class="row t30">
+  <div id="file-downloads">
+    <h2>{{ site.data.language.files[page.language] }}</h2>
+    <ul>
+    {% for file in site.data.downloads.files %}
+      <li>
+        <a href="{{file.url}}">{{ file.title[page.language] }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div id="banner-downloads">
+    <h2>{{ site.data.language.banners[page.language] }}</h2>
+    <ul>
+    {% for banner in site.data.downloads.banners %}
+      <li>
+        <a href="{{banner}}"><img src="{{ banner }}"/></a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
