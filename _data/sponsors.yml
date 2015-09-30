@@ -1,47 +1,61 @@
+
+# List of sponsors that will be rendered above the page footer
+
+# relativeSize is to resize the logo to fit in well with the others
+# rule of thumb: a rectangular logo needs to be 100% a square one between 75 and 50
+
 - name: "freifunk.net"
   url: "http://freifunk.net/"
-  img: "/images/sponsors/foerderverein-freie-netzwerke.svg"
   title: "freifunk.net"
   alt: "Förderverein Freie Netzwerke e. V., freifunk.net"
+  img: "/images/sponsors/foerderverein-freie-netzwerke.svg"
+  relativeSize: "100%"
 
 - name: "ccc"
   url: "http://ccc.de/"
-  img: "/images/sponsors/chaosknoten-4.0.svg"
   title: "ccc.de"
   alt: "Chaos Computer Club e. V. (CCC), ccc.de"
+  img: "/images/sponsors/chaosknoten-4.0.svg"
+  relativeSize: "72%"
 
 - name: "berlin.freifunk.net"
   url: "http://berlin.freifunk.net/"
-  img: "/images/sponsors/berlin-freifunk-net.svg"
   title: "berlin.freifunk.net"
   alt: "Freifunk Berlin, berlin.freifunk.net"
+  img: "/images/sponsors/berlin-freifunk-net.svg"
+  relativeSize: "72%"
 
 - name: "Linuxhotel"
   url: "http://www.linuxhotel.de/"
-  img: "/images/sponsors/linuxhotel-oslern.svg"
   title: "Linuxhotel"
   alt: "Linuxhotel, linuxhotel.de"
+  img: "/images/sponsors/linuxhotel-oslern.svg"
+  relativeSize: "85%"
 
 - name: "Digitale Gesellschaft"
   url: "https://digitalegesellschaft.de/"
-  img: "/images/sponsors/digitale_gesellschaft.svg"
   title: "Digitale Gesellschaft"
   alt: "Digitale Gesellschaft, digitalegesellschaft.de"
+  img: "/images/sponsors/digitale_gesellschaft.svg"
+  relativeSize: "100%"
 
 - name: "Idealo"
   url: "http://www.idealo.de/"
-  img: "/images/sponsors/idealo.svg"
   title: "Idealo"
   alt: "Idealo, idealo.de"
+  img: "/images/sponsors/idealo.svg"
+  relativeSize: "75%"
 
 - name: "Open Knowledge Foundation Deutschland"
   url: "http://okfn.de/"
-  img: "/images/sponsors/Logo_okfde_black.svg"
   title: "Open Knowledge Foundation Deutschland"
   alt: "Open Knowledge Foundation Deutschland, okfn.de"
-  
+  img: "/images/sponsors/Logo_okfde_black.svg"
+  relativeSize: "95%"
+
 - name: "Systemli.org"
   url: "https://www.systemli.org"
-  img: "/images/sponsors/sys_Logo_rundmitkreis.png"
   title: "Systemli.org"
   alt: "Systemli.org, systemli.org"
+  img: "/images/sponsors/sys_Logo_rundmitkreis.png"
+  relativeSize: "58%"

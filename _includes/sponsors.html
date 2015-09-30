@@ -2,15 +2,20 @@
   <div class="row">
     <div class="medium-12 columns">
       <h2 class="">{{ site.data.language.sponsors_headline[page.language] }}</h2>
-
-      {% for sponsor in site.data.sponsors %}
-      <div class="sponsors_logo medium-4 columns">
-        <a class="sponsors_link" href="{{ sponsor.url }}" target="_blank">
-          <img class="sponsors_img" src="{{ sponsor.img }}" title="{{ sponsor.title }}" alt="{{ site.data.language.logo[page.language] }} {{ sponsor.alt }}">
-        </a>
-      </div>
-      {% endfor %}
-
     </div>
+  </div>
+
+  <div class="row">
+
+    {% for sponsor in site.data.sponsors %}
+    <div class="sponsors_logo medium-4 columns">
+      <a class="sponsors_link" href="{{ sponsor.url }}" target="_blank" name="{{ sponsor.name}}">
+        <img class="sponsors_img" style="width:{{ sponsor.relativeSize }}"
+              src="{{ sponsor.img }}" title="{{ sponsor.title }}"
+              alt="{{ site.data.language.logo[page.language] }} {{ sponsor.alt }}">
+      </a>
+    </div>
+    {% endfor %}
+
   </div>
 </div>
