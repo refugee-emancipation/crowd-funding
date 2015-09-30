@@ -1,8 +1,20 @@
+- name: "ccc"
+  url: "http://ccc.de/"
+  img: "/images/sponsors/chaosknoten-4.0.svg"
+  title: "ccc.de"
+  alt: "Chaos Computer Club e. V. (CCC), ccc.de"
+
 - name: "berlin.freifunk.net"
   url: "http://berlin.freifunk.net/"
   img: "/images/sponsors/berlin-freifunk-net.svg"
   title: "berlin.freifunk.net"
   alt: "Freifunk Berlin, berlin.freifunk.net"
+
+- name: "freifunk.net"
+  url: "http://freifunk.net/"
+  img: "/images/sponsors/foerderverein-freie-netzwerke.svg"
+  title: "freifunk.net"
+  alt: "Förderverein Freie Netzwerke e. V., freifunk.net"
 
 - name: "Digitale Gesellschaft"
   url: "https://digitalegesellschaft.de/"
