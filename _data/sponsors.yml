@@ -21,3 +21,15 @@
   img: "/images/sponsors/idealo.svg"
   title: "Idealo"
   alt: "Idealo, idealo.de"
+
+- name: "Systemli.org"
+  url: "https://www.systemli.org"
+  img: "/images/sponsors/sys_Logo_rundmitkreis.png"
+  title: "Systemli.org"
+  alt: "Systemli.org, systemli.org"
+
+- name: "Open Knowledge Foundation Deutschland"
+  url: "http://okfn.de/"
+  img: "/images/sponsors/Logo_okfde_black.svg"
+  title: "Open Knowledge Foundation Deutschland"
+  alt: "Open Knowledge Foundation Deutschland, okfn.de"
