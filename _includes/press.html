@@ -1,0 +1,28 @@
+<div id="presstable">
+  <ul id="press">
+    {% raw %}
+    <script id="press-template" type="text/x-handlebars-template">
+      <li>
+        <strong>{{prettifyDate cells.Veröffentlichungsdatum}}</strong> <a href="{{cells.link}}">{{cells.Titel}} ({{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}})</a>
+      </li>
+    </script>
+    {% endraw %}
+  </ul>
+</div>
+<script language="javascript" type="text/javascript">
+var pressSheet = 'https://docs.google.com/spreadsheets/d/1xkunaEW258tDvt-_iGai-IytvzKFWYVY3nxSfasWJak/edit?pli=1#gid=1854445516';
+
+Handlebars.registerHelper("prettifyDate", function(datestring) {
+  var timestamp = Date.parse(datestring);
+  if (isNaN(timestamp) == false) {
+    return moment(new Date(datestring)).format('LL');
+  }
+});
+
+var pressTemplate = Handlebars.compile($('#press-template').html());
+  
+$('#presstable').sheetrock({
+  url: pressSheet,
+  rowTemplate: pressTemplate
+});
+</script>
