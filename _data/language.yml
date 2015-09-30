@@ -94,3 +94,9 @@ donation_percentage:
 donation_page:
   de: "Zur Spendenseite (betterplace.org)"
   en: "Visit donation site (betterplace.org)"
+files:
+  de: "Dateien"
+  en: "Files"
+banners:
+  de: "Banner"
+  en: "Banners"
