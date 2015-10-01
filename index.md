@@ -12,8 +12,6 @@ teaser: "<a href='http://ccc.de'>Der Chaos Computer Club e.V.</a>, <a href='http
 
 iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/136421779">Refugees Emancipation Teaser</a> from <a href="https://vimeo.com/resupport">Refugees Emancipation Support</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-video2:
-  title: Refugees Emancipation auf dem Chaos Communication Camp 2015
 ---
 
 Wir wollen RE mindestens ein Jahr im Voraus finanzieren. Das beinhaltet nicht nur Telekommunikationskosten, Büromaterial, Werkzeug, Reparaturen für die fünf Internetcafés, sondern auch die Miete für das Büro, Fahrtkosten und Aufwandsentschädigungen für Koordinatoren des Projektes: Geflüchtete, die sich viele Stunden pro Tag dafür einsetzen, dass dieses Projekt funktioniert. Wir möchten dem Projekt auf diese Weise Stabilität und Handlungsspielraum geben.
