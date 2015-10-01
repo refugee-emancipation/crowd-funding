@@ -25,19 +25,6 @@ format: blog-index
         {% endif %}
       </article>
 
-      {% if page.iframe1 %}
-      <div class="row t30">
-        <div class="medium-12 columns">
-          <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
-            <div class="flex-video widescreen vimeo">
-              {{ page.iframe1}}
-            </div>
-          </article>
-        </div>
-      </div>
-      {% endif %}
-
-
       {% if page.image %}
       <img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
       {% endif %}
@@ -62,6 +49,25 @@ format: blog-index
       {{ content }}
     </div>
   </div><!-- /.row -->
+
+
+  {% comment %}
+  *
+  * If there is a video, display it.
+  *
+  {% endcomment %}
+
+  <!-- {% if page.iframe1 %}
+  <div class="row t30">
+    <div class="medium-12 columns">
+      <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+        <div class="flex-video widescreen vimeo">
+          {{ page.iframe1}}
+        </div>
+      </article>
+    </div>
+  </div>
+  {% endif %} -->
 
 
 {% comment %}

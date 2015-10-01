@@ -30,6 +30,15 @@ Neben den Gründungsmitgliedern der Kampagne, konnten erste weitere Organisation
 
 ## Worum geht es?
 
+<div class="row t30">
+  <div class="medium-12 columns">
+    <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+      <div class="flex-video widescreen vimeo">
+        {{ page.iframe1}}
+      </div>
+    </article>
+  </div>
+</div>
 
 
 Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus ihrer Heimat geflohen sind und leider auch während sie in Deutschland ankommen. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommen das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind.
