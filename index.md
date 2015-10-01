@@ -15,17 +15,7 @@ iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" heig
 ---
 
 Wir wollen RE mindestens ein Jahr im Voraus finanzieren. Das beinhaltet nicht nur Telekommunikationskosten, Büromaterial, Werkzeug, Reparaturen für die fünf Internetcafés, sondern auch die Miete für das Büro, Fahrtkosten und Aufwandsentschädigungen für Koordinatoren des Projektes: Geflüchtete, die sich viele Stunden pro Tag dafür einsetzen, dass dieses Projekt funktioniert. Wir möchten dem Projekt auf diese Weise Stabilität und Handlungsspielraum geben.
-Neben den Gründungsmitgliedern der Kampagne, konnten erste weitere Organisationen und Unternehmen gewonnen werden. So wird beispielsweise das Linuxhotel [Link] die ersten 10.000 EUR verdoppeln. Helft mit das Spendenziel zu erfüllen!
-
-
-## Worum geht es?
-
-Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus ihrer Heimat geflohen sind und leider auch während sie in Deutschland ankommen. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommen das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind.
-
-Mit einem Internetzugang können die Menschen nicht nur Kontakt zu ihren Verwandten und Bekannten aufnehmen und halten, sondern auch ihren Anliegen in der Öffentlichkeit Gehör verschaffenmit der Öffentlichkeit kommunizieren, in der meistens nur über sie gesprochen wird. Wichtig ist es auch, Zugang zu Informationen zu Gesetzen, ihren Rechten, Übersetzungen und Lernmaterialien zu erhalten sowie Informationen zu den Heimatländern und den Entwicklungen dort zu bekommen.
-
-Ein Internetzugang, der für viele von uns selbstverständlich ist, ist ein Privileg. Das ist bedauerlich und wir sind davon überzeugt, dass es sich dabei um ein Menschenrecht handeln sollte und der Staat dafür verantwortlich ist, das zu gewährleisten. Auch für Geflüchtete.
-Bis es soweit ist, möchten wir diesen Prozess unterstützen.
+Neben den Gründungsmitgliedern der Kampagne, konnten erste weitere Organisationen und Unternehmen gewonnen werden. Helft mit das Spendenziel zu erfüllen!
 
 
 ## Wie kannst Du ausserdem helfen?
@@ -37,3 +27,23 @@ Bis es soweit ist, möchten wir diesen Prozess unterstützen.
 
 2. Binde einen [Banner](http://support.refugeesemancipation.com/assets/downloads/zip/Banner_Support_Refugees_Emancipation.zip) in Deine Webseite ein und verlinke es auf die [Spendenseite](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
 3. Wenn Du Ideen hast, welche Organisationen und Unternehmen wir ansprechen sollen, oder wenn Du uns beim Ansprechen helfen möchtest, wende Dich bitte an <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a>.
+
+## Worum geht es?
+
+<div class="row t30">
+  <div class="medium-12 columns">
+    <article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+      <div class="flex-video widescreen vimeo">
+        {{ page.iframe1}}
+      </div>
+    </article>
+  </div>
+</div>
+
+
+Asylbewerbende befinden sich in einer prekären Lage - nachdem sie aus ihrer Heimat geflohen sind und leider auch während sie in Deutschland ankommen. In Deutschland sind sie oft isoliert und haben keine Möglichkeit zur gesellschaftlichen Teilhabe. Sie sind in den Unterkünften zahlreichen Sanktionen und Restriktionen ausgesetzt. Hinzu kommen das für Laien kaum verständliche komplizierte Asylrecht und bürokratische Hürden, die selbst für Menschen mit Deutschkenntnissen nur schwer zu bewältigen sind.
+
+Mit einem Internetzugang können die Menschen nicht nur Kontakt zu ihren Verwandten und Bekannten aufnehmen und halten, sondern auch ihren Anliegen in der Öffentlichkeit Gehör verschaffenmit der Öffentlichkeit kommunizieren, in der meistens nur über sie gesprochen wird. Wichtig ist es auch, Zugang zu Informationen zu Gesetzen, ihren Rechten, Übersetzungen und Lernmaterialien zu erhalten sowie Informationen zu den Heimatländern und den Entwicklungen dort zu bekommen.
+
+Ein Internetzugang, der für viele von uns selbstverständlich ist, ist ein Privileg. Das ist bedauerlich und wir sind davon überzeugt, dass es sich dabei um ein Menschenrecht handeln sollte und der Staat dafür verantwortlich ist, das zu gewährleisten. Auch für Geflüchtete.
+Bis es soweit ist, möchten wir diesen Prozess unterstützen.
