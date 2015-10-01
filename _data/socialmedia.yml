@@ -5,6 +5,20 @@
     de: Refugees Emancipation auf Twitter
     en: Refugees Emancipation on Twitter
 
+- name: Facebook
+  url: https://www.facebook.com/refugees.emancipation/
+  class: icon-facebook
+  title:
+    de: Refugees Emancipation auf Facebook
+    en: Refugees Emancipation on Facebook
+
+- name: YouTube
+  url: https://www.youtube.com/channel/UCCo9tvc5GqL8gpw_KuY5AwA
+  class: icon-youtube
+  title:
+    de: Refugees Emancipation auf YouTube
+    en: Refugees Emancipation on YouTube
+
 - name: Mail
   url: mailto:support@refugeesemancipation.com
   class: icon-message
@@ -18,13 +32,6 @@
   title:
     de: Die Website von Refugees Emancipation
     en: The website of Refugees Emancipation
-
-- name: Facebook
-  url: https://www.facebook.com/refugees.emancipation/
-  class: icon-facebook
-  title:
-    de: Refugees Emancipation auf Facebook
-    en: Refugees Emancipation on Facebook
 
 - name: GitHub
   url: https://github.com/refugee-emancipation/crowd-funding
