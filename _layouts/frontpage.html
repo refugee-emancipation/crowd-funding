@@ -69,7 +69,7 @@ format: blog-index
 * Embed the video, hardcoded for now
 *
 {% endcomment %}
-
+{% if page.video2 %}
 <div class="row t30">
   <div class="medium-12 columns">
 
@@ -94,6 +94,7 @@ format: blog-index
     </article>
   </div>
 </div>
+{% endif %}
 
 {% comment %}
 *
