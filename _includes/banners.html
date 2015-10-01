@@ -1,0 +1,10 @@
+<ul class="list list-banners">
+{% for banner in include.elements %}
+  <li>
+    <a href="{{ banner.url }}">
+      <h3>{{ banner.title[page.language] }}</h3>
+      <img src="{{ banner.url }}"/>
+    </a>
+  </li>
+{% endfor %}
+</ul>
