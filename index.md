@@ -17,8 +17,6 @@ iframe1: <iframe src="https://player.vimeo.com/video/136421779" width="500" heig
 Wir wollen RE mindestens ein Jahr im Voraus finanzieren. Das beinhaltet nicht nur Telekommunikationskosten, Büromaterial, Werkzeug, Reparaturen für die fünf Internetcafés, sondern auch die Miete für das Büro, Fahrtkosten und Aufwandsentschädigungen für Koordinatoren des Projektes: Geflüchtete, die sich viele Stunden pro Tag dafür einsetzen, dass dieses Projekt funktioniert. Wir möchten dem Projekt auf diese Weise Stabilität und Handlungsspielraum geben.
 Neben den Gründungsmitgliedern der Kampagne, konnten erste weitere Organisationen und Unternehmen gewonnen werden. So wird beispielsweise das Linuxhotel [Link] die ersten 10.000 EUR verdoppeln. Helft mit das Spendenziel zu erfüllen!
 
-## Spenden
-{% include betterplace.html %}
 
 ## Worum geht es?
 
