@@ -1,9 +1,23 @@
 <!doctype html>
-<html class="no-js" lang="{{ page.language }}">
-<head>
+<html class="no-js" lang="{{ page.language }}"
+			xmlns="http://www.w3.org/1999/xhtml"
+			xmlns:fb="http://ogp.me/ns/fb#">
+	<head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- FACEBOOK
+	currently unused og attributes
+	<meta property="og:title"              content="OUR SPECIAL FACEBOOK TITLE GOES HERE" />
+	<meta property="og:description"        content="OUR SPECIAL FACEBOOK DESCRIPTION GOES HERE" />
+	<meta property="og:locale.alternative" content="en | de" />
+	<meta property="og:url"                content="http://support.refugeesemancipation.com" />
+	<meta property="og:type"               content="website" />
+  -->
+	<meta property="og:locale"             content="{{ page.language }}" />
+	<meta property="og:image"              content="/assets/images/RE_FbBild.png" />
+
 	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/styles.css">
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.min.js"></script>
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/countdown.min.js"></script>
