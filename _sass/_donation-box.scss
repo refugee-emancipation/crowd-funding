@@ -1,0 +1,161 @@
+// Box to display a counter, fundraising results and the donation progress
+
+.campaign_box {
+  padding: 2% 4%;
+  background-color: #313131;
+  color: white;
+
+  .label {
+    font-size: 1.2em;
+    color: orange;
+  }
+
+  h2, h3 {
+    color: white;
+    font-size: 2em;
+    font-family: Lato;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  p {
+    margin-bottom: 0 !important;
+  }
+
+  a {
+    font-weight: normal;
+  }
+}
+
+.countdown {
+  text-align: center;
+
+  p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.donations {
+  text-align: left;
+  p {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+    @media all and (min-width:48em) {
+      font-size: 25px;
+    }
+  }
+  .donation-button {
+    font-size: 1em;
+    font-weight: bold;
+    height: 60px;
+
+    @media all and (min-width:48em) {
+      margin-left: 20px;
+    }
+    .button {
+      margin-bottom: 0;
+      padding: 0.53em 0;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+    .donation-button-sublabel {
+      text-align: center;
+      font-size: .8em;
+    }
+  }
+}
+
+/* No flexbox layout with position relative and a minimum height */
+.no-flexbox .flex-split {
+	position: relative;
+	min-height: 80vh;
+}
+
+/* stacked column below 48em */
+.flexbox .flex-split {
+	display: flex;
+	flex-direction: column;
+  margin: 1em 0;
+;
+}
+/* split screen above 48em */
+@media all and (min-width:48em) {
+	.flexbox .flex-split {
+		flex-direction: row;
+    margin: 2em 0 0 0;
+	}
+}
+
+@media all and (min-width:48em) {
+  .flex-split-left {
+    width: 80%;
+  }
+  .flex-split-right {
+    width: 20%;
+  }
+	.no-flexbox .flex-split > div {
+		min-height: 50vh;
+		top: 0;
+		bottom: 0;
+		float: left;
+		position: absolute;
+	}
+	/* Anchor to their respective sides	 */
+	.no-flexbox .flex-split-left {
+		left:0;
+	}
+	.no-flexbox .flex-split-right {
+		right:0;
+	}
+}
+
+/* For Flexbox - make the direct descendant divs content displayed in columns */
+.flexbox .flex-split > div {
+	display:flex;
+	flex-direction:column;
+}
+
+.flex-split > div {
+	justify-content: space-between;
+}
+
+@media #{$small-only} {
+  .campaign_box {
+    h2, #countdown {
+      font-size: 25px;
+    }
+    p, a {
+      font-size: 18px;
+    }
+    #countdown {
+      font-weight: normal;
+      line-height: 30px;
+    }
+  }
+}
+
+// Customized Progress Bar
+$progress-bar-color:          #313131;
+$progress-bar-margin-bottom:  2rem;
+$progress-bar-margin-top:     2rem;
+
+.progress {
+  background-color: $progress-bar-color;
+  margin-bottom:    $progress-bar-margin-bottom ;
+  height: 2.2rem;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+.progress.success .meter {
+  color: $progress-bar-color;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5%;
+}
