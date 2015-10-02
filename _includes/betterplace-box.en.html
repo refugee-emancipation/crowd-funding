@@ -2,12 +2,14 @@
   <div class="small-12 columns">
     <div class="campaign_box donations medium-12" id="betterplace">
       <h2>Donation Campaign Status</h2>
-      <div class="progress large-12 small-centered success">
-        <span class="meter" id="betterplace-meter" style="width: 0%"></span>
-      </div>
-      <div class="right">
-        <a class="button radius" alt="Visit donation website" href="https://www.betterplace.org/en/projects/20601-internetcafes-computerkurse-fur-gefluchtete" target="_blank">Donate Now</a>
-        <div class="text-center">via betterplace.org</div>
+      <div class="flex-split">
+        <div class="progress large-12 small-centered success flex-split-left">
+          <span class="meter" id="betterplace-meter" style="width: 0%"></span>
+        </div>
+        <div class="donation-button flex-split-right">
+          <a role="button" aria-label="submit form" class="button radius" alt="Visit donation website" href="https://www.betterplace.org/en/projects/20601-internetcafes-computerkurse-fur-gefluchtete" target="_blank">Donate Now</a>
+          <p class="donation-button-sublabel">via betterplace.org</p>
+        </div>
       </div>
       <p>Already <span class="label"><span id="donor-count"></span> Donors</span> but <span class="label" id="open-amount"></span> are still open!</p>
     </div>
