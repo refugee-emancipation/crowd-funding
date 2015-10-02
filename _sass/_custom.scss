@@ -57,7 +57,12 @@
 .campaign_box {
   padding: 4% 6%;
   background-color: #313131;
-  color: orange;
+  color: white;
+
+  .label {
+    font-size: 1.6em;
+    color: orange;
+  }
 
   h2, h3 {
     color: white;
@@ -115,12 +120,11 @@
 
 
 // Customized Progress Bar
-$progress-bar-color:          $grey-3;
+$progress-bar-color:          #313131;
 $progress-bar-margin-bottom:  2rem;
 $progress-bar-margin-top:     2rem;
 
 .progress {
-  border: none !important;
   padding: 0 !important;
   background-color: $progress-bar-color;
   margin-top:       $progress-bar-margin-top;

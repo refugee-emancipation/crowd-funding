@@ -1,0 +1,11 @@
+<script type='text/javascript'>
+$(document).ready(function(){
+  $.getJSON('https://api.betterplace.org/de/api_v4/projects/20601.json', function(data) {
+    $('#donor-count').text(data.donor_count);
+    $('#open-amount').text((data.open_amount_in_cents/100).toLocaleString() + "€");
+    $('#percentage').text(data.progress_percentage + "%");
+    $('#betterplace-meter').attr('style', 'width: '+ data.progress_percentage + '%');
+    $('#betterplace-meter').text(data.progress_percentage + "%");
+  });
+});
+</script>
