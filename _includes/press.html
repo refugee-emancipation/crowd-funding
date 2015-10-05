@@ -1,0 +1,57 @@
+<div id="presstable">
+  <ul id="press">
+    {% if page.is_default_language %}
+    {% comment %}
+       logic for /press
+    {% endcomment %}
+    {% raw %}
+    <script id="press-template" type="text/x-handlebars-template">
+      <li>
+        {{# if cells.title-de }}
+        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-de}}">{{cells.title-de}}</a> {{# if cells.title-en }}(<a href="{{cells.link-en}}">{{cells.title-en}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        {{else}}
+        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-en}}">{{cells.title-en}}</a> (nur Englisch){{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        {{/if}}
+      </li>
+    </script>
+    {% endraw %}
+
+    {% else %}
+    {% comment %}
+       logic for /en/press
+    {% endcomment %}
+    {% raw %}
+    <script id="press-template" type="text/x-handlebars-template">
+      <li>
+        {{# if cells.title-en }}
+        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-en}}">{{cells.title-en}}</a> {{# if cells.title-de }}(<a href="{{cells.link-de}}">{{cells.title-de}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        {{else}}
+        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-de}}">{{cells.title-de}}</a> (German only) {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        {{/if}}
+      </li>
+    </script>
+    {% endraw %}
+    {% endif %}
+  </ul>
+</div>
+<script language="javascript" type="text/javascript">
+var pressSheet = 'https://docs.google.com/spreadsheets/d/1xkunaEW258tDvt-_iGai-IytvzKFWYVY3nxSfasWJak/edit?pli=1#gid=607933394';
+
+{% comment %} set locale for date display {% endcomment %}
+moment.locale("{{ page.language }}");
+
+Handlebars.registerHelper("prettifyDate", function(datestring) {
+  var timestamp = Date.parse(datestring);
+  if (isNaN(timestamp) == false) {
+    return moment(new Date(datestring)).format('LL');
+  }
+});
+
+var pressTemplate = Handlebars.compile($('#press-template').html());
+  
+$('#presstable').sheetrock({
+  url: pressSheet,
+  rowTemplate: pressTemplate,
+  query: "select A,B,C,D,E,F order by A desc"
+});
+</script>
