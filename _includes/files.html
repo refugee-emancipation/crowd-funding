@@ -1,0 +1,7 @@
+<ul class="list list-files">
+{% for file in include.elements %}
+  <li>
+    <a href="{{ file.url }}">{{ file.title[page.language] }}</a>
+  </li>
+{% endfor %}
+</ul>
