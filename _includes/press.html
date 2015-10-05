@@ -37,6 +37,9 @@
 <script language="javascript" type="text/javascript">
 var pressSheet = 'https://docs.google.com/spreadsheets/d/1xkunaEW258tDvt-_iGai-IytvzKFWYVY3nxSfasWJak/edit?pli=1#gid=607933394';
 
+{% comment %} set locale for date display {% endcomment %}
+moment.locale("{{ page.language }}");
+
 Handlebars.registerHelper("prettifyDate", function(datestring) {
   var timestamp = Date.parse(datestring);
   if (isNaN(timestamp) == false) {
