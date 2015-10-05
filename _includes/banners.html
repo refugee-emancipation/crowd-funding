@@ -5,6 +5,7 @@
       <h3>{{ banner.title[page.language] }}</h3>
       <img src="{{ banner.url }}"/>
     </a>
+    <input type="text" class="banner-snippet" value="&lt;a href=&quot;{{ site.url | xml_escape }}&quot;&gt;&lt;img src=&quot;https://stats.52k.de/piwik.php?idsite=9&amp;rec=1&amp;action_name=SREBanner&quot; style=&quot;border:0&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;{{ site.url | xml_escape }}{{ banner.url | xml_escape }}&quot; style=&quot;border:0&quot; alt=&quot;Support Refugees Emancipation&quot; /&gt;&lt;/a&gt;"/>
   </li>
 {% endfor %}
 </ul>
