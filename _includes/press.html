@@ -48,6 +48,7 @@ var pressTemplate = Handlebars.compile($('#press-template').html());
   
 $('#presstable').sheetrock({
   url: pressSheet,
-  rowTemplate: pressTemplate
+  rowTemplate: pressTemplate,
+  query: "select A,B,C,D,E,F order by A desc"
 });
 </script>
