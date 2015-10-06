@@ -1,13 +1,13 @@
-<ul class="list list-banners accordion" data-accordion>
+<dl class="list banners-list accordion" data-accordion>
 {% for banner in include.elements %}
 {% capture i %}{% increment k %}{% endcapture %}
 {% capture copy %}<a href="{{ site.url }}"><img src="https://stats.52k.de/piwik.php?idsite=9&rec=1&action_name=SREBanner" style="border:0" alt="" /><img src="{{ banner.url | prepend: site.url }}" style="border:0" alt="Support Refugees Emancipation" /></a>{% endcapture %}
-  <li class="accordion-navigation">
-    <a href="#panel{{i}}a">{{ banner.title[page.language] }} ({{ banner.format }})</a>
+  <dd class="accordion-navigation">
+  <a href="#panel{{i}}a"><span class="iconfont"></span>{{ banner.title[page.language] }} ({{ banner.format }})</a>
     <div id="panel{{i}}a" class="content">
       <img src="{{ banner.url }}"/>
       <input type="text" class="banner-snippet" value="{{ copy | xml_escape }}"/>
     </div>
-  </li>
+  </dd>
 {% endfor %}
-</ul>
+</dl>
