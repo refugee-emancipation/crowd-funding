@@ -1,35 +1,63 @@
-- title: Start
+- title:
+    de: Start
+    en: Start
   url: "/"
   side: left
 
-- title: Downloads
+- title:
+    en: Downloads
+    de: Downloads
   url: "/downloads/"
   side: left
   dropdown:
-  - title: "Presskit"
+  - title:
+      en: "Presskit"
+      de: "Pressekit"
     url: "/downloads/presskit/"
 
-- title: "Templates"
+- title:
+    de: "Templates"
+    en: "English Templates"
   url: "/design/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
+  - title:
+      de: "Kästchen & Farben"
+      en: "Grid & Colors"
     url: "/design/grid/"
-  - title: "Typography"
+  - title:
+      de: "Typography"
+      en: "Typography"
     url: "/design/typography/"
-  - title: "Page/Post"
+  - title:
+      de: "Page/Post"
+      en: "Page/Post"
     url: "/design/page/"
-  - title: "Post-Left-Sidebar"
+  - title:
+      de: "Post-Left-Sidebar"
+      en: "Post-Left-Sidebar"
     url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
+  - title:
+      de: "Post-Right-Sidebar"
+      en: "Post-Right-Sidebar"
     url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
+  - title:
+      de: "Page Full-Width"
+      en: "Page Full-Width"
     url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
+  - title:
+      de: "Blog-Page"
+      en: "Blog-Page"
     url: "/blog/"
-  - title: "Video"
+  - title:
+      de: "Video"
+      en: "Video"
     url: "/design/video/"
-  - title: "Gallery"
+  - title:
+      de: "Gallery"
+      en: "Gallery"
     url: "/design/gallery/"
-  - title: "Portfolio"
+  - title:
+      de: "Portfolio"
+      en: "Portfolio"
     url: "/design/portfolio/"
