@@ -107,12 +107,13 @@ section {
   }
 }
 
-.banners-list {
-  li {
+// Banners and files
+.list {
+  dl {
     padding: 1em;
   }
 
-  ul {
+  dd {
     margin-left: 0;
   }
 }
