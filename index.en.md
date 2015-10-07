@@ -27,7 +27,6 @@ Aside from the founding members of the campaign, organizations and companies are
 
 2. Embed a [banner](http://support.refugeesemancipation.com/assets/downloads/zip/Banner_Support_Refugees_Emancipation.zip) on your website and link to the [donation page](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
 3. If you have ideas which companies and organizations we should contact, or you want to help establishing contact, send us an email at <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a>.
-4. We want to collect hardware in the coming weeks. But before that we need places to collect it that we can publish on our website. If you want to establish such a collection point, send us the address, contact person, and times/opening hours via <a href="mailto:support@refugeesemancipation.com">eMail</a> with the subject 'Hardware'.
 
 ## What is this about?
 
