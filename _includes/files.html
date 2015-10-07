@@ -4,11 +4,13 @@
   <dd class="accordion-navigation">
   <a href="#panel{{j}}f"><span class="iconfont"></span>{{ file.title[page.language] }} {{ file.filesize }}</a>
     <div id="panel{{j}}f" class="content">
-	    <a id="a{{j}}" href="{{ file.url }}">{{ file.url }}</a>, last modified
+      <a id="a{{j}}" href="{{ file.url }}">{{ file.url }}</a>, {{ site.data.language.last_modified[page.language] }} 
     </div>
   </dd>
   <script type="text/javascript">
-    $('#a{{j}}').append('x days ago'); // wip
+    var mtime{{j}} = "{{ file.url | remove_first:'/' | git_changed }}";
+    var time_ago{{j}} = moment(new Date(mtime{{j}})).locale("{{page.language}}").fromNow();
+    $('#panel{{j}}f').append(time_ago{{j}});
   </script>
 {% endfor %}
 </dl>

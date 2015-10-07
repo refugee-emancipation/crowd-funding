@@ -97,3 +97,6 @@ files:
 banners:
   de: "Banner"
   en: "Banners"
+last_modified:
+  de: "zuletzt geändert"
+  en: "last modified"
