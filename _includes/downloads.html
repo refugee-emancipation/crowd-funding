@@ -1,8 +1,12 @@
-
-<h2>{{ site.data.language.files[page.language] }}</h2>
-
-{% include files.html elements=site.data.downloads.files %}
-
-<h2>{{ site.data.language.banners[page.language] }}</h2>
-
-{% include banners.html elements=site.data.downloads.banners %}
+<div class="row t30">
+  <div class="small-12 columns">
+    <div id="file-downloads">
+      <h2>{{ site.data.language.files[page.language] }}</h2>
+      {% include files.html elements=site.data.downloads.files %}
+    </div>
+    <div id="banner-downloads">
+      <h2>{{ site.data.language.banners[page.language] }}</h2>
+      {% include banners.html elements=site.data.downloads.banners %}
+    </div>
+  </div>
+</div>

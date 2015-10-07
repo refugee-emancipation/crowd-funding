@@ -3,21 +3,26 @@ files:
       en: 'Press Kit (zip archive)'
       de: 'Pressematerial (Zip-Archiv)'
     url: /assets/downloads/zip/Pressekit_Support_Refugees_Emancipation.zip
+    filesize: "12Mb"
 
 banners:
   - title:
       en: 'Medium Rectangle'
       de: 'Mittelgroß, Horizontal'
     url: /assets/downloads/jpg/RE_MediumRectangle.jpg
+    format: '300x250'
   - title:
       en: 'Rectangle'
       de: 'Horizontal'
     url: /assets/downloads/jpg/RE_Rectangle.jpg
+    format: '180x150'
   - title:
       en: 'Super Banner'
       de: 'Super Banner'
     url: /assets/downloads/jpg/RE_SuperBanner.jpg
+    format: '728x90'
   - title:
       en: 'Wide Skyscraper'
       de: 'Breit und Vertikal'
     url: /assets/downloads/jpg/RE_WideSkyscraper.jpg
+    format: '160x600'
