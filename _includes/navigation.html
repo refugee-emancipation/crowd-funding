@@ -119,9 +119,11 @@
                       {% if dropdown_link.url contains 'http' %}
                         {% assign domain = '' %}
                         {% assign target = 'target="_blank"' %}
+                        {% assign lang = '' %}
                       {% else %}
                         {% assign domain = site.url %}
                         {% assign target = '' %}
+                        {% assign lang = page.language %}
                       {% endif %}
 
                       <li><a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
