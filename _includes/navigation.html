@@ -37,14 +37,14 @@
             {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}" {{ target }}>{{ link.title }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}" {{ target }}>{{ link.title | i18n }}</a></li>
 
             {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="divider"></li>
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}" {{ target }}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}" {{ target }}>{{ link.title | i18n }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
@@ -57,7 +57,7 @@
                         {% assign target = '' %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title }}</a></li>
+                      <li><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
                     {% endfor %}
                   </ul>
 
@@ -96,14 +96,14 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}"{{ target }}>{{ link.title }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}"{{ target }}>{{ link.title | i18n }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}"{{ target }}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ link.url }}"{{ target }}>{{ link.title | i18n }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
@@ -116,7 +116,7 @@
                         {% assign target = '' %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title }}</a></li>
+                      <li><a href="{{ domain }}{{ site.baseurl }}{{ page.language }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
                     {% endfor %}
                   </ul>
 
