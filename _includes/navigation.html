@@ -22,17 +22,14 @@
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
-                {% assign domain = '' %}
                 {% assign target = 'target="_blank"' %}
-                {% assign lang = '' %}
+                {% capture href %}{{ link.url }}{% endcapture %}
               {% elsif link.url == '#' %}
-                {% assign domain = '' %}
                 {% assign target = '' %}
-                {% assign lang = '' %}
+                {% capture href %}#{% endcapture %}
               {% else %}
-                {% assign domain = site.url %}
                 {% assign target = '' %}
-                {% assign lang = page.language %}
+                {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
               {% endif %}
 
           {% comment %}   If there are links for right side begin   {% endcomment %}
@@ -53,16 +50,14 @@
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% assign lang = '' %}
                         {% assign target = 'target="_blank"' %}
+                        {% capture href %}{{ link.url }}{% endcapture %}
                       {% else %}
-                        {% assign domain = site.url %}
-                        {% assign lang = page.language %}
                         {% assign target = '' %}
+                        {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
+                      <li><a href="{{ href }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
                     {% endfor %}
                   </ul>
 
@@ -86,17 +81,14 @@
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
-                {% assign domain = '' %}
                 {% assign target = 'target="_blank"' %}
-                {% assign lang = '' %}
+                {% capture href %}{{ link.url }}{% endcapture %}
               {% elsif link.url == '#' %}
-                {% assign domain = '' %}
                 {% assign target = '' %}
-                {% assign lang = '' %}
+                {% capture href %}#{% endcapture %}
               {% else %}
-                {% assign domain = site.url %}
                 {% assign target = '' %}
-                {% assign lang = page.language %}
+                {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
               {% endif %}
 
           {% comment %}   If there are links for left side begin   {% endcomment %}
@@ -104,29 +96,27 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ link.url }}"{{ target }}>{{ link.title | i18n }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ href }}" {{ target }}>{{ link.title | i18n }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ link.url }}"{{ target }}>{{ link.title | i18n }}</a>
+                <a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
                         {% assign target = 'target="_blank"' %}
-                        {% assign lang = '' %}
+                        {% capture href %}{{ link.url }}{% endcapture %}
                       {% else %}
-                        {% assign domain = site.url %}
                         {% assign target = '' %}
-                        {% assign lang = page.language %}
+                        {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ dropdown_link.url }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
+                      <li><a href="{{ href }}" {{ target }}>{{ dropdown_link.title | i18n }}</a></li>
                     {% endfor %}
                   </ul>
 
