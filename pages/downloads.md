@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Downloads"
 show_meta: false
 subheadline: "Material zu Refugees Emancipation und der Support-Kampagne"
