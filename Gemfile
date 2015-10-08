@@ -5,3 +5,5 @@ source "https://rubygems.org"
 
 gem 'jekyll', '2.5.3'
 gem 'jekyll-multiple-languages'
+gem 'rack-rewrite'
+gem 'sinatra'

@@ -13,30 +13,25 @@ For further information see [jekyllrb.com/docs/installation](http://jekyllrb.com
 
     ```gem install bundler```
 
-3. Jekyll
-
-    ```gem install jekyll```
+3. Jekyll, Rack, dependencies:
 
     ```bundle install```
 
-### Build static files
+### Building and previewing
 
-Jekyll comes with a built-in development server that will allow you to preview what the generated site will look like in your browser locally.
+For local development, use Jekyll to continually build the static files, and Rack to serve them:
 
-`jekyll serve` will run a development server at `http://localhost:4000/`
+```rackup```
 
-To get further information on Jekyll build options, see
-[jekyllrb.com/docs/usage/](http://jekyllrb.com/docs/usage/)
+Then visit `http://127.0.0.1:4000`.
 
 #### Build for Local Development
 
-```jekyll serve --config _config_dev.yml```
+To have Jekyll watch over your files, and rebuild the static files when the sources change, use:
 
+```jekyll build --config _config_dev.yml -w```
 
 #### Build for Production
-For Production, use following command and file
-
-```jekyll serve --config _config.yml```
 
 To build the static files for production, use `jekyll build`.
 
@@ -44,22 +39,19 @@ To build the static files for production, use `jekyll build`.
 
 For building static files for [staging.support.refugeesemancipation.com](staging.support.refugeesemancipation.com), use
 
-
 ```jekyll build --config _config.yml,_config_staging-env.yml```
 
 #### Build for development environment
 
 For building static files for [dev.support.refugeesemancipation.com](dev.support.refugeesemancipation.com), use
 
-
 ```jekyll build --config _config.yml,_config_dev-env.yml```
-
 
 
 ## How to Contribute
 1. Fork the repository. If you don't know how to do that, [follow these instructions](https://help.github.com/articles/fork-a-repo/)
 
-2. Then do the fix
+2. Then do the fix. If it's content-related, please try to update both the German and the English versoin. (Alternatively, please indicate in the PR if you need help with this.)
 
 3. Create a [pull request](https://help.github.com/articles/using-pull-requests/)
 
@@ -67,16 +59,6 @@ For building static files for [dev.support.refugeesemancipation.com](dev.support
 ### Website
 * Make fonts responsive
 * Fix mobile navigation
-
-### Concept
-* hosting the campaing (Kickstarter, StartNext, betterplace, self-hosted)
-* depending on the chosen plattform: sort our payment options and fees
-* discuss funding goals
-* collect ideas for "thank you" goodies (if wanted) like buttons, t-shirts or naming computers after supporters
-* update Refugee Emancipation website
-* <del>concept for a pitch - video</del>
-* <del>create a corporate identity (logo, icons, fonts, phrases)</del>
-
 
 ## Built with Jekyll Theme: *Feeling Responsive*
 
