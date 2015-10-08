@@ -7,7 +7,7 @@ This site is aimed to rise awareness for our upcoming crowdfunding campaign.
 For further information see [jekyllrb.com/docs/installation](http://jekyllrb.com/docs/installation/).
 1. Ruby <br>Your Ruby version should be at least 2.0.0
 
-    ```ruby --version```
+    `ruby --version`
 
 2. Bundler
 
