@@ -5,6 +5,7 @@
   <dd class="dl-accordion-navigation">
     <a href="#panel{{i}}a" id ="panel{{i}}a-heading" aria-controls="panel{{i}}a" role="tab"><span class="iconfont"></span>{{ banner.title[page.language] }} ({{ banner.format }})</a>
     <div id="panel{{i}}a" class="dl-accordion-content" role="tabpanel" aria-labelledby="panel{{i}}a-heading">
+    <a href="#panel{{i}}a" class="accordion-element" id ="panel{{i}}a-heading" aria-controls="panel{{i}}a" role="tab">
       <img src="{{ banner.url }}"/>
       <input type="text" class="banner-snippet" value="{{ copy | xml_escape }}"/>
     </div>
