@@ -5,6 +5,7 @@ This site is aimed to rise awareness for our upcoming crowdfunding campaign.
 ## Usage
 ### Installation
 For further information see [jekyllrb.com/docs/installation](http://jekyllrb.com/docs/installation/).
+
 1. Ruby <br>Your Ruby version should be at least 2.0.0
 Check it with `ruby --version`
 
