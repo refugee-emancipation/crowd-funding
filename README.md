@@ -21,7 +21,7 @@ For further information see [jekyllrb.com/docs/installation](http://jekyllrb.com
 
 For local development, use Jekyll to continually build the static files, and Rack to serve them:
 
-```rackup```
+`rackup`
 
 Then visit `http://127.0.0.1:4000`.
 
