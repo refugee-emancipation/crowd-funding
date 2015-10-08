@@ -5,37 +5,29 @@
 .list {
   dd {
     margin-left: 0;
-    a {
+  }
+  .content.active {
+    padding-top: 0;
 
+    .banner-snippet {
+      margin: 0.9375rem 0 0 0;
     }
   }
 }
 
-$include-html-accordion-classes: $include-html-classes !default;
-$accordion-navigation-bg-color: lighten($primary-color, 50%);
-$accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%) !default;
-$accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%) !default;
-$accordion-navigation-font-size: rem-calc(16) !default;
-$accordion-navigation-font-family: $body-font-family !default;
-$accordion-content-padding: ($column-gutter/2) !default;
-$accordion-content-active-bg-color: $primary-color !default;
+#file-downloads > h2,
+#banner-downloads > h2 {
+  margin: 1.2em 0 0 0;
+}
 
-dl.accordion { border: none !important;  }
+.accordion { border: none !important;  }
 .accordion dd { border: none !important; }
-dd.accordion-navigation span { padding-right: 12px !important;}
-dd.accordion-navigation span:before { content: "\F107" }
-dd.accordion-navigation.active span:before { content: "\F105" }
-dd.accordion-navigation.active span:before { content: "\F105" }
+.accordion-navigation span { padding-right: 12px !important;}
+.accordion-navigation span:before { content: "\F107" }
+.accordion-navigation.active span:before { content: "\F105" }
+.accordion-navigation.active span:before { content: "\F105" }
 
-
-.dl-accordion  {
-  @include accordion-container();
-
-  .dl-accordion-navigation  {
-    @include accordion-navigation();
-  }
-
-  .dl-accordion-navigation-content  {
-    @include accordion-content();
-  }
+.accordion .accordion-element,
+.accordion .accordion-element:visited {
+  border-bottom: none;
 }
