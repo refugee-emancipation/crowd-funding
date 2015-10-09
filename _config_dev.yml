@@ -21,12 +21,12 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
-    - design
-    - _posts
-    - blog
+    #- design
+    #- _posts
+    #- blog
     - Drucksachen
-    - pages/info.md
-    - pages/design.md
+    #- pages/info.md
+    #- pages/design.md
     - build
 
 gems: ['jekyll-multiple-languages']
