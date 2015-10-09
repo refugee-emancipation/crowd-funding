@@ -101,8 +101,13 @@ section {
   &.newsletter,
   &#mc_embed_signup,
   .mc-embed-inner,
-  &.up-to-top-arrow,
   &.up-to-top-inner {
     background-color: $grey-2;
+  }
+  &.up-to-top-arrow {
+    background-color: $grey-8;
+  }
+  &.extra-footer {
+    background-color: #fff;
   }
 }

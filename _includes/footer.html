@@ -1,4 +1,4 @@
-<section class="up-to-top-arrow">
+<section class="up-to-top-arrow {% if page.footer.size > 0 %}extra-footer{% endif %}">
   <div id="up-to-top" class="row">
     <div class="small-12 columns up-to-top-inner" style="text-align: right;">
       <a class="iconfont" href="#top-of-page">&#xf108;</a>
@@ -8,7 +8,9 @@
 
 <footer class="footer-content" class="bg-grau">
 
-  {% include sponsors.html %}
+  {% for f in page.footer %}
+    {% include footer/{{ f }}.html %}
+  {% endfor %}
 
   <div class="footer">
     <div class="row">
