@@ -1,4 +1,4 @@
-guard 'jekyll-plus', serve: true, port: 4000, config: ['_config_dev.yml'] do
+guard 'jekyll-plus', serve: true, config: ['_config_dev.yml'] do
   ignore /^_site/
   watch /.*/
 end
