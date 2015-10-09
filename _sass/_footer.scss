@@ -31,3 +31,25 @@
   color: #fff;
 }
 
+/* Srcoll-to-top-arrow */
+// Default for subpages
+.up-to-top-arrow {
+  background-color: #fff;
+  .up-to-top-inner {
+    background-color: #fff;
+  }
+  a:hover {
+    background: #fff !important;
+  }
+
+// And special for frontpage
+  &.extra-footer {
+    background-color: $grey-2;
+    .up-to-top-inner {
+      background-color: $grey-2;
+    }
+    a:hover {
+      background: $grey-2 !important;
+    }
+  }
+}
