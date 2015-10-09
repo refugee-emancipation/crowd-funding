@@ -1,6 +1,9 @@
 #\ -w -p4000
 require 'sinatra/base'
 require 'rack/rewrite'
+require 'rack-livereload'
+
+use Rack::LiveReload
 
 use Rack::Rewrite do
   rewrite %r{/de(.*)}, '$1'
