@@ -17,19 +17,16 @@ Check it with `ruby --version`
 
     ```bundle install```
 
-### Building and previewing
+### Local development: building and previewing
 
-For local development, use Jekyll to continually build the static files, and Rack to serve them:
+For local development, use Guard to run Jekyll on changes, and serve the files:
 
-`rackup`
+`guard`
 
 Then visit `http://127.0.0.1:4000`.
 
-#### Build for Local Development
-
-To have Jekyll watch over your files, and rebuild the static files when the sources change, use:
-
-```jekyll build --config _config_dev.yml -w```
+[Guard](https://github.com/guard/guard) will re-run Jekyll when its input files have changed, and trigger a browser reload using [guard-livereload](https://github.com/guard/guard-livereload) and [rake-livereload](https://github.com/johnbintz/rack-livereload).
+It also takes care of serving the files using [Rack](http://rack.github.io) via [guard-jekyll-plus](https://github.com/imathis/guard-jekyll-plus).
 
 #### Build for Production
 
