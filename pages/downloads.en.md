@@ -1,5 +1,6 @@
 ---
 layout: page-fullwidth
+meta_title: "Downloads - Refugees Emancipation Supporters Campaign"
 title: "Downloads"
 show_meta: false
 breadcrumb: true
