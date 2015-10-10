@@ -55,7 +55,6 @@ For building static files for [dev.support.refugeesemancipation.com](dev.support
 ## TODO
 ### Website
 * Make fonts responsive
-* Fix mobile navigation
 
 ## Built with Jekyll Theme: *Feeling Responsive*
 
