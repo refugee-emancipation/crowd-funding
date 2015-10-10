@@ -1,0 +1,45 @@
+/* Navigation Stylings
+------------------------------------------------------------------- */
+
+// Default styles for mobile navigation
+.top-bar-section li a {
+   background: #3FA9F5;
+   background-color: #3FA9F5;
+   color: #fff;
+   padding-left: 0;
+ }
+
+ .top-bar-section ul li > a  {
+   color: #fff;
+ }
+
+ .top-bar-section ul li {
+     background: #fff;
+     text-align: center;
+ }
+
+ .top-bar-section ul li:hover:not(.has-form) > a {
+   background: #0c8dea !important;
+   background-color: #0c8dea !important;
+   color: #fff !important;
+   transition: all 0.2s ease-in-out !important;
+}
+
+
+// Wider Screens
+ @media only screen and (min-width: 64.063em){
+   .top-bar-section li a {
+     background-color: #fff !important;
+     background: #fff !important;
+     color: #3FA9F5 !important;
+     transition: all 0.2s ease-in-out;
+   }
+ }
+
+ @media only screen and (min-width: 64.063em){
+   .top-bar-section li a:hover {
+       color:  #fff !important;
+       background: #3FA9F5 !important;
+       transition: all 0.2s ease-in-out !important;
+   }
+ }
