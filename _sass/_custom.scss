@@ -66,43 +66,11 @@
     margin-bottom: 0.3em;
 }
 
-// Footer
-.footer {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-// Subfooter
-#subfooter {
-  padding: 20px 0 !important;
-
-  .inline-list {
-    margin: 0 auto 0 -1.375rem !important;
-  }
-
-  #subfooter-right {
-    margin-top: 1.0625rem !important;
-  }
-
-  @media only screen and (min-width: 40.063em) {
-    #subfooter-right {
-      margin-top: 0 !important;
-    }
-  }
-}
-
-//Mail footer
-.footer p a {
-  color: #fff;
-}
-
 // Sections in different background colors
 section {
   &.newsletter,
   &#mc_embed_signup,
-  .mc-embed-inner,
-  &.up-to-top-arrow,
-  &.up-to-top-inner {
+  .mc-embed-inner {
     background-color: $grey-2;
   }
 }

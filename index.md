@@ -6,6 +6,9 @@
 #
 layout: frontpage
 
+footer:
+  - sponsors
+
 title: "Internet for Refugees by Refugees"
 
 teaser: "<a href='http://ccc.de'>Der Chaos Computer Club e.V.</a>, <a href='http://berlin.freifunk.net'>Freifunk Berlin</a> und der <a href='http://foerderverein.freie-netzwerke.de'>Förderverein freie Netzwerke e.V.</a> unterstützen <a href='http://refugeesemancipation.com'>Refugees Emancipation</a>, die sich seit Jahren dafür einsetzen, in Geflüchtetenunterkünften Internetcafés einzurichten und Computerkurse zu organisieren. Einige Cafés konnten RE schon aufbauen und dort den Bewohnenden der Unterkünfte die Möglichkeit geben, an Informationen zu gelangen und mit der Außenwelt zu kommunizieren."

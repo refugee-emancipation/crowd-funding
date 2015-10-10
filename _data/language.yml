@@ -91,3 +91,12 @@ logo:
 og_locale:
   de: "de_DE"
   en: "en_US"
+files:
+  de: "Dateien"
+  en: "Files"
+banners:
+  de: "Banner"
+  en: "Banners"
+last_modified:
+  de: "zuletzt geändert"
+  en: "last modified"
