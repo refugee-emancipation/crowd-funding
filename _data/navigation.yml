@@ -1,11 +1,7 @@
-- title:
-    de: Start
-    en: Start
+- title: Start
   url: "/"
   side: left
 
-- title:
-    en: Downloads
-    de: Downloads
+- title: Downloads
   url: "/downloads/"
   side: left
