@@ -1,0 +1,20 @@
+<dl class="list banners-list accordion" data-accordion role="tablist">
+{% for banner in include.elements %}
+{% capture i %}{% increment k %}{% endcapture %}
+{% capture copy %}
+  <a href="{{ site.url }}">
+    <img src="https://stats.52k.de/piwik.php?idsite=9&rec=1&action_name=SREBanner" style="border:0" alt="" />
+    <img src="{{ banner.url | prepend: site.url }}" style="border:0" alt="Support Refugees Emancipation" />
+  </a>
+{% endcapture %}
+  <dd class="accordion-navigation">
+    <a href="#panel{{i}}a" class="accordion-element" id ="panel{{i}}a-heading" aria-controls="panel{{i}}a" role="tab">
+      <span class="iconfont"></span>{{ banner.title[page.language] }} ({{ banner.format }})
+    </a>
+    <div id="panel{{i}}a" class="content" role="tabpanel" aria-labelledby="panel{{i}}a-heading">
+      <img src="{{ banner.url }}"/>
+      <input type="text" class="banner-snippet" value="{{ copy | xml_escape }}"/>
+    </div>
+  </dd>
+{% endfor %}
+</dl>

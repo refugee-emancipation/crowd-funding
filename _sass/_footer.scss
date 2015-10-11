@@ -1,0 +1,55 @@
+/* Footer Stylings
+------------------------------------------------------------------- */
+
+/* General */
+.footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Subfooter */
+#subfooter {
+  padding: 20px 0 !important;
+
+  .inline-list {
+    margin: 0 auto 0 -1.375rem !important;
+  }
+
+  #subfooter-right {
+    margin-top: 1.0625rem !important;
+  }
+
+  @media only screen and (min-width: 40.063em) {
+    #subfooter-right {
+      margin-top: 0 !important;
+    }
+  }
+}
+
+/* Mail footer */
+.footer-content .footer p a {
+  color: #fff;
+}
+
+/* Srcoll-to-top-arrow */
+// Default for subpages
+.up-to-top-arrow {
+  background-color: #fff;
+  .up-to-top-inner {
+    background-color: #fff;
+  }
+  a:hover {
+    background: #fff !important;
+  }
+
+// And special for frontpage
+  &.extra-footer {
+    background-color: $grey-2;
+    .up-to-top-inner {
+      background-color: $grey-2;
+    }
+    a:hover {
+      background: $grey-2 !important;
+    }
+  }
+}

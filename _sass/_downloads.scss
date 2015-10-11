@@ -1,0 +1,33 @@
+/* Download Page
+------------------------------------------------------------------- */
+
+// List of downloads
+.list {
+  dd {
+    margin-left: 0;
+  }
+  .content.active {
+    padding-top: 0;
+
+    .banner-snippet {
+      margin: 0.9375rem 0 0 0;
+    }
+  }
+}
+
+#file-downloads > h2,
+#banner-downloads > h2 {
+  margin: 1.2em 0 0 0;
+}
+
+.accordion { border: none !important;  }
+.accordion dd { border: none !important; }
+.accordion-navigation span { padding-right: 12px !important;}
+.accordion-navigation span:before { content: "\F107" }
+.accordion-navigation.active span:before { content: "\F105" }
+.accordion-navigation.active span:before { content: "\F105" }
+
+.accordion .accordion-element,
+.accordion .accordion-element:visited {
+  border-bottom: none;
+}

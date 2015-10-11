@@ -5,6 +5,10 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
+meta_title: "Refugees Emancipation Supporters Campaign"
+
+footer:
+  - sponsors
 
 title: "Internet for Refugees by Refugees"
 
