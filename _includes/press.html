@@ -6,11 +6,18 @@
     {% endcomment %}
     {% raw %}
     <script id="press-template" type="text/x-handlebars-template">
-      <li>
+      <li class="publication">
         {{# if cells.title-de }}
-        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-de}}">{{cells.title-de}}</a> {{# if cells.title-en }}(<a href="{{cells.link-en}}">{{cells.title-en}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        <p>
+          <date class="date">{{prettifyDate cells.Datum}}</date><br>
+          <a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a>
+          {{# if cells.title-en }}(<a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        </p>
         {{else}}
-        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-en}}">{{cells.title-en}}</a> (nur Englisch){{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        <p>
+          <date class="date">{{prettifyDate cells.Datum}}</date><br>
+          <a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>(nur Englisch){{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        </p>
         {{/if}}
       </li>
     </script>
@@ -24,9 +31,18 @@
     <script id="press-template" type="text/x-handlebars-template">
       <li>
         {{# if cells.title-en }}
-        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-en}}">{{cells.title-en}}</a> {{# if cells.title-de }}(<a href="{{cells.link-de}}">{{cells.title-de}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        <p>
+          <date class="date">{{prettifyDate cells.Datum}}</date><br>
+          <a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>
+          {{# if cells.title-de }}(<a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a>){{/if}}
+          {{#if cells.Autor}}{{cells.Autor}}, {{/if}}
+          {{cells.Wer}}
+        </p>
         {{else}}
-        <strong>{{prettifyDate cells.Datum}}</strong> <a href="{{cells.link-de}}">{{cells.title-de}}</a> (German only) {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        <p>
+          <date class="date">{{prettifyDate cells.Datum}}</date><br>
+          <a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a> (German only) {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+        </p>
         {{/if}}
       </li>
     </script>
@@ -48,7 +64,7 @@ Handlebars.registerHelper("prettifyDate", function(datestring) {
 });
 
 var pressTemplate = Handlebars.compile($('#press-template').html());
-  
+
 $('#presstable').sheetrock({
   url: pressSheet,
   rowTemplate: pressTemplate,
