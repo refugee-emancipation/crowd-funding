@@ -7,6 +7,12 @@
   side: left
 
 - title:
+    de: Presse
+    en: Press
+  url: "/press/"
+  side: left
+
+- title:
     de: Hardwarespenden
     en: Hardware Donations
   url: "/hardware/"
