@@ -65,9 +65,10 @@ Issuing donation receipts takes quite a bit of processing effort. We kindly ask 
 
 <p><a href="http://www.openstreetmap.org/?mlat=52.3691&amp;mlon=13.0877#map=13/52.3691/13.0877&amp;layers=T">Show larger map</a></p>
 
+<p>Zum Jagenstein 1 | 14478 Potsdam<br>
 Opening hours: <br>
-12.00-5.00pm (please contact RE in advance by telephone)<br>
-+49 3312016927 or +49 3312015758
+12.00 - 5.00pm (please contact RE in advance by telephone)<br>
++49 3312016927 or +49 3312015758</p>
 </div>
 
 <div class="large-6 columns">
@@ -76,7 +77,8 @@ Opening hours: <br>
 
 <p><a href="http://www.openstreetmap.org/#map=16/52.5130/13.4181&amp;layers=T">Show larger map</a></p>
 
-<p>Opening hours: <br>
+<p>Rungestrasse 20 | 10179 Berlin<br>
+Opening hours: <br>
 14.10. 20-22 h Freifunk Meetup<br>
 21.10. 20-22 h Freifunk Meetup<br>
 Location sketch: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>

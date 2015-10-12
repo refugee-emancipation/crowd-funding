@@ -66,7 +66,7 @@ Kleine Kratzer oder Abnutzungserscheinungen sind kein Problem, solange die Gerä
 
 <p>Zum Jagenstein 1 | 14478 Potsdam<br>
 Öffnungszeiten:<br>
-nach Anmeldung per Telefon (12.00 bis 17:00)<br>
+nach Anmeldung per Telefon (12.00 bis 17:00 Uhr)<br>
 Telefon: 03312016927 / 03312015758</p>
 </div>
 
@@ -76,7 +76,8 @@ Telefon: 03312016927 / 03312015758</p>
 
 <p><a href="http://www.openstreetmap.org/#map=16/52.5130/13.4181&amp;layers=T">Größere Karte anzeigen</a></p>
 
-<p>Öffnungszeiten:<br>
+<p>Rungestrasse 20 | 10179 Berlin<br>
+Öffnungszeiten:<br>
 14.10. 20-22 h Freifunk Meetup<br>
 21.10. 20-22 h Freifunk Meetup<br>
 Anfahrtskizze: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>
