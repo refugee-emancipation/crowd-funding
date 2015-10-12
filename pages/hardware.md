@@ -4,7 +4,7 @@ meta_title: "Refugees Emancipation Supporters Campaign - Hardware Spenden"
 title: "Hardware für die Internetcafés"
 subheadline: "Hardware Spenden"
 show_meta: false
-teaser: "Neben den Geldspenden und den Menschen die Zeit und Fähigkeiten in dieses Projekt stecken, kommen auch immer wieder Menschen auf uns zu, die uns fragen, ob sie uns mit Hardware unterstützen können."
+teaser: "Neben den Geldspenden und den Menschen, die Zeit und Fähigkeiten in dieses Projekt stecken, kommen auch immer wieder Menschen auf uns zu, die uns fragen, ob sie uns mit Hardware unterstützen können."
 permalink: "/hardware/"
 ---
 
