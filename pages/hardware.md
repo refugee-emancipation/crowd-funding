@@ -73,12 +73,12 @@ Telefon: 03312016927 / 03312015758</p>
 <h4> c-base e.V. - Seminarraum</h4>
 <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=13.412847518920898%2C52.50888177697507%2C13.427395820617676%2C52.51731770402358&amp;layer=transportmap&amp;marker=52.51309994293086%2C13.420121669769287" style="border: 1px solid #ccc; margin-top: 0.7em"></iframe>
 
-<p><a href="http://www.openstreetmap.org/?mlat=52.3691&amp;mlon=13.0877#map=13/52.3691/13.0877&amp;layers=T">Größere Karte anzeigen</a></p>
+<p><a href="http://www.openstreetmap.org/#map=16/52.5130/13.4181&amp;layers=T">Größere Karte anzeigen</a></p>
 
 <p>Öffnungszeiten:<br>
 14.10. 20-22 h Freifunk Meetup<br>
 21.10. 20-22 h Freifunk Meetup<br>
-Anfahrtskizze: [www.c-base.org/cv50f/core/impressum.html](https://www.c-base.org/cv50f/core/impressum.html)<br>
+Anfahrtskizze: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>
 Mail: TBA</p>
 </div>
 </div>
