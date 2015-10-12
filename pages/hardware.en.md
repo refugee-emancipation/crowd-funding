@@ -4,6 +4,7 @@ meta_title: "Refugees Emancipation Supporters Campaign - Hardware Donations"
 title: "Hardware for the Internet Cafés"
 subheadline: "Hardware Donations"
 show_meta: false
+breadcrumb: true
 teaser: "Alongside the donations of time, expertise, and money that we receive, we're often asked whether we accept hardware donations."
 permalink: "/hardware/"
 ---
