@@ -5,3 +5,9 @@
 - title: Downloads
   url: "/downloads/"
   side: left
+
+- title:
+    de: Hardwarespenden
+    en: Hardware Donations
+  url: "/hardware/"
+  side: left
