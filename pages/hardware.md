@@ -66,7 +66,7 @@ Kleine Kratzer oder Abnutzungserscheinungen sind kein Problem, solange die Gerä
 
 <p>Zum Jagenstein 1 | 14478 Potsdam<br>
 Öffnungszeiten:<br>
-nach Anmeldung per Telefon (12.00 bis 17:00 Uhr)<br>
+nach Anmeldung per Telefon (12.00 bis 17.00 Uhr)<br>
 Telefon: 03312016927 / 03312015758</p>
 </div>
 
