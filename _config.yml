@@ -75,8 +75,8 @@ exclude:
     - pages/info.md
     - pages/design.md
     - _site
-
-
+    - Rakefile
+    - PRESS.md
 
 
 #

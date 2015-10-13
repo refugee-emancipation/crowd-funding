@@ -1,73 +1,55 @@
 <div id="presstable">
   <ul id="press">
+    {% assign items = site.data.press | sort: 'date' | reverse %}
     {% if page.is_default_language %}
     {% comment %}
-       logic for /press
+       logic for /de/press
     {% endcomment %}
-    {% raw %}
-    <script id="press-template" type="text/x-handlebars-template">
+      {% for i in items %}
       <li class="publication">
-        {{# if cells.title-de }}
+        {% if i.title.de %}
         <p>
-          <date class="date">{{prettifyDate cells.Datum}}</date><br>
-          <a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a>
-          {{# if cells.title-en }}(<a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>){{/if}} {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+	  <date class="date">{{ i.date }}</date><br>
+          <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
+          {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %} {%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}
         </p>
-        {{else}}
+        {% else %}
         <p>
-          <date class="date">{{prettifyDate cells.Datum}}</date><br>
-          <a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>(nur Englisch){{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+	  <date class="date">{{ i.date }}</date><br>
+          <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch){%if i.author %} {{ i.author }}, {% endif %} {{ i.source }}
         </p>
-        {{/if}}
+        {% endif %}
       </li>
-    </script>
-    {% endraw %}
-
+      {% endfor %}
     {% else %}
     {% comment %}
        logic for /en/press
     {% endcomment %}
-    {% raw %}
-    <script id="press-template" type="text/x-handlebars-template">
-      <li>
-        {{# if cells.title-en }}
+      {% for i in items %}
+      <li class="publication">
+        {% if cells.title.en %}
         <p>
-          <date class="date">{{prettifyDate cells.Datum}}</date><br>
-          <a href="{{cells.link-en}}" class="pub-link" target="_blank">{{cells.title-en}}</a>
-          {{# if cells.title-de }}(<a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a>){{/if}}
-          {{#if cells.Autor}}{{cells.Autor}}, {{/if}}
-          {{cells.Wer}}
+	  <date class="date">{{ i.date }}</date><br>
+          <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
+          {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %} {%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}
         </p>
-        {{else}}
+        {% else %}
         <p>
-          <date class="date">{{prettifyDate cells.Datum}}</date><br>
-          <a href="{{cells.link-de}}" class="pub-link" target="_blank">{{cells.title-de}}</a> (German only) {{#if cells.Autor}}{{cells.Autor}}, {{/if}}{{cells.Wer}}
+	  <date class="date">{{ i.date }}</date><br>
+          <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only){%if i.author %} {{ i.author }},{% endif %} {{ i.source }}
         </p>
-        {{/if}}
+        {% endif %}
       </li>
-    </script>
-    {% endraw %}
+      {% endfor %}
     {% endif %}
   </ul>
 </div>
-<script language="javascript" type="text/javascript">
-var pressSheet = 'https://docs.google.com/spreadsheets/d/1xkunaEW258tDvt-_iGai-IytvzKFWYVY3nxSfasWJak/edit?pli=1#gid=607933394';
-
-{% comment %} set locale for date display {% endcomment %}
-moment.locale("{{ page.language }}");
-
-Handlebars.registerHelper("prettifyDate", function(datestring) {
-  var timestamp = Date.parse(datestring);
-  if (isNaN(timestamp) == false) {
-    return moment(new Date(datestring)).format('LL');
-  }
-});
-
-var pressTemplate = Handlebars.compile($('#press-template').html());
-
-$('#presstable').sheetrock({
-  url: pressSheet,
-  rowTemplate: pressTemplate,
-  query: "select A,B,C,D,E,F order by A desc"
-});
+<script type="text/javascript">
+  moment.locale("{{ page.language }}");
+  $('.date').map(function() {
+    var timestamp = Date.parse(this.innerHTML);
+    if (isNaN(timestamp) == false) {
+      this.innerHTML =  moment(new Date(this.innerHTML)).format('LL');
+    }
+  });
 </script>
