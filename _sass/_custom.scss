@@ -83,12 +83,17 @@ section {
 }
 
 // Publication List
-#press, .publication {
+#press, .publications {
   list-style-type: none;
   margin-left: 0;
 }
 
-.publication {
+/*.publications-group li {
+  font-weight: 700;
+  }
+*/
+
+.publications {
   margin-bottom: 1em;
   li {
     margin-bottom: 0;
@@ -97,8 +102,8 @@ section {
   a {
     font-weight: normal;
   }
-}
 
-.date {
-  margin-bottom: 0;
+  .date {
+    margin-bottom: 0;
+  }
 }
