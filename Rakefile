@@ -1,20 +1,26 @@
 require 'csv'
 require 'yaml'
+require 'open-uri'
+
+def clean(t)
+   t.strip if t
+end
 
 file '_data/press.yml' do |t|
+  sheet = 'https://docs.google.com/spreadsheets/d/1xkunaEW258tDvt-_iGai-IytvzKFWYVY3nxSfasWJak/pub?gid=607933394&single=true&output=csv'
   data = []
-  CSV.foreach('RE Presseschau - Website-Daten.csv', headers: true) do |item|
+  CSV.new(open(sheet).read.force_encoding('utf-8'), headers: true).each do |item|
     data << {
       'title' => {
-        'de' => item['title-de'],
-        'en' => item['title-en']
+        'de' => clean(item['title-de']),
+        'en' => clean(item['title-en'])
       },
-      'author' => item['Autor'],
-      'source' => item['Wer'],
-      'date' => item['Datum'],
+      'author' => clean(item['Autor']),
+      'source' => clean(item['Wer']),
+      'date' => clean(item['Datum']),
       'link' => {
-        'de' => item['link-de'],
-        'en' => item['link-en']
+        'de' => clean(item['link-de']),
+        'en' => clean(item['link-en'])
       }
     }
   end
@@ -22,3 +28,4 @@ file '_data/press.yml' do |t|
     h.write(data.to_yaml)
   end
 end
+
