@@ -1,10 +1,11 @@
 <div id="presstable">
   <ul id="press">
+    {% assign items = site.data.press | sort: 'date' | reverse %}
     {% if page.is_default_language %}
     {% comment %}
-       logic for /press
+       logic for /de/press
     {% endcomment %}
-      {% for i in site.data.press %}
+      {% for i in items %}
       <li class="publication">
         {% if i.title.de %}
         <p>
@@ -24,8 +25,8 @@
     {% comment %}
        logic for /en/press
     {% endcomment %}
-      {% for i in site.data.press %}
-      <li>
+      {% for i in items %}
+      <li class="publication">
         {% if cells.title.en %}
         <p>
 	  <date class="date">{{ i.date }}</date><br>
