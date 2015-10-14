@@ -1,50 +1,42 @@
 <div id="presstable">
   <ul id="press" class="no-bullet">
     {% assign items = site.data.press | sort: 'date' | reverse %}
-    {% if page.is_default_language %}
-    {% comment %}
-       logic for /de/press
-    {% endcomment %}
-      {% for i in items %}
-        <li class="publications">
-          <date class="date">{{ i.date }}</date>
-          {% if i.title.de %}
-            <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
-    	    {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %}
+    {% for i in items %}
+    <li class="publications">
+      <date class="date">{{ i.date }}</date>
+      {% if page.is_default_language %}
+        {% comment %}
+          logic for /de/press
+        {% endcomment %}
+        {% if i.title.de %}
+          <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
+          {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %}
           <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
-    	    {% else %}
-            <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch)
-            <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %} {{ i.source }}</span>
-          {% endif %}
-    	    {% if i.teaser.de %}
-    	      <p>{{ i.teaser.de }}
-    	    {% endif %}
-          </p>
-        </li>
-      {% endfor %}
-    {% else %}
-
-    {% comment %}
-       logic for /en/press
-    {% endcomment %}
-      {% for i in items %}
-      <li class="publications">
-        <date class="date">{{ i.date }}</date>
-          {% if i.title.en %}
-            <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
-	        {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %}
+        {% else %}
+          <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch)
           <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
-	        {% else %}
-            <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only)
-            <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %} {{ i.source }}</span>
-          {% endif %}
-	        {% if i.teaser.en %}
-	         <p>{{ i.teaser.en }}
-	        {% endif %}
-          </p>
-        </li>
-      {% endfor %}
-    {% endif %}
+        {% endif %}
+        {% if i.teaser.de %}
+          <p>{{ i.teaser.de }}</p>
+        {% endif %}
+      {% else %}
+        {% comment %}
+          logic for /en/press
+        {% endcomment %}
+        {% if i.title.en %}
+          <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
+          {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %}
+          <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
+        {% else %}
+          <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only)
+          <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
+        {% endif %}
+        {% if i.teaser.en %}
+          <p>{{ i.teaser.en }}</p>
+        {% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
   </ul>
 </div>
 <script type="text/javascript">
