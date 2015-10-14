@@ -22,4 +22,8 @@
   &:hover {
     color: #3FA9F5;
   }
+  &:focus,
+  &:active {
+    color: #0c8dea;
+  }
 }
