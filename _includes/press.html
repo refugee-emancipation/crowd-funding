@@ -1,57 +1,48 @@
 <div id="presstable">
   <ul id="press" class="no-bullet">
-    {% assign groups = site.data.press | group_by: 'date' | sort: 'name' | reverse %}
+    {% assign items = site.data.press | sort: 'date' | reverse %}
     {% if page.is_default_language %}
     {% comment %}
        logic for /de/press
     {% endcomment %}
-      {% for group in groups %}
-      <li class="publication-date">
-        <date id="{{ group.name }}" class="date">{{ group.name }}</date>
-        <ul class="publications no-bullet">
-          {% for i in group.items %}
-          <li class="publication">
-            <p>
-            {% if i.title.de %}
-              <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
-	      {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %} {%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}
-	    {% else %}
-              <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch){%if i.author %} {{ i.author }}, {% endif %} {{ i.source }}
-            {% endif %}
-	    {% if i.teaser.de %}
-	      <br/>{{ i.teaser.de }}
-	    {% endif %}
-            </p>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
+      {% for i in items %}
+        <li class="publications">
+          <date class="date">{{ i.date }}</date>
+          {% if i.title.de %}
+            <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
+    	    {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %}
+          <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
+    	    {% else %}
+            <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch)
+            <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %} {{ i.source }}</span>
+          {% endif %}
+    	    {% if i.teaser.de %}
+    	      <p>{{ i.teaser.de }}
+    	    {% endif %}
+          </p>
+        </li>
       {% endfor %}
     {% else %}
+
     {% comment %}
        logic for /en/press
     {% endcomment %}
-      {% for group in groups %}
-      <li class="publication-date">
-        <date id="{{ group.name }}" class="date">{{ group.name }}</date>
-        <ul class="publications">
-          {% for i in group.items %}
-          <li class="publication">
-            <p>
-            {% if i.title.en %}
-              <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
-	      {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %} {%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}
-	    {% else %}
-              <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only){%if i.author %} {{ i.author }}, {% endif %} {{ i.source }}
-            {% endif %}
-	    {% if i.teaser.en %}
-	      <br/>{{ i.teaser.en }}
-	    {% endif %}
-            </p>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
+      {% for i in items %}
+      <li class="publications">
+        <date class="date">{{ i.date }}</date>
+          {% if i.title.en %}
+            <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
+	        {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %}
+          <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
+	        {% else %}
+            <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only)
+            <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %} {{ i.source }}</span>
+          {% endif %}
+	        {% if i.teaser.en %}
+	         <p>{{ i.teaser.en }}
+	        {% endif %}
+          </p>
+        </li>
       {% endfor %}
     {% endif %}
   </ul>
