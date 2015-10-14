@@ -1,0 +1,25 @@
+/* Press- and Publicationlist
+------------------------------------------------------------------- */
+
+.date {
+  margin-bottom: 0;
+  display: block;
+}
+
+.publications {
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.pub-info {
+  display: block;
+  font-weight: 700;
+}
+
+.pub-link {
+  font-weight: normal;
+  color: #0c8dea;
+  &:hover {
+    color: #3FA9F5;
+  }
+}

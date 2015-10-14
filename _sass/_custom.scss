@@ -81,24 +81,3 @@ section {
   border-color: #3FA9F5 !important;
   background: #fff !important;
 }
-
-// Publication List
-#press, .publication {
-  list-style-type: none;
-  margin-left: 0;
-}
-
-.publication {
-  margin-bottom: 1em;
-  li {
-    margin-bottom: 0;
-    font-weight: normal;
-  }
-  a {
-    font-weight: normal;
-  }
-}
-
-.date {
-  margin-bottom: 0;
-}
