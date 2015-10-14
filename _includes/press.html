@@ -10,7 +10,7 @@
         {% endcomment %}
         {% if i.title.de %}
           <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>
-          {% if i.title.en %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %}
+          {% if i.title.en and (i.link.en != i.link.de)  %}(<a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>){% endif %}
           <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
         {% else %}
           <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a> (nur Englisch)
@@ -25,7 +25,7 @@
         {% endcomment %}
         {% if i.title.en %}
           <a href="{{ i.link.en }}" class="pub-link" target="_blank">{{ i.title.en }}</a>
-          {% if i.title.de %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %}
+          {% if i.title.de and (i.link.de != i.link.en) %}(<a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a>){% endif %}
           <span class="pub-info">{%if i.author %}{{ i.author }}, {% endif %}{{ i.source }}</span>
         {% else %}
           <a href="{{ i.link.de }}" class="pub-link" target="_blank">{{ i.title.de }}</a> (German only)
