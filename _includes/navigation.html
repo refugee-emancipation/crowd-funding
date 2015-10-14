@@ -65,6 +65,12 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        <li class="divider"></li>
+          {% if page.is_default_language %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
+	  {% else %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">German</a></li>
+	  {% endif %}
         {% comment %}   First loop finished 1   {% endcomment %}
       </ul>
 {% comment %}
