@@ -1,0 +1,19 @@
+/* Social Top-Bar Stylings
+------------------------------------------------------------------- */
+
+.social-media-section {
+  //color: #3FA9F5 !important;
+  .social-icons li a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: #fff;
+    background: #3FA9F5;
+    text-align: center;
+  }
+  .social-icons li a:hover {
+    color:  #3FA9F5;
+    background: #fff;
+  }
+}
