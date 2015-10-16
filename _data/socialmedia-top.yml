@@ -25,23 +25,3 @@
   title:
     de: Unsere E-Mail Adresse
     en: Our email address
-
-- name: Website
-  url: http://www.refugeesemancipation.com
-  class: icon-globe
-  title:
-    de: Die Website von Refugees Emancipation
-    en: The website of Refugees Emancipation
-
-- name: GitHub
-  url: https://github.com/refugee-emancipation/crowd-funding
-  class: icon-github
-  title:
-    de: Diese Seite auf GitHub
-    en: This site on GitHub
-
-
-# - name: Xing
-#   url: https://www.xing.com/profile/Moritzmo_Sauer
-#   class: icon-xing
-#   title: Xing Profil
