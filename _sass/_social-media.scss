@@ -1,0 +1,27 @@
+/* Social Top-Bar Stylings
+------------------------------------------------------------------- */
+
+.social-media-top {
+  .social-icons {
+    margin-bottom: 0;
+    li {
+      padding-top: 15px;
+    }
+    a {
+      color: $primary-color;
+      background: #ddd;
+      font-size: rem-calc(23);
+      display: block;
+      width: 36px;
+      border-radius: 50%;
+      text-align: center;
+      transition: all 0.1s ease-out;
+      &:hover,
+      &:active,
+      &:focus {
+        color: $body-bg;
+        background: $primary-color;
+      }
+    }
+  }
+}

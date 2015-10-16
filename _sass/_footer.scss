@@ -7,9 +7,19 @@
   padding-bottom: 0 !important;
 }
 
+.footer-content li {
+  padding: 20px 0 0 0;
+  @media only screen and (min-width: 40.063em) {
+    padding: 0 !important;
+  }
+}
+
 /* Subfooter */
 #subfooter {
-  padding: 20px 0 !important;
+  padding: 0 !important;
+  @media only screen and (min-width: 40.063em) {
+    padding: 20px 0 !important;
+  }
 
   .inline-list {
     margin: 0 auto 0 -1.375rem !important;
