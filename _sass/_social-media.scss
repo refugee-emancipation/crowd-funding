@@ -1,19 +1,27 @@
 /* Social Top-Bar Stylings
 ------------------------------------------------------------------- */
 
-.social-media-section {
-  //color: #3FA9F5 !important;
-  .social-icons li a {
-    font-size: rem-calc(23);
-    display: block;
-    width: 36px;
-    border-radius: 50%;
-    color: #fff;
-    background: #3FA9F5;
-    text-align: center;
-  }
-  .social-icons li a:hover {
-    color:  #3FA9F5;
-    background: #fff;
+.social-media-top {
+  .social-icons {
+    margin-bottom: 0;
+    li {
+      padding-top: 15px;
+    }
+    a {
+      color: $primary-color;
+      background: #ddd;
+      font-size: rem-calc(23);
+      display: block;
+      width: 36px;
+      border-radius: 50%;
+      text-align: center;
+      transition: all 0.1s ease-out;
+      &:hover,
+      &:active,
+      &:focus {
+        color: $body-bg;
+        background: $primary-color;
+      }
+    }
   }
 }
