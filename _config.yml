@@ -77,6 +77,9 @@ exclude:
     - _site
     - Rakefile
     - PRESS.md
+    - assets/downloads
+    - Guardfile
+    - config.ru
 
 
 #
