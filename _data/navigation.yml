@@ -2,10 +2,6 @@
   url: "/"
   side: left
 
-- title: Downloads
-  url: "/downloads/"
-  side: left
-
 - title:
     de: Presse
     en: Press
@@ -16,4 +12,14 @@
     de: Hardwarespenden
     en: Hardware Donations
   url: "/hardware/"
+  side: left
+
+- title:
+    de: Soli-Aktionen
+    en: Solidarity Actions
+  url: "/actions/"
+  side: left
+
+- title: Downloads
+  url: "/downloads/"
   side: left

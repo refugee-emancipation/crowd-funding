@@ -28,6 +28,9 @@ exclude:
     - pages/info.md
     - pages/design.md
     - build
+    - assets/downloads
+    - Guardfile
+    - config.ru
 
 gems: ['jekyll-multiple-languages']
 languages: ['de', 'en']
