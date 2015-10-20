@@ -30,4 +30,4 @@ You can now support Refugees Emancipation and buy a great album at the same time
 
 <h3 class="t0">Solidarity party: "Fleeing is not a crime"</h3>
 
-A solidarity counter was established at Astra Stube Neukölln: Football memorabilia and, among other things, advertising posters (bus stop format), a jersey from Hansa from unknown origin and a homemade flag___ from the club St. Pauli were sold by auction. The highlight was a private living-room concert with Thees Uhlmann, singer of the band Tomte.  [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
+A solidarity counter was established at Astra Stube Neukölln: Football memorabilia and, among other things, advertising posters (bus stop format), a jersey from Hansa from unknown origin and a homemade flag from the club St. Pauli were sold by auction. The highlight was a private living-room concert with Thees Uhlmann, singer of the band Tomte.  [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
