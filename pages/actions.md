@@ -24,11 +24,10 @@ Schreibt uns an [support@refugeesemancipation.com](mailto:support@refugeesemanci
 ## Was, wann und wo?
 
 ### Onlinegewinne der CD Arbeitsgruppe Zukunft mit Mark-Uwe Kling
-Die Gewinne aus den Onlineverkäufen der CD der ArbeitsgruppeZukunft mit #MarkUweKling gehen ans Projekt Gewinne der CD der #ArbeitsgruppeZukunft uA mit #MarkUweKling gehen ans Projekt
-[reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
+Die Gewinne aus den Onlineverkäufen der CD _"Viel Schönes dabei - live"_ der Arbeitsgruppe Zukunft mit [#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling) gehen an das Projekt: [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
 
 <p class="subheadline subheader">10.10.2015 Astra Stube Neukölln - Berlin</p>
 
 <h3 class="t0"> Soliparty "Flucht ist kein Verbrechen"</h3>
 
-Es gab einen Solitresen und es wurden Fussball-Fanartikel u.a. Astra Werbplakate (Haltestellenformat) und ein Hansa Trikot unbekannter Herkunft, eine selbstgenähte Pauli Fahne versteigert. Als Highlight gab es ein Privat-Wohnzimmerkonzert mit Thees Uhlmann (Sänger von Tomte, Autor) [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
+Es gab einen Solitresen und es wurden Fussball-Fanartikel u.a. Astra Werbeplakate (Haltestellenformat) und ein Hansa Trikot unbekannter Herkunft, sowie eine selbstgenähte St. Pauli Fahne versteigert. Als Highlight gab es ein Privat-Wohnzimmerkonzert mit Thees Uhlmann (Sänger von Tomte, Autor) [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
