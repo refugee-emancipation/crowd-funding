@@ -19,7 +19,7 @@ permalink: "/actions/"
 
 ... oder was immer Euch noch einfällt :)
 
-Schreibt uns an [mailto:support@refugeesemancipation.com](support@refugeesemancipation.com) mit Datum, Headline und Kurzbeschreibung und wir veröffentlichen die Aktion auf dieser Seite und helfen mit diese mit anzukündigen.
+Schreibt uns an [support@refugeesemancipation.com](mailto:support@refugeesemancipation.com) mit Datum, Headline und Kurzbeschreibung und wir veröffentlichen die Aktion auf dieser Seite und helfen mit diese mit anzukündigen.
 
 ## Was, wann und wo?
 
