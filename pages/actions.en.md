@@ -23,8 +23,8 @@ Please tell us about your action at  [support@refugeesemancipation.com](mailto:s
 
 ## What, when, and where?
 
-### Online gains from the CD about the "Arbeitsgruppe Zukunft" with Mark-Uwe Kling
-You can now support Refugees Emancipation and buy a great album at the same time. The gains from the online sales of the new CD "Viel Schönes dabei – live" from the Arbeitsgruppe Zukunft with Mark-Uwe Kling will go to the project. The CD is also a lovely present for your friends and family. You can order it here: [reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
+### Online gains from the CD by Arbeitsgruppe Zukunft with Mark-Uwe Kling
+You can now support Refugees Emancipation and buy a great album at the same time. The gains from the online sales of the new CD _"Viel Schönes dabei – live"_ from the Arbeitsgruppe Zukunft with Mark-Uwe Kling will go to the project. The CD is also a lovely present for your friends and family. You can order it here: [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
 
 <p class="subheadline subheader">10.10.2015 Astra Stube Neukölln - Berlin</p>
 
