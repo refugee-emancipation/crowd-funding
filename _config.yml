@@ -240,3 +240,6 @@ gems: ['jekyll-multiple-languages']
 languages: ['de', 'en']
 language_default: 'de'
 fill_default_content: true
+
+collections:
+- faq
