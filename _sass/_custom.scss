@@ -86,3 +86,11 @@ section {
   border-color: #3FA9F5 !important;
   background: #fff !important;
 }
+
+// FAQ
+.faq-question {
+  h2, .up-to-top-inner {
+    margin-top: 0;
+    padding-top: 50px;
+  }
+}
