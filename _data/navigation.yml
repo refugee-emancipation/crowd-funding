@@ -23,3 +23,7 @@
 - title: Downloads
   url: "/downloads/"
   side: left
+
+- title: FAQ
+  url: "/faq/"
+  side: left

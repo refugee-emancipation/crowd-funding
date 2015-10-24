@@ -18,6 +18,7 @@ sass:
 
 collections:
 - faq
+- faq_en
 
 exclude:
     - Gemfile

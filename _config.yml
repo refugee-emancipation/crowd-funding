@@ -243,3 +243,4 @@ fill_default_content: true
 
 collections:
 - faq
+- faq_en
