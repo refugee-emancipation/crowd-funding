@@ -27,7 +27,7 @@
 	{% include favicon %}
 
 	<!-- Facebook Optimization -->
-	<meta property="og:locale" content="{{ site.data.language.og_locale[page.language] }}" />
+	<meta property="og:locale" content="{{ site.data.language.og_locale | i18n }}" />
 	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	{% if page.meta_description %}<meta property="og:description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.description %}<meta property="og:description" content="{{ page.description | strip_html | escape }}"/>{% elsif site.description %}<meta property="og:description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
