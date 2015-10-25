@@ -5,11 +5,11 @@
     <div class="medium-12 columns mc-embed-inner">
       <form action="//refugeesemancipation.us11.list-manage.com/subscribe/post?u=d10ae13c261739daad4ceb3b0&amp;id=b8fdd26a7a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-          <h2>{{ site.data.language.newsletter_header[page.language] }}</h2>
-          <p>{{ site.data.language.newsletter_subheader[page.language] }}<br></p>
+          <h2>{{ site.data.language.newsletter_header | i18n }}</h2>
+          <p>{{ site.data.language.newsletter_subheader | i18n }}<br></p>
           <div class="mc-field-group">
-                  <label for="mce-EMAIL">{{ site.data.language.mail[page.language] }}  <span class="asterisk">*</span></label>
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="{{ site.data.language.mail[page.language] }}">
+                  <label for="mce-EMAIL">{{ site.data.language.mail | i18n }}  <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="{{ site.data.language.mail | i18n }}">
           </div>
           <div id="mce-responses" class="clear">
                   <div class="response" id="mce-error-response" style="display:none"></div>
@@ -19,7 +19,7 @@
             <input type="text" name="b_d10ae13c261739daad4ceb3b0_b8fdd26a7a" tabindex="-1" value="">
           </div>
           <div class="clear">
-            <input type="submit" value="{{ site.data.language.subscribe[page.language] }}" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <input type="submit" value="{{ site.data.language.subscribe | i18n }}" name="subscribe" id="mc-embedded-subscribe" class="button">
           </div>
         </div>
       </form>

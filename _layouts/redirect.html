@@ -18,7 +18,7 @@
 </head>
 <body>
     <h1>Redirecting...</h1>
-      {{ site.data.language.if_you_are_not_redirected_automatically[page.language] }} <a href="{{ page.redirect_to }}">{{ site.data.language.click_here[page.language] }}<a>.
+      {{ site.data.language.if_you_are_not_redirected_automatically | i18n }} <a href="{{ page.redirect_to }}">{{ site.data.language.click_here | i18n }}<a>.
       <script>location='{{ page.redirect_to }}'</script>
 </body>
 </html>

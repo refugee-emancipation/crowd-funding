@@ -66,10 +66,18 @@
           {% endif %}
         {% endfor %}
         <li class="divider"></li>
-        {% if page.is_default_language %}
+        {% if page.language == 'de' %}
         <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
-	{% else %}
+        <li class="divider"></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/fr{{ page.url_no_language }}">Français</a></li>
+	{% elsif page.language == 'en' %}
         <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
+        <li class="divider"></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/fr{{ page.url_no_language }}">Français</a></li>
+	{% elsif page.language == 'fr' %}
+        <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
+        <li class="divider"></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
 	{% endif %}
         {% comment %}   First loop finished 1   {% endcomment %}
         <li class="divider"></li>
