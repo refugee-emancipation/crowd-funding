@@ -4,7 +4,7 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'jekyll', '2.5.3'
-gem 'jekyll-multiple-languages'
+gem 'jekyll-multiple-languages', '~> 1.0.11'
 
 group :dev do
   gem 'rack-rewrite', '~> 1.5.1'
