@@ -1,5 +1,40 @@
 ---
 - title:
+    de: 'LNP156 BEReitbandausbau'
+    en:
+  author: Tim Pritlove / Linus Neumann
+  source: Logbuch Netzpolitik (Podcast)
+  date: '2015-10-14'
+  link:
+    de: http://logbuch-netzpolitik.de/lnp156-bereitbandausbau
+    en:
+  teaser:
+    de: 'Zum Schluss ein Blick auf die unterstützenswerte Aktion "Refugees Emancipation" und den Zündfunk Netzkongress, der letzte Woche in München stattfand.'
+- title:
+    de: 'Surfen gegen die Isolation'
+    en:
+  author: Sebastian Bähr
+  source: Neues Deutschland
+  date: '2015-10-23'
+  link:
+    de: http://www.neues-deutschland.de/artikel/988859.surfen-gegen-die-isolation.html
+    en:
+  teaser:
+    de: 'Yuzure Matsumoto aus Eritrea grinst über beide Ohren. Der neue Popsong aus seiner Heimat, den er vor dem Computerbildschirm sitzend hört, gefällt ihm ziemlich gut. Die Musik ist trotz seines Kopfhörers im ganzen Raum zu hören, sein Kopf nickt im Takt des Liedes. Yuzure freut sich, dass er nicht in der tristen Gemeinschaftsunterkunft seines Flüchtlingswohnheims sitzen muss. Er fühle sich wohl im »LaLoka«, dem ersten von Flüchtlingen selbst organisierten Internetcafé in Hellersdorf, sagt er.'
+    en:
+- title:
+    de:
+    en: CCC campaigns to provide Internet access to refugees in Germany
+  author: 
+  source: edri.org
+  date: '2015-10-06'
+  link:
+    de:
+    en: http://edri.org/ccc-campaigns-internet-access-refugees-germany/
+  teaser:
+    de:
+    en:'German EDRi member Chaos Computer Club (CCC), along with free network associations Freifunk Berlin and the Förderverein freie Netzwerke, is running a fundraising campaign in support of the non-profit organisation Refugees Emancipation (RE). The project, initiated by asylum-seekers, aims to prevent the isolation and enhance the connectivity of refugees in Germany by enabling their access to the Internet.'
+- title:
     de: 'Internet für Asylsuchende: Warum dieses wichtige Werkzeug der Selbstbestimmung
       meist verwehrt bleibt'
     en:
