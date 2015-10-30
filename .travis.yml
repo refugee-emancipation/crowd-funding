@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.1
+bundler_args: "--without dev"
+script:
+- bundle exec jekyll build
+notifications:
+  slack:
+    secure: oidYr1mqQcucj5JP8ovt6o6YFLI4mEyXg8W+HBJMrKUfe8HU6XSIIfjnX8P4LVEPHAxMSKO2tJKlxCEmOqTdl9Z5OPhA+MDY3uAtJ09Y+i/DkEG6ShWJX/v+WIU+s26ta9Q+gBi+Jiv7xUr8hpBWRqZFPBXqo6CRJOIsJklQ9YDc57F4v/zMdEL9HKhiL+xkarFo4q6Z52TfskddZhL6Mp6xaHeXbFsvq+q76uiIhZicFr41T5Y5d9uyw4OepMESNSbzGGfzH6HoHLLs/v84zfBTv3BXWCA6h7DSAgzlU1vCQOo0OJciDAUq78jZPa7A2wMhewv+46Ype+YBG1k637Zpq7QeWG4JzqJQnGkwGrNIULLu8oC99iDRxxqYig3z9OghdAQEr8w7HOWQ9oBgMm41+vOnLUt2+gsLY1QxAj3MVeKCrm07Yuh0tRh8/ALRFeg9cvXVy7VcFQtDQwCbduGQnblm+MW3zsI2HnLn2vqNSqvjB2//Dydhvp5lRqlN4JRBB7ZDqaQGQnnoJo4PlBIuLwx94+SghWb5PC8lupJQPsT0DNG0TYxoECxFX/59hBLinxGB/emMyhXAKC2DQUTO2qj38CcZyPtUj7x1ncUR8tdMpNGRVbgZOXv3POcCQiXLvcGoH9r1MqLApo1Nrytv/C9IWfOHQf6gACQmMcI=

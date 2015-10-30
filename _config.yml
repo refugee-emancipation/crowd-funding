@@ -80,6 +80,7 @@ exclude:
     - assets/downloads
     - Guardfile
     - config.ru
+    - .travis.yml
 
 
 #
