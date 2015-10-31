@@ -37,7 +37,7 @@
             {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
+              <li{% if link.url == page.url_no_language %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
 
             {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
@@ -103,7 +103,7 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
+              <li{% if link.url == page.url_no_language %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
