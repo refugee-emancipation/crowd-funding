@@ -8,132 +8,22 @@
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
     </ul>
     <section class="top-bar-section">
-{% comment %}
+    {% assign links = site.data.navigation | group_by: 'side' | reverse %}
 
-    ____  _       __    __     _   __            _             __  _
-   / __ \(_)___ _/ /_  / /_   / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-  / /_/ / / __ `/ __ \/ __/  /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
- / _, _/ / /_/ / / / / /_   / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-/_/ |_/_/\__, /_/ /_/\__/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-        /____/                                 /____/
+    {% for group in links %}
+      <ul class="{{ group['name'] }}">
+        {% include nav-links.html links=group['items'] }}
 
-{% endcomment %}
-      <ul class="right">
-        {% for link in site.data.navigation %}
-
-              {% if link.url contains 'http' %}
-                {% assign target = ' target="_blank"' %}
-                {% capture href %}{{ link.url }}{% endcapture %}
-              {% elsif link.url == '#' %}
-                {% assign target = '' %}
-                {% capture href %}#{% endcapture %}
-              {% else %}
-                {% assign target = '' %}
-                {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
-              {% endif %}
-
-          {% comment %}   If there are links for right side begin   {% endcomment %}
-          {% if link.side == 'right' %}
-            {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
-            {% if link.dropdown == nil %}
-              <li class="divider"></li>
-              <li{% if link.url == page.url_no_language %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
-
-            {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
-            {% else %}
-
-              <li class="divider"></li>
-              <li class="has-dropdown{% if link.url == page.url_no_language %} active{% endif %}">
-                <a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ link.url }}" {{ target }}>{{ link.title | i18n }}</a>
-
-                  <ul class="dropdown">
-                    {% for dropdown_link in link.dropdown %}
-
-                      {% if dropdown_link.url contains 'http' %}
-                        {% assign target = ' target="_blank"' %}
-                        {% capture href %}{{ link.url }}{% endcapture %}
-                      {% else %}
-                        {% assign target = '' %}
-                        {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
-                      {% endif %}
-
-                      <li><a href="{{ href }}"{{ target }}>{{ dropdown_link.title | i18n }}</a></li>
-                    {% endfor %}
-                  </ul>
-
-              </li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        <li class="divider"></li>
-        {% if page.is_default_language %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
-	{% else %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
-	{% endif %}
-        {% comment %}   First loop finished 1   {% endcomment %}
-        <li class="divider"></li>
+        {% if group['name'] == 'right' %}
+          {% if page.is_default_language %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
+	  {% else %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
+	  {% endif %}
+          <li class="divider"></li>
+        {% endif %}
       </ul>
-{% comment %}
-
-    __         ______     _   __            _             __  _
-   / /   ___  / __/ /_   / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-  / /   / _ \/ /_/ __/  /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
- / /___/  __/ __/ /_   / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-/_____/\___/_/  \__/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-                                          /____/
-
-{% endcomment %}
-      <ul class="left">
-        {% for link in site.data.navigation %}
-
-              {% if link.url contains 'http' %}
-                {% assign target = ' target="_blank"' %}
-                {% capture href %}{{ link.url }}{% endcapture %}
-              {% elsif link.url == '#' %}
-                {% assign target = '' %}
-                {% capture href %}#{% endcapture %}
-              {% else %}
-                {% assign target = '' %}
-                {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
-              {% endif %}
-
-          {% comment %}   If there are links for left side begin   {% endcomment %}
-          {% if link.side == 'left' %}
-
-            {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
-            {% if link.dropdown == nil %}
-              <li{% if link.url == page.url_no_language %} class="active"{% endif %}><a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a></li>
-              <li class="divider"></li>
-
-            {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
-            {% else %}
-
-              <li class="has-dropdown{% if link.url == page.url_no_language %} active{% endif %}">
-                <a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a>
-
-                  <ul class="dropdown">
-                    {% for dropdown_link in link.dropdown %}
-
-                      {% if dropdown_link.url contains 'http' %}
-                        {% assign target = ' target="_blank"' %}
-                        {% capture href %}{{ link.url }}{% endcapture %}
-                      {% else %}
-                        {% assign target = '' %}
-                        {% capture href %}{{ site.url }}{{ site.baseurl }}/{{ page.language }}{{ link.url }}{% endcapture %}
-                      {% endif %}
-
-                      <li><a href="{{ href }}"{{ target }}>{{ dropdown_link.title | i18n }}</a></li>
-                    {% endfor %}
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% comment %}   Second loop finished   {% endcomment %}
-      </ul>
+    {% endfor %}
     </section>
   </nav>
 </div><!-- /#navigation -->
