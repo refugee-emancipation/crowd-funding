@@ -2,28 +2,27 @@
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-home"></a></h1>
-    </li>
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-home"></a></h1>
+      </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
     </ul>
     <section class="top-bar-section">
-    {% assign links = site.data.navigation | group_by: 'side' | reverse %}
-
-    {% for group in links %}
-      <ul class="{{ group['name'] }}">
-        {% include nav-links.html links=group['items'] }}
-
-        {% if group['name'] == 'right' %}
-          {% if page.is_default_language %}
+      <ul class="right">
+        {% if page.is_default_language %}
           <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
-	  {% else %}
+        {% else %}
           <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
-	  {% endif %}
-          <li class="divider"></li>
         {% endif %}
+          <li class="divider"></li>
+
+        {% assign items = site.data.navigation | where: "side", "right" %}
+        {% include nav-links.html links=items %}
       </ul>
-    {% endfor %}
+
+      <ul class="left">
+        {% assign items = site.data.navigation | where: "side", "left" %}
+        {% include nav-links.html links=items %}
+      </ul>
     </section>
   </nav>
 </div><!-- /#navigation -->

@@ -1,4 +1,4 @@
-{% for link in elements.links %}
+{% for link in include.links %}
   {% if link.url contains 'http' %}
     {% assign target = ' target="_blank"' %}
     {% capture href %}{{ link.url }}{% endcapture %}
