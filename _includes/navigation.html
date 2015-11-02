@@ -43,7 +43,7 @@
             {% else %}
 
               <li class="divider"></li>
-              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+              <li class="has-dropdown{% if link.url == page.url_no_language %} active{% endif %}">
                 <a href="{{ domain }}{{ site.baseurl }}{{ lang }}{{ link.url }}" {{ target }}>{{ link.title | i18n }}</a>
 
                   <ul class="dropdown">
@@ -109,7 +109,7 @@
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
-              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+              <li class="has-dropdown{% if link.url == page.url_no_language %} active{% endif %}">
                 <a href="{{ href }}"{{ target }}>{{ link.title | i18n }}</a>
 
                   <ul class="dropdown">
