@@ -1,102 +1,130 @@
 info_website:
   de: "Impressum"
   en: "Imprint"
+  fr: "Impressum"
 archive:
   de: "Archiv"
   en: "Archive"
+  fr: "Archives"
 blog_archive:
   de: "Blog Archiv"
   en: "Blog Archive"
-blog:
-  de: "Blog"
-  en: "Blog"
+  fr: "Blog Archives"
+blog: "Blog"
 comments_headline:
   de: "Dialog &amp; Diskussion"
   en: "Dialogue &amp; Discussion"
+  fr: "Dialogue et Débat"
 more:
   de: "Mehr ›"
   en: "More ›"
+  fr: "De plus ›"
 more_articles:
   de: "Mehr Artikel"
   en: "More Articles"
+  fr: "Plus d'Articles"
 navigation_title:
   de: "Navigation"
   en: "Navigation"
+  fr: "La Navigation"
 new_blog_entries:
   de: "Neue Blog Artikel"
   en: "New Blog Articles"
+  fr: "Nouveaux Articles de Blog"
 next:
   de: "Nächste"
   en: "Next"
+  fr: "Prochains"
 next_posts:
   de: "Nächster Beitrag"
   en: "Next Posts"
+  fr: "Prochains Messages"
 previous:
   de: "Vorherige"
   en: "Previous"
+  fr: "Précédent"
 previous_posts:
   de: "Vorheriger Beitrag"
   en: "Previous Posts"
+  fr: "Les Messages Précédents"
 read:
   de: "Lesen"
   en: "Read"
+  fr: "Lire"
 read_more:
   de: "Mehr lesen&nbsp;›"
   en: "Read More&nbsp;›"
+  fr: "En Savoir Plus"
 if_you_are_not_redirected_automatically:
   de: "Wenn Du nicht automatisch weitergeleitet wirst,"
   en: "If you are not redirected automatically,"
+  fr: "Si vous n'êtes pas redirigé automatiquement,"
 click_here:
   de: "klick hier"
   en: "click here"
+  fr: "cliquez içi"
 next_post_in:
   de: "Nächster Beitrag in"
   en: "Next Post in"
+  fr: "Prochain Courrier, dans"
 previous_post_in:
   de: "Vorheriger Beitrag in"
   en: "Previous Post in"
-breadcrumb_start:
-  de: "Start"
-  en: "Start"
+  fr: "Le Post Précédent dans"
+breadcrumb_start: "Start"
 edit:
   de: "Editieren"
   en: "Edit"
+  fr: "Modifier"
 this_content_is_open_source:
   de: "Der Inhalt ist Open Source."
   en: "This content is open source."
+  fr: "Ce contenu est open source"
 help_improve_it:
   de: "Hilf ihn zu verbessern"
   en: "Help improve it"
+  fr: "Aider à améliorer"
 enter_search_term:
   de: "Suchbegriff eingeben und Eingabetaste drücken"
   en: "Enter search term and hit enter"
+  fr: "Entrez terme de recherche et appuyez sur Entrée"
 newsletter_header:
   de: "Melde dich für den Newsletter an"
   en: "Sign up for our newsletter"
+  fr: "Inscrivez-vous à notre newsletter"
 newsletter_subheader:
   de: "Bleib informiert über das Refugees Emancipation Support Project."
   en: "Stay informed about the Refugees Emancipation Support Project."
+  fr: "Restez informé sur le projet Refugees Emancipation Support"
 mail:
   de: "E-Mail Adresse"
   en: "Email Address"
+  fr: "Adresse e-mail"
 subscribe:
   de: "Anmelden"
   en: "Subscribe"
+  fr: "S'abonner"
 sponsors_headline:
   de: "Unsere Unterstützer"
   en: "Our Supporters"
+  fr: "Nos Sponsors"
 logo:
   de: "Link zu"
   en: "Link to"
+  fr: "Liens vers"
 og_locale:
   de: "de_DE"
   en: "en_US"
+  fr: "fr_FR"
 files:
   de: "Dateien"
   en: "Files"
+  fr: "Fichiers"
 banners:
   de: "Banner"
   en: "Banners"
+  fr: "Bannières"
 last_modified:
   de: "zuletzt geändert"
   en: "last modified"
+  fr: "dernière modification"
