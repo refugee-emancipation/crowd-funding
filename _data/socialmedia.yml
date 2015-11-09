@@ -1,30 +1,38 @@
 - name: Twitter
   url: https://twitter.com/REmancipation
   class: icon-twitter
+  top: true
   title:
     de: Refugees Emancipation auf Twitter
     en: Refugees Emancipation on Twitter
+    fr: Refugees Emancipation sur Twitter
 
 - name: Facebook
   url: https://www.facebook.com/refugees.emancipation/
   class: icon-facebook
+  top: true
   title:
     de: Refugees Emancipation auf Facebook
     en: Refugees Emancipation on Facebook
+    fr: Refugees Emancipation sur Facebook
 
 - name: YouTube
   url: https://www.youtube.com/channel/UCCo9tvc5GqL8gpw_KuY5AwA
   class: icon-youtube
+  top: true
   title:
     de: Refugees Emancipation auf YouTube
     en: Refugees Emancipation on YouTube
+    fr: Refugees Emancipation sur YouTube
 
 - name: Mail
   url: mailto:support@refugeesemancipation.com
   class: icon-message
+  top: true
   title:
     de: Unsere E-Mail Adresse
     en: Our email address
+    fr: Notre adresse e-mail
 
 - name: Website
   url: http://www.refugeesemancipation.com
@@ -32,6 +40,7 @@
   title:
     de: Die Website von Refugees Emancipation
     en: The website of Refugees Emancipation
+    fr: Le site du Refugees Emancipation
 
 - name: GitHub
   url: https://github.com/refugee-emancipation/crowd-funding
@@ -39,6 +48,7 @@
   title:
     de: Diese Seite auf GitHub
     en: This site on GitHub
+    fr: Ce cite sur GitHub
 
 
 # - name: Xing

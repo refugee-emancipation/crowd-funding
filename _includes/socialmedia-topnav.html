@@ -2,7 +2,8 @@
   <div class="small-12 columns">
     <nav class="socialmedia social-media-top" role="navigation" aria-label="Social Media Links">
       <ul class="right inline-list social-icons">
-      {% for social_item in site.data.socialmedia-top %}
+      {% assign display_items = site.data.socialmedia | where: "top", true %}
+      {% for social_item in display_items  %}
         <li><a class="{{ social_item.class }}" href="{{ social_item.url }}" target="_blank" title="{{ social_item.title | i18n }}"></a></li>
       {% endfor %}
       </ul>

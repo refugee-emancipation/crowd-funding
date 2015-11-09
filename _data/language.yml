@@ -14,19 +14,16 @@ blog: "Blog"
 comments_headline:
   de: "Dialog &amp; Diskussion"
   en: "Dialogue &amp; Discussion"
-  fr: "Dialogue et Débat"
+  fr: "Dialogue et Discussion"
 more:
   de: "Mehr ›"
   en: "More ›"
-  fr: "De plus ›"
+  fr: "Plus ›"
 more_articles:
   de: "Mehr Artikel"
   en: "More Articles"
   fr: "Plus d'Articles"
-navigation_title:
-  de: "Navigation"
-  en: "Navigation"
-  fr: "La Navigation"
+navigation_title: "Navigation"
 new_blog_entries:
   de: "Neue Blog Artikel"
   en: "New Blog Articles"
@@ -34,11 +31,11 @@ new_blog_entries:
 next:
   de: "Nächste"
   en: "Next"
-  fr: "Prochains"
+  fr: "Suivant"
 next_posts:
   de: "Nächster Beitrag"
   en: "Next Posts"
-  fr: "Prochains Messages"
+  fr: "Messages Suivants"
 previous:
   de: "Vorherige"
   en: "Previous"
@@ -99,7 +96,7 @@ newsletter_subheader:
 mail:
   de: "E-Mail Adresse"
   en: "Email Address"
-  fr: "Adresse e-mail"
+  fr: "Courrier électronique"
 subscribe:
   de: "Anmelden"
   en: "Subscribe"
