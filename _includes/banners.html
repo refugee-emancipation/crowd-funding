@@ -9,7 +9,7 @@
 {% endcapture %}
   <dd class="accordion-navigation">
     <a href="#panel{{i}}a" class="accordion-element" id ="panel{{i}}a-heading" aria-controls="panel{{i}}a" role="tab">
-      <span class="iconfont"></span>{{ banner.title[page.language] }} ({{ banner.format }})
+      <span class="iconfont"></span>{{ banner.title | i18n }} ({{ banner.format }})
     </a>
     <div id="panel{{i}}a" class="content" role="tabpanel" aria-labelledby="panel{{i}}a-heading">
       <img src="{{ banner.url }}"/>

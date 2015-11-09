@@ -5,18 +5,21 @@
 - title:
     de: Presse
     en: Press
+    fr: Press (TODO)
   url: "/press/"
   side: left
 
 - title:
     de: Hardwarespenden
     en: Hardware Donations
+    fr: Hardware Donations (TODO)
   url: "/hardware/"
   side: left
 
 - title:
     de: Soli-Aktionen
     en: Solidarity Actions
+    fr: Solidarity Actions (TODO)
   url: "/actions/"
   side: left
 

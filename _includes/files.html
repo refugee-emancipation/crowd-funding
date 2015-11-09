@@ -3,7 +3,7 @@
 {% capture j %}{% increment k %}{% endcapture %}
 {% capture rel_path %}{{ file.url | remove_first:'/' }}{% endcapture %}
   <dd class="accordion-navigation">
-  <a href="#panel{{j}}f" class="accordion-element"><span class="iconfont"></span>{{ file.title[page.language] }}</a>
+  <a href="#panel{{j}}f" class="accordion-element"><span class="iconfont"></span>{{ file.title | i18n }}</a>
     <div id="panel{{j}}f" class="content">
       <a id="a{{j}}" href="{{ file.url }}">{{ file.url | split:'/' | last }}</a>
     </div>
@@ -11,7 +11,7 @@
   <script type="text/javascript">
     var mtime{{j}} = "{{ rel_path | git_changed }}";
     var size{{j}} = filesize("{{ rel_path | filesize }}");
-    var txt = "{{ site.data.language.last_modified[page.language] }}";
+    var txt = "{{ site.data.language.last_modified | i18n }}";
     var time_ago{{j}} = moment(new Date(mtime{{j}})).locale("{{page.language}}").fromNow();
     $('#panel{{j}}f').append(' (' + size{{j}} + '), ' + txt + ' ' + time_ago{{j}});
   </script>

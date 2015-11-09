@@ -34,6 +34,6 @@ exclude:
     - .travis.yml
 
 gems: ['jekyll-multiple-languages']
-languages: ['de', 'en']
+languages: ['de', 'en', 'fr']
 language_default: 'de'
 fill_default_content: true

@@ -1,3 +1,5 @@
+{% assign nav_data = site.data.navigation | i18n_nav %}
+{% assign other_languages = page.url_no_language | other_languages_for_page %}
 <div id="navigation" class="sticky">
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
@@ -19,7 +21,7 @@
 
 {% endcomment %}
       <ul class="right">
-        {% for link in site.data.navigation %}
+        {% for link in nav_data %}
 
               {% if link.url contains 'http' %}
                 {% assign target = ' target="_blank"' %}
@@ -66,13 +68,12 @@
           {% endif %}
         {% endfor %}
         <li class="divider"></li>
-        {% if page.is_default_language %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}/en{{ page.url_no_language }}">English</a></li>
-	{% else %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}/de{{ page.url_no_language }}">Deutsch</a></li>
-	{% endif %}
-        {% comment %}   First loop finished 1   {% endcomment %}
+        {% for language in other_languages %}
+        <li><a href="{{ site.url }}{{ site.baseurl }}/{{ language }}{{ page.url_no_language }}">{{ site.data.langs[language] }}</a></li>
         <li class="divider"></li>
+        {% endfor %}
+
+        {% comment %}   First loop finished 1   {% endcomment %}
       </ul>
 {% comment %}
 
@@ -85,7 +86,7 @@
 
 {% endcomment %}
       <ul class="left">
-        {% for link in site.data.navigation %}
+        {% for link in nav_data %}
 
               {% if link.url contains 'http' %}
                 {% assign target = ' target="_blank"' %}
