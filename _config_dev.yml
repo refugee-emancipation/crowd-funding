@@ -16,6 +16,10 @@ sass:
     style: :expanded
     line_numbers: true
 
+collections:
+- faq
+- faq_en
+
 exclude:
     - Gemfile
     - Gemfile.lock
