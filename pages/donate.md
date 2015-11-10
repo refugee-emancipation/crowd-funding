@@ -7,4 +7,4 @@ breadcrumb: true
 permalink: "/donate/"
 ---
 
-{% include donate.html %}
+{% include donate.html language='de' %}
