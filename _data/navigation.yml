@@ -3,6 +3,13 @@
   side: left
 
 - title:
+    de: Spenden
+    en: Donate
+    fr: Don
+  url: "/donate/"
+  side: left
+
+- title:
     de: Presse
     en: Press
     fr: Press (TODO)
