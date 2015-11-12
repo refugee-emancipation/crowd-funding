@@ -1,20 +1,12 @@
-<div class="row t30">
-  <div class="small-12 columns">
-    <ul id="faq-questions" class="no-bullet">
-      {% for item in include.questions %}
-      <li><a href="#{{ item.title | slugify }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+<ul id="faq-questions" class="no-bullet">
+  {% for item in include.questions %}
+  <li><a href="#{{ item.title | slugify }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% for item in include.questions %}
+<div class="faq-question">
+  <div class="right up-to-top-inner"> <a class="iconfont" href="#top-of-page"></a> </div>
+  <h2 id="{{ item.title | slugify }}">{{ item.title }}</h2>
+  {{ item.content }}
 </div>
-<div class="row t30">
-  <div class="small-12 columns">
-    {% for item in include.questions %}
-    <div class="faq-question">
-      <div class="right up-to-top-inner"> <a class="iconfont" href="#top-of-page"></a> </div>
-      <h2 id="{{ item.title | slugify }}">{{ item.title }}</h2>
-      {{ item.content }}
-    </div>
-    {% endfor %}
-  </div>
-</div>
+{% endfor %}
