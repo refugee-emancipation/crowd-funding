@@ -29,7 +29,7 @@ Aside from the founding members of the campaign, organizations and companies are
   * There is also a new [Youtube Kanal](https://www.youtube.com/channel/UCCo9tvc5GqL8gpw_KuY5AwA).
   Also invite others to follow RE ...
 
-2. Embed a [banner](http://support.refugeesemancipation.com/assets/downloads/zip/Banner_Support_Refugees_Emancipation.zip) on your website and link to the [donation page](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
+2. Embed a [banner](/en/downloads) on your website and link to the [donation page](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
 3. If you have ideas which companies and organizations we should contact, or you want to help establishing contact, send us an email at <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a>.
 
 ## What is this about?
