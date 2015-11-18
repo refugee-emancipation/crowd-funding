@@ -1,0 +1,13 @@
+{% assign primary_url=include.item.urls.first[1] %}
+{% assign thumb_url=include.item.urls[include.item.thumb] %}
+<figure>
+  <a class="media-link mfp-iframe" href="{{ primary_url | prep_url }}">
+    <img src="{{ thumb_url | video_thumb }}" title="{{ include.item.display-title | i18n }}"/>
+  </a>
+  <figcaption>
+    <h3>{{ include.item.display-title | i18n }}</h3>
+    {% for kv in include.item.urls %}
+    <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
+    {% endfor %}
+  </figcaption>
+</figure>

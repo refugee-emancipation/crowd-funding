@@ -1,14 +1,14 @@
 <link rel="stylesheet" property="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
-<div class="row">
+<ul class="small-block-grid-3 media-items">
   {% for item in site.media %}
-  <div class="media-items small-4 columns">
+  <li class="media-item">
     {% include media-{{ item.type }}.html item=item %}
-  </div>
+  </li>
   {% endfor %}
-</div>
+</ul>
 
 <script>
   $(document).ready(function(){
-    $('.media-item').magnificPopup();
+    $('.media-link').magnificPopup();
   });
 </script>
