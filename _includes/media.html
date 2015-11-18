@@ -1,15 +1,23 @@
-{% assign items=site.media | sort: 'date' | reverse %}
 <link rel="stylesheet" property="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
-<ul class="small-block-grid-3 media-items">
-  {% for item in site.media reversed %}
+{% assign groups = site.media | group_by: 'type' | sort: 'name' %}
+{% for group in groups reversed %}
+<h2>{{ site.data.language[group.name] | i18n }}</h2>
+<ul class="small-block-grid-3 media-items media-{{ group.name }}">
+  {% for item in group.items %}
   <li class="media-item">
-    {% include media-{{ item.type }}.html item=item %}
+    {% include media-{{ group.name }}.html item=item %}
   </li>
   {% endfor %}
 </ul>
+{% endfor %}
 
 <script>
   $(document).ready(function(){
-    $('.media-link').magnificPopup();
+    /* videos one-by-one */
+    $('.media-video .media-link').magnificPopup();
+    /* photos displayed as one gallery */
+    $('.media-gallery .media-link').magnificPopup({
+      gallery: { enabled: true }
+    });
   });
 </script>
