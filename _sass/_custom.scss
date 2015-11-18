@@ -98,5 +98,9 @@ section {
   }
 }
 
-// ccc-tv
+// media page
 .icon-ccc:before { content: "ccc"; }
+
+a.media-link, a.media-link:hover {
+  border-bottom: 0;
+}

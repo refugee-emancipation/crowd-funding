@@ -6,6 +6,15 @@
   </a>
   <figcaption>
     <h3>{{ include.item.display-title | i18n }}</h3>
+
+    {% if include.item.event %}
+    <span class="event">{{ include.item.event }}</span>
+    {% endif %}
+
+    {% if include.item.event %}
+    <span class="author">({{ include.item.author }})</span>
+    {% endif %}
+
     {% for kv in include.item.urls %}
     <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
     {% endfor %}

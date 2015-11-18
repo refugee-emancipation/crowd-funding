@@ -1,6 +1,7 @@
+{% assign items=site.media | sort: 'date' | reverse %}
 <link rel="stylesheet" property="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
 <ul class="small-block-grid-3 media-items">
-  {% for item in site.media %}
+  {% for item in site.media reversed %}
   <li class="media-item">
     {% include media-{{ item.type }}.html item=item %}
   </li>
