@@ -1,11 +1,9 @@
 {% capture image_url %}{{ site.url }}{{ site.baseurl }}/assets/img/{{ include.item.image }}{% endcapture %}
 <figure>
-  <a class="media-link mfp-image" href="{{ image_url }}">
+  <a class="media-link mfp-image" title="{{ include.item.display-title | i18n }}" href="{{ image_url }}">
     <img src="{{ image_url }}" title="{{ include.item.display-title | i18n }}"/>
   </a>
   <figcaption>
-    <h3>{{ include.item.display-title | i18n }}</h3>
-
     {% if include.item.event %}
     <span class="event">{{ include.item.event }}</span>
     {% endif %}
