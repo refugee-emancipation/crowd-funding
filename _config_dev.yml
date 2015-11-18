@@ -19,6 +19,7 @@ sass:
 collections:
 - faq
 - faq_en
+- media
 
 exclude:
     - Gemfile
