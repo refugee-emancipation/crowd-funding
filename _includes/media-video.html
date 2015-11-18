@@ -5,6 +5,11 @@
     <img src="{{ thumb_url | video_thumb }}" title="{{ include.item.display-title | i18n }}"/>
   </a>
   <figcaption>
+    <div class="right">
+      {% for kv in include.item.urls %}
+      <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
+      {% endfor %}
+    </div>
     <h3>{{ include.item.display-title | i18n }}</h3>
 
     {% if include.item.event %}
@@ -15,8 +20,5 @@
     <span class="author">({{ include.item.author }})</span>
     {% endif %}
 
-    {% for kv in include.item.urls %}
-    <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
-    {% endfor %}
   </figcaption>
 </figure>

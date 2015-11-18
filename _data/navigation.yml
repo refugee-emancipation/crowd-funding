@@ -30,6 +30,13 @@
   url: "/actions/"
   side: left
 
+- title:
+    de: Medien
+    en: Media
+    fr: Media (TODO)
+  url: "/media/"
+  side: left
+
 - title: Downloads
   url: "/downloads/"
   side: left

@@ -104,3 +104,9 @@ section {
 a.media-link, a.media-link:hover {
   border-bottom: 0;
 }
+
+.media-links {
+  h3 {
+    margin: 0; // overridden by typography definitions?
+  }
+}
