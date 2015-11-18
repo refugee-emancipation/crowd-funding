@@ -39,8 +39,9 @@ module Jekyll
 
     def prep_url(url)
       id = ccc_get_event_id(url)
+      return ccc_json(id)['frontend_link'] if id
       # return "#{ccc_json(id)['frontend_link']}/oembed" if id
-      return "https://api.media.ccc.de/public/oembed?url=#{ccc_json(id)['frontend_link']}" if id
+      # return "https://api.media.ccc.de/public/oembed?url=#{ccc_json(id)['frontend_link']}" if id
 
       url
     end

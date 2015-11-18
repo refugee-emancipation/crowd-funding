@@ -6,9 +6,13 @@
   </a>
   <figcaption>
     <div class="right">
-      {% for kv in include.item.urls %}
+    {% for kv in include.item.urls %}
+      {% if kv[0] == 'ccc' %}
+      <a class="media-ccc-link" href="{{ kv[1] | prep_url }}" title="media.ccc.de ({{ site.data.language.new_window | i18n }})" target="_blank"><img class="svg" src="/images/sponsors/chaosknoten-4.0.svg"/></a>
+      {% else %}
       <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
-      {% endfor %}
+      {% endif %}
+    {% endfor %}
     </div>
     <h3>{{ include.item.display-title | i18n }}</h3>
 
