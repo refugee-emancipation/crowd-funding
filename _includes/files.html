@@ -9,11 +9,13 @@
     </div>
   </dd>
   <script type="text/javascript">
-    var mtime{{j}} = "{{ rel_path | git_changed }}";
-    var size{{j}} = filesize("{{ rel_path | filesize }}");
-    var txt = "{{ site.data.language.last_modified | i18n }}";
-    var time_ago{{j}} = moment(new Date(mtime{{j}})).locale("{{page.language}}").fromNow();
-    $('#panel{{j}}f').append(' (' + size{{j}} + '), ' + txt + ' ' + time_ago{{j}});
+    $(document).ready(function(){
+      var mtime{{j}} = "{{ rel_path | git_changed }}";
+      var size{{j}} = filesize("{{ rel_path | filesize }}");
+      var txt = "{{ site.data.language.last_modified | i18n }}";
+      var time_ago{{j}} = moment(new Date(mtime{{j}})).locale("{{page.language}}").fromNow();
+      $('#panel{{j}}f').append(' (' + size{{j}} + '), ' + txt + ' ' + time_ago{{j}});
+    });
   </script>
 {% endfor %}
 </dl>

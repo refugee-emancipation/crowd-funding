@@ -1,4 +1,20 @@
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
+{% comment %}
+  what was in assets/js/javascript.min.js before
+{% endcomment %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/sizzle/1.10.19/sizzle.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js"></script> <!-- 5.5.3 -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+{% comment %}
+  what was in _includes/head.html before (and is still needed)
+{% endcomment %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/filesize.min.js"></script>
+
 
 {% if page.header.image_fullwidth %}
 <script>
