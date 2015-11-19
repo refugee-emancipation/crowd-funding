@@ -4,7 +4,12 @@ layout: compress
 {% include head.html %}
 <body id="top-of-page" class="{{ page.format }}">
 
-	{% include tracking.html %}
+	{% comment %}
+	  enable tracking only on the production site, not dev and staging
+	{% endcomment %}
+	{% if site.url == "http://support.refugeesemancipation.com" %}
+	  {% include tracking.html %}
+	{% endif %}
 
 	{% include navigation.html %}
 
