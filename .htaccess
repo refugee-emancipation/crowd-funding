@@ -8,10 +8,10 @@ ErrorDocument 404 /404.html
   RewriteRule ^de(.*)$ /$1 [END]
 
   # NC => case insensitive regexp match ("nocase")
-  RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+  # RewriteCond %{HTTP:Accept-Language} ^fr [NC]
   # L => last rule, no further processing
   # R=302 => redirect, HTTP 302
-  RewriteRule ^$ /fr [L,R=302]
+  # RewriteRule ^$ /fr [L,R=302]
 
   RewriteCond %{HTTP:Accept-Language} !^de [NC]
   RewriteRule ^$ /en [L,R=302]
