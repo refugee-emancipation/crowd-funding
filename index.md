@@ -29,7 +29,7 @@ Neben den Gründungsmitgliedern der Kampagne, konnten erste weitere Organisation
   * Es gibt auch einen [Youtube Kanal](https://www.youtube.com/channel/UCCo9tvc5GqL8gpw_KuY5AwA).
   Lade auch andere dazu ein, RE zu folgen ...
 
-2. Binde einen [Banner](http://support.refugeesemancipation.com/assets/downloads/zip/Banner_Support_Refugees_Emancipation.zip) in Deine Webseite ein und verlinke es auf die [Spendenseite](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
+2. Binde einen [Banner](/de/downloads) in Deine Webseite ein und verlinke es auf die [Spendenseite](https://www.betterplace.org/de/projects/20601-internetcafes-computerkurse-fur-gefluchtete).
 3. Wenn Du Ideen hast, welche Organisationen und Unternehmen wir ansprechen sollen, oder wenn Du uns beim Ansprechen helfen möchtest, wende Dich bitte an <a href="mailto:support@refugeesemancipation.com">support@refugeesemancipation.com</a>.
 
 ## Worum geht es?
