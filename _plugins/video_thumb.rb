@@ -22,7 +22,7 @@ module Jekyll
     end
 
     def youtube_thumb(id)
-      "http://img.youtube.com/vi/#{id}/mqdefault.jpg"
+      "http://img.youtube.com/vi/#{id}/hqdefault.jpg"
     end
 
     def vimeo_thumb(id)
