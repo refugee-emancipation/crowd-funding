@@ -135,6 +135,9 @@ video:
 gallery:
   de: Photos
   en: Photos
+podcast:
+  de: Podcasts
+  en: Podcasts
 new_window:
   de: neues Fenster
   en: new window
