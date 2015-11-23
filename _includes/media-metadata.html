@@ -1,4 +1,7 @@
-<h3>{{ include.title | i18n }}</h3>
+{% if include.title %}
+  <h3>{{ include.title | i18n }}</h3>
+{% endif %}
+
 {% if include.event %}
   <span class="event label">{{ include.event }}</span>
 {% endif %}
