@@ -66,3 +66,17 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 {% endif %}
 
+{% comment %}
+  replace dates with localized strings
+{% endcomment %}
+<script type="text/javascript">
+  $(document).ready(function(){
+    moment.locale("{{ page.language }}");
+    $('.date').map(function() {
+      var timestamp = Date.parse(this.innerHTML);
+      if (isNaN(timestamp) == false) {
+        this.innerHTML =  moment(new Date(this.innerHTML)).format('LL');
+      }
+    });
+  });
+</script>

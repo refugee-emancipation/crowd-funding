@@ -99,7 +99,7 @@ section {
 }
 
 // media page
-a.media-link, a.media-link:hover, a.media-link-external, a.media-link-external:hover, a.media-ccc-link, a.media-ccc-link:hover {
+a.media-link, a.media-link:hover, a.media-link-external, a.media-link-external:hover, a.media-ccc-link, a.media-ccc-link:hover, a.iconfont, a.iconfont:hover {
   border-bottom: 0;
 }
 
@@ -121,6 +121,6 @@ a.media-ccc-link:hover, a.icon-audio:hover {
 
 .media-links {
   h3 {
-    margin: 0; // overridden by typography definitions?
+    top-margin: 0; // overridden by typography definitions?
   }
 }

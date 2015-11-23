@@ -2,7 +2,7 @@
 {% assign groups = site.media | group_by: 'type' | sort: 'name' %}
 <div class="media-items">
 {% for group in groups reversed %}
-<div class="right -items up-to-top-inner"> <a class="iconfont" href="#top-of-page"></a></div>
+<div class="right up-to-top-inner"> <a class="iconfont" href="#top-of-page"></a></div>
 <h2>{{ site.data.language[group.name] | i18n }}</h2>
 <ul class="small-block-grid-2 medium-block-grid-3 media-items media-{{ group.name }}">
   {% for item in group.items %}

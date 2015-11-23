@@ -13,15 +13,6 @@
     {% endif %}
     {% endfor %}
     </div>
-    <h3>{{ include.item.display-title | i18n }}</h3>
-
-    {% if include.item.event %}
-    <span class="event">{{ include.item.event }}</span>
-    {% endif %}
-
-    {% if include.item.event %}
-    <span class="author">({{ include.item.author }})</span>
-    {% endif %}
-
+    {% include media-metadata.html title=include.item.display-title event=include.item.event author=include.item.author date=include.item.date %}
   </figcaption>
 </figure>
