@@ -99,19 +99,22 @@ section {
 }
 
 // media page
-a.media-link, a.media-link:hover, a.media-ccc-link, a.media-ccc-link:hover {
+a.media-link, a.media-link:hover, a.media-link-external, a.media-link-external:hover, a.media-ccc-link, a.media-ccc-link:hover {
   border-bottom: 0;
 }
 
-a.media-ccc-link {
+a.media-ccc-link, a.icon-audio {
   img, svg {
     width: 18px;
     height: 13px;
   }
-  svg path {
+  svg path, polygon {
     fill: $grey-10;
   }
-  svg:hover path {
+}
+
+a.media-ccc-link:hover, a.icon-audio:hover {
+  svg path, polygon {
     fill: $ci-1;
   }
 }
