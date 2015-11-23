@@ -55,7 +55,6 @@ markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
 excerpt_separator: "\n\n"
-exclude: []
 include: ['.htaccess']
 
 
@@ -81,7 +80,7 @@ exclude:
     - Guardfile
     - config.ru
     - .travis.yml
-
+    - bin/
 
 #
 #       ____       ____            ____

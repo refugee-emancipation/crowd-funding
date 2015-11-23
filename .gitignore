@@ -1,3 +1,5 @@
+.bundle/
+bin
 _site/
 .sass-cache/
 build

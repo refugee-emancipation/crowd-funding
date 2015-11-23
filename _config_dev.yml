@@ -37,6 +37,7 @@ exclude:
     - Guardfile
     - config.ru
     - .travis.yml
+    - bin
 
 gems: ['jekyll-multiple-languages']
 languages: ['de', 'en', 'fr']
