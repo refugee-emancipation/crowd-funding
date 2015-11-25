@@ -23,11 +23,19 @@ Schreibt uns an [support@refugeesemancipation.com](mailto:support@refugeesemanci
 
 ## Was, wann und wo?
 
+<p class="subheadline subheader mt20">27.11. 2015, Kreutziger Str. 19, Berlin-Friedrichshain</p>
+<h3 class="t0">Bloody Marys BIRTHDAY-SOLI-PARTY</h3>
+
+Die Band 'Bloody Marys' wird zwei Jahre alt und feiert den Abend
+als Soli-Party für Refugees Emancipation unter dem Motto
+"Lets celebrate and fight and dance and sing".<br>
+[facebook.com/events/1531460530479549](https://www.facebook.com/events/1531460530479549/)
+
 ### Onlinegewinne der CD Arbeitsgruppe Zukunft mit Mark-Uwe Kling
-Die Gewinne aus den Onlineverkäufen der CD _"Viel Schönes dabei - live"_ der Arbeitsgruppe Zukunft mit [#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling) gehen an das Projekt: [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
+Die Gewinne aus den Onlineverkäufen der CD _"Viel Schönes dabei - live"_ der Arbeitsgruppe Zukunft mit [#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling) gehen an das Projekt:<br> [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
 
 <p class="subheadline subheader">10.10.2015 Astra Stube Neukölln - Berlin</p>
 
 <h3 class="t0"> Soliparty "Flucht ist kein Verbrechen"</h3>
 
-Es gab einen Solitresen und es wurden Fussball-Fanartikel u.a. Astra Werbeplakate (Haltestellenformat) und ein Hansa Trikot unbekannter Herkunft, sowie eine selbstgenähte St. Pauli Fahne versteigert. Als Highlight gab es ein Privat-Wohnzimmerkonzert mit Thees Uhlmann (Sänger von Tomte, Autor) [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
+Es gab einen Solitresen und es wurden Fussball-Fanartikel u.a. Astra Werbeplakate (Haltestellenformat) und ein Hansa Trikot unbekannter Herkunft, sowie eine selbstgenähte St. Pauli Fahne versteigert. Als Highlight gab es ein Privat-Wohnzimmerkonzert mit Thees Uhlmann (Sänger von Tomte, Autor)<br> [twitter.com/theesuhlmann](https://twitter.com/theesuhlmann).
