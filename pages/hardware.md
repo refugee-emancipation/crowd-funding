@@ -9,52 +9,23 @@ teaser: "Neben den Geldspenden und den Menschen, die Zeit und Fähigkeiten in di
 permalink: "/hardware/"
 ---
 
-Wir haben bereits eine Großspende an Desktops und Flachbildschirmen inkl. Zubehör bekommen. Bitte schau daher erst nach, ob die Geräte, die Du Refugees Emancipation zukommen lassen möchtest, in der Liste unten (auf der Seite) auftauchen.
+Mit rund 270 Desktoprechnern & Monitoren habt Ihr uns in den letzten Wochen unterstützt ... WOW! Refugees Emancipation und wir sind total begeistert. Das können wir nicht oft genug sagen: Vielen, vielen Dank! Nach eurer 'großen' Unterstützung fehlt es den Internet Cafés leider noch am 'Kleinen'!
 
 <div class="panel">
-  <h3>Wir suchen intakte, funktionstüchtige Geräte, die sofort genutzt werden können. </h3>
-  <p>Wir haben im Moment leider keine Kapazitäten defekte Geräte zu reparieren.</p>
+  <h3>Aktuell suchen wir vor allem funktionierende Headsets, Ladekabel, Tablets und Smartphones </h3>
+  <p>(bitte nicht älter als 5 Jahre, kein Simlock oder gesprungenes Display und nur GSM Geräte).</p>
 </div>
 
-### Wir benötigen:
+Wir suchen intakte, funktionstüchtige Geräte, die sofort genutzt werden können. Kleine Kratzer oder Abnutzungserscheinungen sind kein Problem, solange die Geräte ohne Einschränkung funktionieren.
 
-* Laptops (mindestens Core2 / Dual Core, min. 2 GB Ram, min. 1,5 GHz CPU)
-* Zubehör (Tastatur, Maus, Netzwerkkabel, Stromverlägerungskabel)
-* Webcams
-* Headsets
-* USB Sticks
-* Digitalkameras (Foto/Video)
-* Beamer
-* mobile Leinwand
-* Smartphones & Tablets
-* Aufnahmegeräte für Podcasts/Internetradio
-* Clipboards
-* WLAN-Hardware
-  * Ubiquiti Nanobridge M2
-  * Ubiquiti Nanobridge M5
-  * Ubiquiti PicoStation M
-  * Ubiquiti Nanostation M2
-  * Ubiquiti Nanostation M2 Loco
-  * Ubiquiti Nanostation M5
-  * Ubiquiti Nanostation M5 Loco
-  * Ubiquiti Nanostation M2 XW
-  * Ubiquiti Nanostation M5 XW
-  * TP-Link WDR4900
-  * TP-Link CPE210/220/510/520
-  * TP-Link WDR3500
-  * TP-Link WDR3600
-  * TP-Link WDR4300
-  * TP-Link WR743ND
-  * TP-Link WR841ND
+Sachspendenquittungen sind sehr aufwändig in der Abwicklung. Wir bitten daher um Verständnis, dass Refugees Emancipation diese nur für neue Hardware bzw. umfangreiche Spenden ausstellt, um den Verwaltungsaufwand möglichst gering zu halten.
 
-### Folgendes haben wir genug:
-
-* Desktops
-* Bildschirme
-
-Kleine Kratzer oder Abnutzungserscheinungen sind kein Problem, solange die Geräte ohne Einschränkung funktionieren. Sachspendenquittungen sind sehr aufwändig in der Abwicklung. Wir bitten daher um Verständnis, dass Refugees Emancipation diese nur für neue Hardware bzw. umfangreiche Spenden ausstellt, um den Verwaltungsaufwand möglichst gering zu halten.
 
 ### Abgeben könnt ihr Eure Spenden derzeit an folgenden Orten:
+
+#### 32c3 im CCH (Congress Center Hamburg) vom 27.-30.12.2015
+@ [Freifunk Assembly](https://events.ccc.de/congress/2015/wiki/Assembly:Freifunk)
+
 
 <div class="row">
 <div class="large-6 columns">  
@@ -78,8 +49,9 @@ Telefon: 03312016927 / 03312015758</p>
 
 <p>Rungestrasse 20 | 10179 Berlin<br>
 Öffnungszeiten:<br>
-14.10. 20-22 h Freifunk Meetup<br>
-21.10. 20-22 h Freifunk Meetup<br>
+02.12. 20-22 h Freifunk Meetup<br>
+09.12. 20-22 h Freifunk Meetup<br>
+16.12. 20-22 h Freifunk Meetup<br>
 Anfahrtskizze: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>
 Mail: TBA</p>
 </div>
