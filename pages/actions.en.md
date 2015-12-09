@@ -23,7 +23,7 @@ Please tell us about your action at  [support@refugeesemancipation.com](mailto:s
 
 ## What, when, and where?
 
-<p class="subheadline subheader mt20">17.12.2015, 8:00pm</p>
+<p class="subheadline subheader mt20">December 17, 2015, 8:00pm</p>
 <h3 class="t0">Refugees Emancipation Soliparty at Böhmisches Dorf</h3>
 
 We would like to celebrate the success of our campaign for Refugees Emancipation so far [support.refugeesemancipation.com](http://support.refugeesemancipation.com/) and make it even more successful!
