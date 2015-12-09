@@ -23,6 +23,41 @@ Please tell us about your action at  [support@refugeesemancipation.com](mailto:s
 
 ## What, when, and where?
 
+<p class="subheadline subheader mt20">17.12.2015, 8:00pm</p>
+<h3 class="t0">Refugees Emancipation Soliparty at Böhmisches Dorf</h3>
+
+We would like to celebrate the success of our campaign for Refugees Emancipation so far [support.refugeesemancipation.com](http://support.refugeesemancipation.com/) and make it even more successful!
+[Blogrebellen](http://www.blogrebellen.de) will be our DJs for the night. Entry will be free of charge, but we will provide multiple options for you to support our campaign.
+
+Join us and spread the word! <br>
+[facebook.com/events/105096269862436/](https://www.facebook.com/events/105096269862436/)
+
+Zum BÖHMISCHEN Dorf<br>
+Sanderstraße 11<br>
+12047 Berlin<br>
+[zumböhmischendorf.de/anfahrt/](http://www.zumböhmischendorf.de/anfahrt/)
+
+---
+
+### re:publica and Xing Events support RE with an event
+
+On November 3rd, ticket sale for the yearly re:publica conference has kicked-off.
+Along with the purchase of the tickets, participants could donate 15 Euro or more for Refugees Emancipation. Thanks to Xing Events for taking over the banking fees for these donations! Wanna learn more about it? Have a look at our guest post on the re:publica blog: "Empowered by the Internet" (in German):<br>
+[re-publica.de](https://re-publica.de/16/guestcontribution/ermaechtigt-durchs-netz)
+
+If you would like to support RE by organising a soliparty, donation campaign, or any other nice idea, please get in touch via [support@refugeesemancipation.com](mailto:support@refugeesemancipation.com). If you include the date, headline and short abstract, we will publish your activity on and  [support.refugeesemancipation.com/en/actions/](http://support.refugeesemancipation.com/en/actions/) help you spread the announcement.
+
+---
+
+### Netzpolitische Abende Berlin ('Net Politics Evenings Berlin'), c-base
+
+On each month's first Tuesday, the "Netzpolitischer Abend" is regularly taking place in the c-base, Rungestrasse 20 in Berlin.
+Already twice there has been an opportunity to listen to the speakers of the support team and Refugees Emancipation, and of course there was set up a donation box.<br>
+[digitalegesellschaft.de/2015/09/npa041/](https://digitalegesellschaft.de/2015/09/npa041/)<br>
+[digitalegesellschaft.de/2015/10/42-netzpolitischer-abend-npa042/](https://digitalegesellschaft.de/2015/10/42-netzpolitischer-abend-npa042/)
+
+---
+
 <p class="subheadline subheader mt20">November 27, 2015 - Kreutziger Str. 19, Berlin-Friedrichshain</p>
 <h3 class="t0">Bloody Marys BIRTHDAY-SOLI-PARTY</h3>
 
@@ -30,8 +65,12 @@ The Band 'Bloody Marys' is becoming two years old and is going to celebrate the 
 "Lets celebrate and fight and dance and sing".<br>
 [facebook.com/events/1531460530479549](https://www.facebook.com/events/1531460530479549/)
 
+---
+
 ### Online gains from the CD by Arbeitsgruppe Zukunft with Mark-Uwe Kling
 You can now support Refugees Emancipation and buy a great album at the same time. The gains from the online sales of the new CD _"Viel Schönes dabei – live"_ from the Arbeitsgruppe Zukunft with Mark-Uwe Kling will go to the project. The CD is also a lovely present for your friends and family. You can order it here:<br> [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
+
+---
 
 <p class="subheadline subheader">October 10, 2015 Astra Stube Neukölln - Berlin</p>
 
