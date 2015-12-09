@@ -58,17 +58,18 @@ Already twice there has been an opportunity to listen to the speakers of the sup
 
 ---
 
+### Online gains from reimkultur, thanks to Mark-Uwe Kling!
+You can now support Refugees Emancipation and buy a great gift for your beloved ones at the same time. The gains from the online sales of the new CD “Viel Schönes dabei – live” [reimkultur-mv.de/audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html) from the Arbeitsgruppe Zukunft and from the Book "Die Känguru-Trilogie" [reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie](https://www.reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie.html) will go to the project.<br>
+[@MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
+
+---
+
 <p class="subheadline subheader mt20">November 27, 2015 - Kreutziger Str. 19, Berlin-Friedrichshain</p>
 <h3 class="t0">Bloody Marys BIRTHDAY-SOLI-PARTY</h3>
 
 The Band 'Bloody Marys' is becoming two years old and is going to celebrate the event as a solidarity party for Refugees Emancipation with the night's theme
 "Lets celebrate and fight and dance and sing".<br>
 [facebook.com/events/1531460530479549](https://www.facebook.com/events/1531460530479549/)
-
----
-
-### Online gains from the CD by Arbeitsgruppe Zukunft with Mark-Uwe Kling
-You can now support Refugees Emancipation and buy a great album at the same time. The gains from the online sales of the new CD _"Viel Schönes dabei – live"_ from the Arbeitsgruppe Zukunft with Mark-Uwe Kling will go to the project. The CD is also a lovely present for your friends and family. You can order it here:<br> [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
 
 ---
 

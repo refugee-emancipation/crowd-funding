@@ -55,6 +55,12 @@ Am ersten Dienstag im Monat findet regelmässig in der c-base, Rungestraße 20 i
 
 ---
 
+### Gewinne aus Onlineverkäufen bei reimkultur, Danke Mark-Uwe Kling!
+Ihr könnt jetzt gleichzeitig RE unterstützen und ein tolles Geschenk für Eure Lieben kaufen. Die Gewinne aus den Onlineverkäufen der CD “Viel Schönes dabei - live” [reimkultur-mv.de/audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html) der Arbeitsgruppe Zukunft und des Buches "Die Känguru-Trilogie" [reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie](https://www.reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie.html) gehen an die Spendenkampagne. Die CDs sind ein schönes Geschenk für Eure Lieben.<br>
+[@MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
+
+---
+
 <p class="subheadline subheader mt20">27.11. 2015, Kreutziger Str. 19, Berlin-Friedrichshain</p>
 <h3 class="t0">Bloody Marys BIRTHDAY-SOLI-PARTY</h3>
 
@@ -64,12 +70,6 @@ als Soli-Party für Refugees Emancipation unter dem Motto
 [facebook.com/events/1531460530479549](https://www.facebook.com/events/1531460530479549/)
 
 ---
-
-### Onlinegewinne der CD Arbeitsgruppe Zukunft mit Mark-Uwe Kling
-Die Gewinne aus den Onlineverkäufen der CD _"Viel Schönes dabei - live"_ der Arbeitsgruppe Zukunft mit [#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling) gehen an das Projekt:<br> [reimkultur-mv.de](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html)
-
----
-
 <p class="subheadline subheader">10.10.2015 Astra Stube Neukölln - Berlin</p>
 
 <h3 class="t0"> Soliparty "Flucht ist kein Verbrechen"</h3>
