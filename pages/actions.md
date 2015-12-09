@@ -57,7 +57,7 @@ Am ersten Dienstag im Monat findet regelmässig in der c-base, Rungestraße 20 i
 
 ### Gewinne aus Onlineverkäufen bei reimkultur, Danke Mark-Uwe Kling!
 Ihr könnt jetzt gleichzeitig RE unterstützen und ein tolles Geschenk für Eure Lieben kaufen. Die Gewinne aus den Onlineverkäufen der CD “Viel Schönes dabei - live” [reimkultur-mv.de/audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html) der Arbeitsgruppe Zukunft und des Buches "Die Känguru-Trilogie" [reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie](https://www.reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie.html) gehen an die Spendenkampagne. Die CDs sind ein schönes Geschenk für Eure Lieben.<br>
-[@MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
+[#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
 
 ---
 

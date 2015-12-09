@@ -60,7 +60,7 @@ Already twice there has been an opportunity to listen to the speakers of the sup
 
 ### Online gains from reimkultur, thanks to Mark-Uwe Kling!
 You can now support Refugees Emancipation and buy a great gift for your beloved ones at the same time. The gains from the online sales of the new CD “Viel Schönes dabei – live” [reimkultur-mv.de/audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html](https://www.reimkultur-mv.de/artikel_mk15005_audio-cd-arbeitsgruppe-zukunft-viel-schoenes-dabei-live.html) from the Arbeitsgruppe Zukunft and from the Book "Die Känguru-Trilogie" [reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie](https://www.reimkultur-mv.de/artikel_mk15008_-marc-uwe-kling-die-kaenguru-trilogie.html) will go to the project.<br>
-[@MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
+[#MarkUweKling](https://twitter.com/search?src=typd&q=%23MarkUweKling)
 
 ---
 
