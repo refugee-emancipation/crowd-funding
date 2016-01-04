@@ -22,9 +22,6 @@ Issuing donation receipts takes quite a bit of processing effort. We kindly ask 
 
 ### You can deliver your donations to one of the following collection points:
 
-#### 32c3 at CCH (Congress Center Hamburg), from Dec. 27 - 30, 2015
-@ [Freifunk Assembly](https://events.ccc.de/congress/2015/wiki/Assembly:Freifunk)
-
 <div class="row">
 <div class="large-6 columns">  
 <h4> Refugees Emancipation e.V. - Büro</h4>

@@ -23,10 +23,6 @@ Sachspendenquittungen sind sehr aufwändig in der Abwicklung. Wir bitten daher u
 
 ### Abgeben könnt ihr Eure Spenden derzeit an folgenden Orten:
 
-#### 32c3 im CCH (Congress Center Hamburg) vom 27.-30.12.2015
-@ [Freifunk Assembly](https://events.ccc.de/congress/2015/wiki/Assembly:Freifunk)
-
-
 <div class="row">
 <div class="large-6 columns">  
 
