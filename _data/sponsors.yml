@@ -66,3 +66,17 @@
   alt: "FifF e.V., fiff.de"
   img: "/images/sponsors/FIfF_ws.svg"
   relativeSize: "78%"
+
+- name: "ecix"
+  url: "https://www.ecix.net/"
+  title: "european commercial internet exchange, ecix.net"
+  alt: "ecix"
+  img: "/images/sponsors/exic.svg"
+  relativeSize: "84%"
+
+- name: "myphotobook"
+  url: "http://www.myphotobook.de/"
+  title: "myphotobook für kleine und große Erinnerungen, myphotobook.de"
+  alt: "myphotobook"
+  img: "/images/sponsors/myphotobook.svg"
+  relativeSize: "90%"
