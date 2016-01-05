@@ -42,10 +42,6 @@ Opening hours: <br>
 <p><a href="http://www.openstreetmap.org/#map=16/52.5130/13.4181&amp;layers=T">Show larger map</a></p>
 
 <p>Rungestrasse 20 | 10179 Berlin<br>
-Opening hours: <br>
-Dec. 02, 8 - 10pm Freifunk Meetup<br>
-Dec. 09, 8 - 10pm Freifunk Meetup<br>
-Dec. 16, 8 - 10pm Freifunk Meetup<br>
 
 Location sketch: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>
 Mail: TBA</p>

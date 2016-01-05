@@ -44,10 +44,6 @@ Telefon: 03312016927 / 03312015758</p>
 <p><a href="http://www.openstreetmap.org/#map=16/52.5130/13.4181&amp;layers=T">Größere Karte anzeigen</a></p>
 
 <p>Rungestrasse 20 | 10179 Berlin<br>
-Öffnungszeiten:<br>
-02.12. 20-22 h Freifunk Meetup<br>
-09.12. 20-22 h Freifunk Meetup<br>
-16.12. 20-22 h Freifunk Meetup<br>
 Anfahrtskizze: <a href="https://www.c-base.org/cv50f/core/impressum.html">www.c-base.org/cv50f/core/impressum.html</a><br>
 Mail: TBA</p>
 </div>
