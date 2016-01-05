@@ -1,0 +1,10 @@
+{% capture image_url %}{{ site.url }}{{ site.baseurl }}/assets/img/{{ include.item.image }}{% endcapture %}
+<figure>
+  <a class="media-link mfp-image" title="{{ include.item.display-title | i18n }}" href="{{ image_url }}">
+    <img src="{{ image_url | image_thumb }}" title="{{ include.item.display-title | i18n }}"/>
+  </a>
+  <figcaption>
+    {% comment %} NB: no title here {% endcomment %}
+    {% include media-metadata.html event=include.item.event author=include.item.author date=include.item.date %}
+  </figcaption>
+</figure>

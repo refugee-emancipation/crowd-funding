@@ -1,0 +1,19 @@
+{% assign primary_url=include.item.urls.first[1] %}
+{% assign thumb_url=include.item.urls[include.item.thumb] %}
+<figure>
+  <a class="media-link mfp-iframe" href="{{ primary_url | prep_url }}">
+    <img src="{{ thumb_url | video_thumb }}" title="{{ include.item.display-title | i18n }}"/>
+  </a>
+  <figcaption>
+    <div class="right">
+    {% for kv in include.item.urls %}
+      {% if kv[0] == 'ccc' %}
+      <a class="media-ccc-link" href="{{ kv[1] | prep_url }}" title="media.ccc.de ({{ site.data.language.new_window | i18n }})" target="_blank"><img class="svg" src="{{ site.url }}{{ site.baseurl }}/images/sponsors/chaosknoten-4.0.svg"/></a>
+      {% else %}
+      <a class="media-link mfp-iframe icon-{{ kv[0] }}" href="{{ kv[1] | prep_url }}"></a>
+      {% endif %}
+    {% endfor %}
+    </div>
+    {% include media-metadata.html title=include.item.display-title event=include.item.event author=include.item.author date=include.item.date %}
+  </figcaption>
+</figure>

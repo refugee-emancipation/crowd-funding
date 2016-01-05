@@ -1,0 +1,15 @@
+{% if include.title %}
+  <h3>{{ include.title | i18n }}</h3>
+{% endif %}
+
+{% if include.event %}
+  <span class="event label">{{ include.event }}</span>
+{% endif %}
+
+{% if include.author %}
+  <span class="author success label">{{ include.author }}</span>
+{% endif %}
+
+{% if include.date %}
+  <date class="date secondary label">{{ include.date }}</date>
+{% endif %}

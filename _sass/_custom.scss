@@ -101,3 +101,30 @@ section {
     border-bottom: 0;
   }
 }
+
+// media page
+a.media-link, a.media-link:hover, a.media-link-external, a.media-link-external:hover, a.media-ccc-link, a.media-ccc-link:hover, a.iconfont, a.iconfont:hover {
+  border-bottom: 0;
+}
+
+a.media-ccc-link, a.icon-audio {
+  img, svg {
+    width: 18px;
+    height: 13px;
+  }
+  svg path, polygon {
+    fill: $grey-10;
+  }
+}
+
+a.media-ccc-link:hover, a.icon-audio:hover {
+  svg path, polygon {
+    fill: $ci-1;
+  }
+}
+
+.media-links {
+  h3 {
+    top-margin: 0; // overridden by typography definitions?
+  }
+}
